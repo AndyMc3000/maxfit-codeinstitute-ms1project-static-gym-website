@@ -1,5 +1,5 @@
 # User Centric Frontend Development Milestone Project #
-## MaxFit - Gym & Fitness Club ##
+## MaxFit - Gym & Fitness Club :weight_lifting: ##
 #### MaxFit is a new Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. ShineFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit our goal is to maximise the potential within our members. #### 
 
 Basic aims of website.
