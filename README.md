@@ -7,13 +7,14 @@
 
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
-1. [User Experience Design (UX)](#user-experience-design-(ux))
+1. [User Experience Design (UX)](#user-experience-design)
+1. [Website Features](#website-features)
 <br>
 
 ## 1. <a name="introduction-heading">Introduction</a> ##
 MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. MaxFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit, their goal is to maximise the potential within their members.
 
-## 2. User Experience Design (UX) ##
+## 2. <a name="user-experience-design">User Experience Design (UX)</a> ##
 
 The design of this website was determined by assessing and quantifying the goals and objectives of the website owners, as well as the requirements of end users who will visit and use the website. Please see below details of 'Client Stories' to detail the requirements of the business owners, and 'User Stories' which highlight the requiremnts of end users of the website. Following the determination of 'Client' and 'User' stories and their subsequent technical requirments, the site was designed using the principles of Jesse James Garrett's '5 Planes of UX Design'. The outcome or tasks created for each plane is outlinined below.
 
@@ -44,15 +45,15 @@ The design of this website was determined by assessing and quantifying the goals
 - [ ]
 
 
-## 3. Website Features ##
+## 3. <a name="website-features">Website Features</a> ##
 
-## 4. Technologies Used ##
+## 4. <a name="technologies-used">Technologies Used</a> ##
 
-## 5. Testing ##
+## 5. <a name="testing">Testing</a> ##
 
-## 6. Deployment ##
+## 6. <a name="deployment">Deployment</a> ##
 
-## 6. Credits ##
+## 6. <a name="credits">Credits</a> ##
 1. The design of this website employed the principles of 'the 5 Planes of UX design', which was created by Jesse James Garrett in his book; The Elements of User Experience: User-centered Design for the Web (2002). See more at http://www.jjg.net/elements/
 1. The color scheme for the website was chosen from a selection of schemes considered using tools on the Coolors.co website. See more at https://coolors.co/ . The color scheme chosen, along with HEX values, is shown here;
 ![Color scheme and HEX values created using tools on Coolors.co](/maxfit-website-color-scheme.png)
@@ -60,12 +61,14 @@ The design of this website was determined by assessing and quantifying the goals
 1. The Maxfit logo was created using tools on the FreeLogoDesign.org website. See more at https://www.freelogodesign.org/
 
 
-### Acknowledgements ###
+### <a name="acknowledgements">Acknowledgements</a> ###
 
-I took inspiration from 2 websites in particular. One is for a small local gym based in Co.Cork, the other is a global fitness and wellness corporate based in the U.S. These websites are;
-Website 1 | Website 2
+In order to get design ideas, I took inspiration from a number of industry relevant websites.
+These websites are;
+Business Name | URL | Locations(s)
 --------- | ---------
-https://www.equinox.com/ | https://www.themovement.ie/
-Global locations  | Macroom, Co.Cork
+*The Movement* | https://www.themovement.ie/ | Macroom, Co.Cork
+*EQUINOX* | https://www.equinox.com/ | Multiple global locations, U.S. based
+
 
 I rewordered some of the marketing slogans and text content from Equinox and used those on my site.
