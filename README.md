@@ -27,7 +27,7 @@ THe design of this website was determined by assessing and quantifying the goals
 ## 6. Credits ##
 1. The design of this website employed the principles of 'the 5 Planes of UX design', which was created by Jesse James Garrett in his book; The Elements of User Experience: User-centered Design for the Web (2002). See more at http://www.jjg.net/elements/
 1. The color scheme for the website was chosen from a selection of schemes considered using tools on the Coolors.co website. See more at https://coolors.co/ . The color scheme chosen, along with HEX values, is shown here;
-  ![Color scheme and HEX values created using tools on Coolors.co](/maxfit-logo.png)
+![Color scheme and HEX values created using tools on Coolors.co](/maxfit-website-color-scheme.png)
   
 1. The Maxfit logo was created using tools on the FreeLogoDesign.org website. See more at https://www.freelogodesign.org/
 
