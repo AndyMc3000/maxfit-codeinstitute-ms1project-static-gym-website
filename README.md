@@ -10,7 +10,7 @@
 1. [User Experience Design (UX)](#user-experience-design-(ux))
 <br>
 
-## 1. <a href="#introduction-heading">Introduction</a> ##
+## 1. <a name="introduction-heading">Introduction</a> ##
 MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. MaxFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit, their goal is to maximise the potential within their members.
 
 ## 2. User Experience Design (UX) ##
