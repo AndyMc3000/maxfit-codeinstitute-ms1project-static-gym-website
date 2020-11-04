@@ -1,20 +1,30 @@
-# User Centric Frontend Development Milestone Project #
-## MaxFit - Gym & Fitness Club :weight_lifting: ##
-#### MaxFit is a new Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. ShineFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit our goal is to maximise the potential within our members. #### 
+# MaxFit.com - Gym & Fitness Club :weight_lifting: #
+## Milestone Project 1 - User Centric Frontend Development ##
+### Developer: Andrew McDonald ###
+<br>
 
-Basic aims of website.
+## 1. Introduction ##
+MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. MaxFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit, their goal is to maximise the potential within their members. #### 
 
-## User Experience (UX) ##
+## 2. User Experience Design (UX) ##
 
-## Website Features ##
+THe design of this website was determined by assessing and quantifying the goals and objectives of the website owners, as well as the requirements of end users who will visit and use the website. Please see below details of 'Client Stories' to detail the requirements of the business owners, and 'User Stories' which highlights the requiremnts of end users of the website. Following the determination of 'Client' and 'User' stories/requirments, the site was designed using the principles of Jesse James Garrett's '5 Planes of user UX design'. The outcome or tasks for each plane is outlinined below.
 
-## Technologies Used ##
+### Client Stories ###
 
-## Testing ##
+### User Stories ###
 
-## Deployment ##
 
-## Credits ##
+## 3. Website Features ##
+
+## 4. Technologies Used ##
+
+## 5. Testing ##
+
+## 6. Deployment ##
+
+## 6. Credits ##
+The design of the site employed the the principles of the 5 Planes of UX design, created by Jesse James Garrett in his book; The Elements of User Experience: User-centered Design for the Web (2002).
 
 ### Acknowledgements ###
 
