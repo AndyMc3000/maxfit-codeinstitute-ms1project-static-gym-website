@@ -6,7 +6,7 @@
 <br>
 
 ## Table of Contents ##
-1. [Introduction](introduction-heading)
+1. [Introduction](#introduction-heading)
 1. [User Experience Design (UX)](#user-experience-design-(ux))
 <br>
 
