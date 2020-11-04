@@ -1,4 +1,4 @@
-![M A X F I T Logo created using FreeLogoDesign.org](/maxfit-logo.png)
+  ![M A X F I T Logo created using FreeLogoDesign.org](/maxfit-logo-readme.png)
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
 ## Milestone Project 1 - User Centric Frontend Development ##
 #### Developer: Andrew McDonald - Contact me on GitHub :octocat: - https://github.com/AndyMc3000 ####
