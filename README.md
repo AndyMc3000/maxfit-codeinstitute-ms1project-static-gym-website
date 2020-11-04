@@ -2,19 +2,47 @@
 
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
 ## Milestone Project 1 - User Centric Frontend Development ##
-#### Developer: Andrew McDonald - Contact me on GitHub :octocat: - https://github.com/AndyMc3000 ####
+### Developer: Andrew McDonald - Contact me on GitHub :octocat: - https://github.com/AndyMc3000 ###
+<hr>
 <br>
 
-## 1. Introduction ##
+## Table of Contents ##
+1. <a href="introduction-heading">Introduction</a>
+1. [User Experience Design (UX)](#user-experience-design-(ux))
+
+
+## 1. <a href="#introduction-heading">Introduction</a> ##
 MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. MaxFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit, their goal is to maximise the potential within their members.
 
 ## 2. User Experience Design (UX) ##
 
-THe design of this website was determined by assessing and quantifying the goals and objectives of the website owners, as well as the requirements of end users who will visit and use the website. Please see below details of 'Client Stories' to detail the requirements of the business owners, and 'User Stories' which highlights the requiremnts of end users of the website. Following the determination of 'Client' and 'User' stories/requirments, the site was designed using the principles of Jesse James Garrett's '5 Planes of user UX design'. The outcome or tasks for each plane is outlinined below.
+The design of this website was determined by assessing and quantifying the goals and objectives of the website owners, as well as the requirements of end users who will visit and use the website. Please see below details of 'Client Stories' to detail the requirements of the business owners, and 'User Stories' which highlight the requiremnts of end users of the website. Following the determination of 'Client' and 'User' stories and their subsequent technical requirments, the site was designed using the principles of Jesse James Garrett's '5 Planes of UX Design'. The outcome or tasks created for each plane is outlinined below.
 
 ### Client Stories ###
 
 ### User Stories ###
+
+### The 5 Planes of UX Design: ###
+#### 1. The Strategy Plane ####
+- [ ]
+- [ ]
+- [ ]
+#### 2. The Scope Plane ####
+- [ ]
+- [ ]
+- [ ]
+#### 3. The Structure Plane ####
+- [ ]
+- [ ]
+- [ ]
+#### 4. The Skeleton Plane ####
+- [ ] Wireframes
+- [ ]
+- [ ]
+#### 5. The Surface Plane ####
+- [ ]
+- [ ]
+- [ ]
 
 
 ## 3. Website Features ##
