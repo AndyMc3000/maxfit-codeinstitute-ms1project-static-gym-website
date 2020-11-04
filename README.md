@@ -1,4 +1,4 @@
-![M A X F I T Logo] (/maxfit-logo.png)
+![M A X F I T Logo] (MilestoneProject1-MaxFit-StaticGymSite/maxfit-logo.png)
 
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
 ## Milestone Project 1 - User Centric Frontend Development ##
