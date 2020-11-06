@@ -2,13 +2,17 @@
 
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
 ## Milestone Project 1 - User Centric Frontend Development ##
-### Developer: Andrew McDonald - Contact me on GitHub :octocat: - https://github.com/AndyMc3000 ###
+#### Developer: Andrew McDonald - Contact me on GitHub :octocat: - https://github.com/AndyMc3000 ###
 <br>
 
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
 1. [User Experience Design (UX)](#user-experience-design)
 1. [Website Features](#website-features)
+1. [Technologies Used](#technologies-used)
+1. [Testing](#testing)
+1. [Deployment](#deployment)
+1. [Credits](#deployment)
 <br>
 
 ## 1. <a name="introduction-heading">Introduction</a> ##
@@ -19,6 +23,16 @@ MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, K
 The design of this website was determined by assessing and quantifying the goals and objectives of the website owners, as well as the requirements of end users who will visit and use the website. Please see below details of 'Client Stories' to detail the requirements of the business owners, and 'User Stories' which highlight the requiremnts of end users of the website. Following the determination of 'Client' and 'User' stories and their subsequent technical requirments, the site was designed using the principles of Jesse James Garrett's '5 Planes of UX Design'. The outcome or tasks created for each plane is outlinined below.
 
 ### Client Stories ###
+> * “The website must show and promote the quality of the facilities at MAXFIT.”
+> * “The website must detail Membership costs and features (Gold & Silver Passes, each with 3-month, 6-month, 12-month, student/senior pricing).” 
+> * “The website must allow people to easily contact MAXFIT to arrange a free fitness consultation.”
+> * “The website must promote details about MAXFIT’s 1-month free trial membership offer.”
+> * “The website must promote MAXFIT’s Personal Training services.”
+> * “The website must detail the classes MAXFIT currently offer and highlight their costs and schedule/frequency.”
+> * “The website must visually appeal to potential customers from all walks of life. MAXFIT is not just a ‘hard-core workout’ gym, it is an fitness and wellness centre too. MAXFIT’s range of services appeal to customers of all age groups, male and female.”
+> * “The website must promote the fact that MAXFIR offers 24-hour access.”
+> * “The website must promote MAXFIT’s social media channels” 
+> * “The website must show some testimonial quotes”
 
 ### User Stories ###
 
@@ -53,7 +67,7 @@ The design of this website was determined by assessing and quantifying the goals
 
 ## 6. <a name="deployment">Deployment</a> ##
 
-## 6. <a name="credits">Credits</a> ##
+## 7. <a name="credits">Credits</a> ##
 1. The design of this website employed the principles of 'the 5 Planes of UX design', which was created by Jesse James Garrett in his book; The Elements of User Experience: User-centered Design for the Web (2002). See more at http://www.jjg.net/elements/
 1. The color scheme for the website was chosen from a selection of schemes considered using tools on the Coolors.co website. See more at https://coolors.co/ . The color scheme chosen, along with HEX values, is shown here;
 ![Color scheme and HEX values created using tools on Coolors.co](/maxfit-website-color-scheme.png)
@@ -61,14 +75,22 @@ The design of this website was determined by assessing and quantifying the goals
 1. The Maxfit logo was created using tools on the FreeLogoDesign.org website. See more at https://www.freelogodesign.org/
 
 
-### <a name="acknowledgements">Acknowledgements</a> ###
+### Acknowledgements ###
 
 In order to get design ideas, I took inspiration from a number of industry relevant websites.
 These websites are;
-Business Name | URL | Locations(s)
---------- | ---------
-*The Movement* | https://www.themovement.ie/ | Macroom, Co.Cork
-*EQUINOX* | https://www.equinox.com/ | Multiple global locations, U.S. based
 
+No. | Business Name | Website | Description
+--- | ------------- | ------- | -----------
+1 | **The Movement** | https://www.themovement.ie/ | Single local Gym, Co.Cork, Ireland.
+2 | **EQUINOX** | https://www.equinox.com/ | 400+ global locations, U.S.-based.
+3 | **The Squad** | https://thesquad.ie/ | City Gym with 3 locations, Cork, Ireland.
+4 | **Glofox** | https://www.glofox.com/ | Gym manegement and website software company.
 
-I rewordered some of the marketing slogans and text content from Equinox and used those on my site.
+I rewordered some of the marketing slogans and text content from Equinox.com and used those on my site.
+
+### Additonal Support ###
+
+I also received help and support from;
+* @JimLynx - Code Institute - advice on GitHub/Git/GitPod, milestone project planning, and creating a README.md
+* @ann_ci - Code Institute - advice with creating a README.md
