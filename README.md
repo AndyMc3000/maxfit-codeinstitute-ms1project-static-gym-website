@@ -2,8 +2,7 @@
 
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
 ## Code Institute - Milestone Project 1 - User Centric Frontend Development ##
-#### Developer: Andrew McDonald - Contact me on GitHub :octocat: - https://github.com/AndyMc3000 ###
-<br>
+#### Developer: Andrew McDonald - Contact me on GitHub :octocat: - https://github.com/AndyMc3000 ####
 
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
@@ -20,40 +19,55 @@ MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, K
 
 ## 2. <a name="user-experience-design">User Experience Design (UX)</a> ##
 
-The design of this website was determined by assessing and quantifying the goals and objectives of the website owners, as well as the requirements of end users who will visit and use the website. Please see below details of 'Client Stories' to detail the requirements of the business owners, and 'User Stories' which highlight the requiremnts of end users of the website. Following the determination of 'Client' and 'User' stories and their subsequent technical requirments, the site was designed using the principles of Jesse James Garrett's '5 Planes of UX Design'. The outcome or tasks created for each plane is outlinined below.
-
-### Client Stories ###
-> * “The website must show and promote the quality of the facilities at MAXFIT.”
-> * “The website must detail Membership costs and features (Gold & Silver Passes, each with 3-month, 6-month, 12-month, student/senior pricing).” 
-> * “The website must allow people to easily contact MAXFIT to arrange a free fitness consultation.”
-> * “The website must promote details about MAXFIT’s 1-month free trial membership offer.”
-> * “The website must promote MAXFIT’s Personal Training services.”
-> * “The website must detail the classes MAXFIT currently offer and highlight their costs and schedule/frequency.”
-> * “The website must visually appeal to potential customers from all walks of life. MAXFIT is not just a ‘hard-core workout’ gym, it is an fitness and wellness centre too. MAXFIT’s range of services appeal to customers of all age groups, male and female.”
-> * “The website must promote the fact that MAXFIR offers 24-hour access.”
-> * “The website must promote MAXFIT’s social media channels” 
-> * “The website must show some testimonial quotes”
-
-### User Stories ###
-> * “I want to see what kind of facilities MAXFIT have.”
-> * “I want to find about the different classes MAXFIT run.”
-> * “I want to find out when certain classes are on at.”
-> * “I want to be able to see where MAXFIT is located.”
-> * “I am interested in a membership and want talk to someone about what is best for me.”
-> * “I am interested in a membership and want to understand what the costs are.”
-> * “I want to find out a little bit about the people who work at MAXFIT.”
-> * “I want to see what other people say about MAXFIT”.
-> * “I want to find the MAXFIT social media channels.”
+The design of this website was determined by assessing and quantifying the goals and objectives of the website owners, as well as the requirements of end users who will visit and use the website. Following the determination of 'Client' and 'User' stories and their subsequent technical requirments, the site was designed using the principles of Jesse James Garrett's '5 Planes of UX Design'. The outcome or tasks created for each plane is outlinined below.
 
 ### The 5 Planes of UX Design: ###
 #### 1. The Strategy Plane ####
-- [ ]
-- [ ]
-- [ ]
+Please see below details of 'Client Stories' to detail the requirements of the business owners, and 'User Stories' which highlight the requiremnts of end users of the website.
+
+##### Client Stories #####
+> - [ ] “The main goal of the website is to attract new customers, and provide value to existing customers in the information is provides.”
+> - [ ] “The website must show and promote the quality of the facilities at MAXFIT.”
+> - [ ] “The website must detail Membership costs and features (Gold & Silver Passes, each with 3-month, 6-month, 12-month, student/senior pricing).” 
+> - [ ] “The website must allow people to easily contact MAXFIT to arrange a free fitness consultation.”
+> - [ ] “The website must promote details about MAXFIT’s 1-month free trial membership offer.”
+> - [ ] “The website must promote MAXFIT’s Personal Training services.”
+> - [ ] “The website must detail the classes MAXFIT currently offer and highlight their costs and schedule/frequency.”
+> - [ ] “The website must visually appeal to potential customers from all walks of life. MAXFIT is not just a ‘hard-core workout’ gym, it is an fitness and wellness centre too. MAXFIT’s range of services appeal to customers of all age groups, male and female.”
+> - [ ] “The website must promote the fact that MAXFIR offers 24-hour access.”
+> - [ ] “The website must promote MAXFIT’s social media channels” 
+> - [ ] “The website must show some testimonial quotes”
+> - [ ] “There must be a system in place to track website usage statistics and end user interactions. All MAXFIT owned internet-connected computers, routers, or devices should be automatically excluded from website statistics/reports.”
+> - [ ] “The website must be mobile-friendly.”
+##### User Stories #####
+> - [ ] “I want to see what kind of facilities MAXFIT have.”
+> - [ ] “I want to find about the different classes MAXFIT run.”
+> - [ ] “I want to find out when certain classes are on at.”
+> - [ ] “I want to be able to see where MAXFIT is located.”
+> - [ ] “I am interested in a membership and want talk to someone about what is best for me.”
+> - [ ] “I am interested in a membership and want to understand what the costs are.”
+> - [ ] “I want to find out a little bit about the people who work at MAXFIT.”
+> - [ ] “I want to see what other people say about MAXFIT”.
+> - [ ] “I want to find the MAXFIT social media channels.”
+
+
 #### 2. The Scope Plane ####
-- [ ]
-- [ ]
-- [ ]
+##### Functional Specifications: #####
+* Build a esponsive Website with 6 pages - Home, Services, Classes, Membership, Team, Contact.
+* Use photo/image carousel at top of homepage.
+* Homepage carousel to include link to free consultation Modal.
+* Modal also required for free trial sign-up form.
+* Jumbotron for top of Membership/pricing page.
+* Google Analytics integration.
+
+##### Content Requirements: #####
+* Inspirational images & messaging throughout. Aimed at: gym workout, fitness machines, yoga/wellness classes, zumbo, seniors fitness.
+* Facilities images
+* Testimonial sections throughout.
+* Pricing table.
+* Promotional campaign section on Membership page
+* Personal Trainer motto’s.
+* Location images
 #### 3. The Structure Plane ####
 - [ ] Site Map & Flow Diagram
 - [ ]
