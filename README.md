@@ -1,15 +1,15 @@
 <a name="top-of-page">![M A X F I T Logo created using FreeLogoDesign.org](/maxfit-logo-readme.png)</a>
 
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
-## Code Institute - Milestone Project 1 - User Centric Frontend Development ##
-#### Developer: Andrew McDonald - Contact me on GitHub :octocat: - <a href="https://github.com/AndyMc3000">AndyMc3000</a> ####
+## Code Institute - Dip. in Software Development - Milestone Project 1 - User Centric Frontend Development ##
+#### Developer: Andrew McDonald - Contact me on GitHub :octocat: - <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ####
 
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
 1. [User Experience Design (UX)](#user-experience-design)
 1. [Website Features](#website-features)
 1. [Technologies Used](#technologies-used)
-1. [Testing](#testing)
+1. [Testing & Bugs](#testing)
 1. [Deployment](#deployment)
 1. [Credits](#deployment)
 <br>
@@ -17,7 +17,7 @@
 ## 1. <a name="introduction-heading">Introduction</a> ##
 MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. MaxFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit, their goal is to maximise the potential within their members.
 
-[Back To Top ^ ](#top-of-page)
+###### [Back To Top ^ ](#top-of-page) ######
 
 ## 2. <a name="user-experience-design">User Experience Design (UX)</a> ##
 
@@ -105,42 +105,52 @@ Please see below details of 'Client Stories' to detail the requirements of the b
 * It should contain messaging around a mission statement.
 
 6. The Contact page;
-* It should contain address and contact information and include a Google Map.
+* It should contain address and contact information.
+* It should include a Google Map.
+* It should include a section for social Media channels.
 
 #### Information Architecture: ####
 
-Click the link to view the <a href="maxfit-sitemap-updated.png">Sitemap.</a>
+The structure and outline of page sections is outlined in the Sitemap. Click the link to view the <a href="maxfit-sitemap-updated.png"><strong>Sitemap.</strong></a>
 
 
 #### 4. The Skeleton Plane ####
 
-- [ ] Wireframes
-- [ ]
-- [ ]
+The following wireframes were created to detail the layput of the website pages and individual sections/containers. Please click the following links to view these wireframes.
+1. <a href="/"><strong>Homepage Wireframe</strong></a>
+1. <a href="/"><strong>Homepage Wireframe</strong></a>
+1. <a href="/"><strong>Homepage Wireframe</strong></a>
+1. <a href="/"><strong>Homepage Wireframe</strong></a>
+1. <a href="/"><strong>Homepage Wireframe</strong></a>
+1. <a href="/"><strong>Homepage Wireframe</strong></a>
+
 
 #### 5. The Surface Plane ####
+Colours
 
-- [ ]
-- [ ]
-- [ ]
+Fonts
 
-[Back To Top ^ ](#top-of-page)
+Images
+
+Modals
+
+###### [Back To Top ^ ](#top-of-page) ######
 
 ## 3. <a name="website-features">Website Features</a> ##
 
-[Back To Top ^ ](#top-of-page)
+###### [Back To Top ^ ](#top-of-page) ######
 
 ## 4. <a name="technologies-used">Technologies Used</a> ##
 
-[Back To Top ^ ](#top-of-page)
+###### [Back To Top ^ ](#top-of-page) ######
 
 ## 5. <a name="testing">Testing</a> ##
 
-[Back To Top ^ ](#top-of-page)
+###### [Back To Top ^ ](#top-of-page) ######
 
 ## 6. <a name="deployment">Deployment</a> ##
 
-[Back To Top ^ ](#top-of-page)
+###### [Back To Top ^ ](#top-of-page) ######
 
 ## 7. <a name="credits">Credits</a> ##
 
@@ -172,4 +182,4 @@ I also received help and support from;
 * Jim - GitHub username: @JimLynx - Code Institute - advice on GitHub/Git/GitPod, milestone project planning, and creating a README.md.
 * Anna - GitHub username: @anna_ci - Code Institute - advice with creating a README.md.
 
-[Back To Top ^ ](#top-of-page)
+###### [Back To Top ^ ](#top-of-page) ###### 
