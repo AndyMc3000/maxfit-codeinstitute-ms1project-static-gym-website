@@ -2,7 +2,7 @@
 
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
 ## Code Institute - Milestone Project 1 - User Centric Frontend Development ##
-#### Developer: Andrew McDonald - Contact me on GitHub :octocat: - https://github.com/AndyMc3000 ####
+#### Developer: Andrew McDonald - Contact me on GitHub :octocat: - <a href="https://github.com/AndyMc3000">AndyMc3000</a> ####
 
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
@@ -100,17 +100,17 @@ Please see below details of 'Client Stories' to detail the requirements of the b
 * It should contain a 'hero' section which details the free trial offer. This should link to the free trial modal sign-up form.
 
 5. The Team page;
-* It should contain pr
+* It should contain contain infromation about the site management team and personal trainers.
+* It shoud offer a quoick bio, a photo, and qualification details for each team member.
+* It should contain messaging around a mission statement.
 
 6. The Contact page;
-* It should contain pricing information for the different offerings/packages.
+* It should contain address and contact information and include a Google Map.
 
 #### Information Architecture: ####
 
-Sitemap
-- [ ] Site Map & Flow Diagram
-- [ ]
-- [ ]
+Click the link to view the <a href="maxfit-sitemap-updated.png">Sitemap.</a>
+
 
 #### 4. The Skeleton Plane ####
 
