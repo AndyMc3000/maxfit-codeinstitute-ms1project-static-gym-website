@@ -117,12 +117,12 @@ The structure and outline of page sections is outlined in the Sitemap. Click the
 #### 4. The Skeleton Plane ####
 
 The following wireframes were created to detail the layput of the website pages and individual sections/containers. Please click the following links to view these wireframes.
-1. <a href="/"><strong>Homepage Wireframe</strong></a>
-1. <a href="/"><strong>Homepage Wireframe</strong></a>
-1. <a href="/"><strong>Homepage Wireframe</strong></a>
-1. <a href="/"><strong>Homepage Wireframe</strong></a>
-1. <a href="/"><strong>Homepage Wireframe</strong></a>
-1. <a href="/"><strong>Homepage Wireframe</strong></a>
+1. <a href="homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
+1. <a href="/"><strong>TBD Services Wireframe</strong></a>
+1. <a href="/"><strong>TBD Classes Wireframe</strong></a>
+1. <a href="/"><strong>TBD Membership Wireframe</strong></a>
+1. <a href="/"><strong>TBD Team Wireframe</strong></a>
+1. <a href="/"><strong>TBD Contact Wireframe</strong></a>
 
 
 #### 5. The Surface Plane ####
