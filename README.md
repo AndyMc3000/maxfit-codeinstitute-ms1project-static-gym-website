@@ -153,6 +153,17 @@ Modals
 
 ## 4. <a name="technologies-used">Technologies Used</a> ##
 
+![Technology Used Logo Set](/.png)
+
+HTML5
+CSS3
+Bootstrap
+Balsamiq
+Apple Preview
+Apple Pages
+Apple MacBook
+GitHub/GitPod/Github Pages
+
 ###### [Back To Top ^ ](#top-of-page) ######
 
 ## 5. <a name="testing">Testing</a> ##
@@ -171,6 +182,8 @@ Modals
 ![Color scheme and HEX values created using tools on Coolors.co](/maxfit-website-color-scheme.png)
   
 1. The Maxfit logo was created using tools on the FreeLogoDesign.org website. See more at; [FreeLogoDesign.org](https://www.freelogodesign.org/)
+
+1. Wikimedia commons - Technology logo's.
 
 ### Acknowledgements ###
 
