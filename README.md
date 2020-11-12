@@ -153,7 +153,7 @@ Modals
 
 ## 4. <a name="technologies-used">Technologies Used</a> ##
 
-![Technology Used Logo Set](/.png)
+![Technology Used Logo Set](/tech-logos-all.png)
 
 HTML5
 CSS3
