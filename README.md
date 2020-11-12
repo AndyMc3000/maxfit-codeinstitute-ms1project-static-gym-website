@@ -137,6 +137,17 @@ Modals
 ###### [Back To Top ^ ](#top-of-page) ######
 
 ## 3. <a name="website-features">Website Features</a> ##
+* Bootstrap navigation bar
+* Image Carousel 
+* Promotional Modals
+* Free Trial signup form
+* Free Consultation call-back form
+* Bootstrap responsive grid
+* Social Links in footer
+* Navigation links in Footer
+* Accordian in Services page
+* Galleries in Services page
+* Google map
 
 ###### [Back To Top ^ ](#top-of-page) ######
 
