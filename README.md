@@ -1,7 +1,7 @@
 <a name="top-of-page">![M A X F I T Logo created using FreeLogoDesign.org](/maxfit-logo-readme.png)</a>
 
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
-## Code Institute - Dip. in Software Development - Milestone Project 1 - User Centric Frontend Development ##
+## Code Institute - Dip. in Software Development - Milestone Project 1 - User Centric Front-End Development ##
 #### Student: Andrew McDonald - Contact me on GitHub :octocat: - <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ####
 
 ## Table of Contents ##
@@ -15,6 +15,9 @@
 <br>
 
 ## 1. <a name="introduction-heading">Introduction</a> ##
+
+The MaxFit website is my Milestone Project 1 (MS1) for my Diploma in Software Engineering course at Code Institute. The below refers to MaFit as a fictional client of mine, where I have been hired to develop a website for them to meet certain requirements (see UX section below). However the underlying goal of the project is to meet and exceed the requirements laid out for the MS1 by Code Institute. The main goal of the MS1 is to "..build a static front-end site to present useful information to users, using all the technologies that you have learned about so far." Thosee principle technologies being HTML5, CSS3, and Bootstrap front-end framework.
+
 MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. MaxFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit, their goal is to maximise the potential within their members.
 
 ###### [Back To Top ^ ](#top-of-page) ######
