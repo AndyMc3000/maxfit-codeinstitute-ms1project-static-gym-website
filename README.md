@@ -1,4 +1,4 @@
-<a name="top-of-page">![M A X F I T Logo created using FreeLogoDesign.org](/maxfit-logo-readme.png)</a>
+<a name="top-of-page">![M A X F I T Logo created using FreeLogoDesign.org](/assets/readme-assets/maxfit-logo-readme.png)</a>
 
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
 ## Code Institute - Dip. in Software Development - Milestone Project 1 - User Centric Front-End Development ##
@@ -114,7 +114,7 @@ Please see below details of 'Client Stories' to detail the requirements of the b
 
 #### Information Architecture: ####
 
-The structure and outline of page sections is outlined in the Sitemap. Click the link to view the <a href="maxfit-sitemap-updated.png"><strong>Sitemap.</strong></a>
+The structure and outline of page sections is outlined in the Sitemap. Click the link to view the <a href="assets/readme-assets/maxfit-sitemap-updated.png"><strong>Sitemap.</strong></a>
 
 
 #### 4. The Skeleton Plane ####
