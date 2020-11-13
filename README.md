@@ -114,7 +114,7 @@ Please see below details of 'Client Stories' to detail the requirements of the b
 
 #### Information Architecture: ####
 
-The structure and outline of page sections is outlined in the Sitemap. Click the link to view the <a href="assets/readme-assets/maxfit-sitemap-updated.png"><strong>Sitemap.</strong></a>
+The structure and outline of page sections is outlined in the Sitemap. Click the link to view the <a href="../assets/readme-assets/maxfit-sitemap-updated.png"><strong>Sitemap.</strong></a>
 
 
 #### 4. The Skeleton Plane ####
