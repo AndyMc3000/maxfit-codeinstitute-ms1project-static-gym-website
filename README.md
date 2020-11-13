@@ -2,7 +2,7 @@
 
 # MaxFit.com - Gym & Fitness Club :weight_lifting: #
 ## Code Institute - Dip. in Software Development - Milestone Project 1 - User Centric Frontend Development ##
-#### Developer: Andrew McDonald - Contact me on GitHub :octocat: - <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ####
+#### Student: Andrew McDonald - Contact me on GitHub :octocat: - <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ####
 
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
@@ -155,18 +155,23 @@ Modals
 
 ![Technology Used Logo Set](/tech-logos-all.png)
 
-HTML5
-CSS3
-Bootstrap
-Balsamiq
-Apple Preview
-Apple Pages
-Apple MacBook
-GitHub/GitPod/Github Pages
+* HTML5
+* CSS3
+* Bootstrap
+* GitHub
+* GitPod
+* Github Pages
+* Balsamiq
+* ami.responsivedesign.is
+* Apple Preview
+* Apple Pages
+* Apple MacBook
 
 ###### [Back To Top ^ ](#top-of-page) ######
 
 ## 5. <a name="testing">Testing</a> ##
+
+* Test navigation, assets, and external links in README.md
 
 ###### [Back To Top ^ ](#top-of-page) ######
 
