@@ -156,7 +156,7 @@ Modals
 
 ## 4. <a name="technologies-used">Technologies Used</a> ##
 
-![Technology Used Logo Set](/tech-logos-all.png)
+![Technology Used Logo Set](/assets/readme-assets/tech-logos-all.png)
 
 * HTML5
 * CSS3
