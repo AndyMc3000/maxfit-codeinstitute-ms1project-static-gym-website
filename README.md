@@ -114,13 +114,13 @@ Please see below details of 'Client Stories' to detail the requirements of the b
 
 #### Information Architecture: ####
 
-The structure and outline of page sections is outlined in the Sitemap. Click the link to view the <a href="../assets/readme-assets/maxfit-sitemap-updated.png"><strong>Sitemap.</strong></a>
+The structure and outline of page sections is outlined in the Sitemap. Click the link to view the <a href="assets/readme-assets/maxfit-sitemap-updated.png"><strong>Sitemap.</strong></a>
 
 
 #### 4. The Skeleton Plane ####
 
 The following wireframes were created to detail the layput of the website pages and individual sections/containers. Please click the following links to view these wireframes.
-1. <a href="homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
+1. <a href="/assets/readme-assets/homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
 1. <a href="/"><strong>TBD Services Wireframe</strong></a>
 1. <a href="/"><strong>TBD Classes Wireframe</strong></a>
 1. <a href="/"><strong>TBD Membership Wireframe</strong></a>
@@ -187,7 +187,7 @@ Modals
 1. The design of this website employed the principles of 'The 5 Planes of UX design', which was created by Jesse James Garrett in his book; The Elements of User Experience: User-centered Design for the Web (2002). See more at; [Jjg.net](http://www.jjg.net/elements/)
 
 1. The color scheme for the website was chosen from a selection of schemes considered using tools on the Coolors.co website. See more at; [Coolors.co](https://coolors.co/) . The color scheme chosen, along with HEX values, is shown here;
-![Color scheme and HEX values created using tools on Coolors.co](/maxfit-website-color-scheme.png)
+![Color scheme and HEX values created using tools on Coolors.co](/assets/readme-assets/maxfit-website-color-scheme.png)
   
 1. The Maxfit logo was created using tools on the FreeLogoDesign.org website. See more at; [FreeLogoDesign.org](https://www.freelogodesign.org/)
 
