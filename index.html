@@ -11,6 +11,66 @@
 
 <body>
 
+<!--------- Bootstrap Carousel Modal Gallery --------------------------------------------------------->
+<div class="modal" id="GalleryModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">  
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="assets/images/maxfit-carousel-slide-placeholder.png" class="d-block w-100" alt="image 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="assets/images/maxfit-carousel-slide-placeholder.png" class="d-block w-100" alt="image 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="assets/images/maxfit-carousel-slide-placeholder.png" class="d-block w-100" alt="image office sea">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------- Gallery Modal - Bootstrap Carousel Modal Gallery -------------------------------------------------->
+
 <!---------Navigation bar --------------------------------------------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="index.html">
@@ -186,129 +246,9 @@
 </article>
 <!--------- END of Testimonial block ----------------------------------------------------------------->
 
-<!--------- Multi-item carousel gallery by Mdbootstrap.com - see README.md --------------------------->
-<!--Carousel Wrapper-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
-
-  <!--Controls-->
-  <div class="controls-top">
-    <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
-    <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
-  </div>
-  <!--/.Controls-->
-
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-    <div class="row">
-        <!--First slide-->
-        <div class="carousel-item active">
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        </div>
-        <!--/.First slide-->
-
-        <!--Second slide-->
-        <div class="carousel-item">
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(26).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        </div>
-        <!--/.Second slide-->
-
-        <!--Third slide-->
-        <div class="carousel-item">
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-3">
-            <div class="card">
-            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
-                alt="Card image cap">
-            </div>
-        </div>
-
-        </div>
-        <!--/.Third slide-->
-    </div>
-  </div>
-  <!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
-<!--------- END of Multi-item carousel gallery by Mdbootstrap.com - see README.md -------------------->
-
+<!--------- Photo Gallery Block ---------------------------------------------------------------------->
+<img src="assets/images/maxfit-carousel-slide-placeholder.png" data-toggle="modal" data-target="#GalleryModal">
+<!--------- END of Photo Gallery Block --------------------------------------------------------------->
 
 <!--------- Free Trial information block ------------------------------------------------------------->
 <article>
@@ -429,7 +369,7 @@
     </div>
 </footer>
 
-<!--------- Footer block ----------------------------------------------------------------------------->
+<!--------- END of Footer block ---------------------------------------------------------------------->
 </body>
 
 <!--------- Bootstrap JavaScript CDN links ----------------------------------------------------------->
