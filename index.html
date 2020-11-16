@@ -8,11 +8,9 @@
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
     <title>M A X F I T - Home</title>
 </head>
-
 <body>
-
 <!--------- Bootstrap Carousel Modal Gallery --------------------------------------------------------->
-<div class="modal" id="GalleryModal" tabindex="-1">
+<div class="modal" id="gallery-modal" tabindex="-1">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
@@ -91,10 +89,26 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Gym Facilities</a>
           <a class="dropdown-item" href="#">Personal Training</a>
-          <a class="dropdown-item" href="#">Studios</a>
-          <a class="dropdown-item" href="#">Classes</a>
-          <a class="dropdown-item" href="#">Membership</a>
+          <a class="dropdown-item" href="#">Studio Facilities</a>
         </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Classes
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Yoga</a>
+          <a class="dropdown-item" href="#">Pilates</a>
+          <a class="dropdown-item" href="#">Spin</a>
+          <a class="dropdown-item" href="#">Aerobics</a>
+          <a class="dropdown-item" href="#">Seniors Excercise</a>
+          <a class="dropdown-item" href="#">High-intensity Interval Training</a>
+          <a class="dropdown-item" href="#">Zumba</a>
+          <a class="dropdown-item" href="#">Circuit Training</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Membership</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Our Team</a>
@@ -150,7 +164,7 @@
   </a>
 </div>
 <!--------- END of Call-out Carousel ---------------------------------------------------------->
-
+<hr>
 <!--------- Who We Are Section ---------------------------------------------------------------->
 <article>
     <div class="container-fluid">
@@ -165,7 +179,7 @@
     </div>
 </article>
 <!--------- END of Who We Are section ----------------------------------------------------------->
-
+<hr>
 <!--------- Features/Unique Selling Points container and blocks --------------------------------->
 <div class="container-wrapper">
     <div class="container-fluid">
@@ -213,7 +227,7 @@
     </div>
 </div>
 <!--------- END of Features/Unique Selling Points container and blocks ------------------------>
-
+<hr>
 <!--------- Testimonial block ----------------------------------------------------------------->
 <article>
     <div class="container-fluid">
@@ -245,11 +259,23 @@
     </div>
 </article>
 <!--------- END of Testimonial block ----------------------------------------------------------------->
-
+<hr>
 <!--------- Photo Gallery Block ---------------------------------------------------------------------->
-<img src="assets/images/maxfit-carousel-slide-placeholder.png" data-toggle="modal" data-target="#GalleryModal">
+<section>
+    <div class="container-fluid">
+        <section class="gallery-container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Photo Gallery</h1>
+                    <p>Click on the phtoto below to open our Photo Gallery.</p>
+                    <img src="assets/images/maxfit-carousel-slide-placeholder.png" data-toggle="modal" data-target="#gallery-modal">
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
 <!--------- END of Photo Gallery Block --------------------------------------------------------------->
-
+<hr>
 <!--------- Free Trial information block ------------------------------------------------------------->
 <article>
     <div class="container-fluid">
@@ -272,7 +298,7 @@
     </div>
 </article>
 <!--------- END of Free Trial information block ------------------------------------------------------>
-
+<hr>
 <!--------- Footer block ----------------------------------------------------------------------------->
 <footer>
     <div class="container-fluid">
@@ -368,7 +394,6 @@
         </div>
     </div>
 </footer>
-
 <!--------- END of Footer block ---------------------------------------------------------------------->
 </body>
 
