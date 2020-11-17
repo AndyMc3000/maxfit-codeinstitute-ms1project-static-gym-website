@@ -9,12 +9,36 @@
     <title>M A X F I T - Home</title>
 </head>
 <body>
+<!--------- Free Consultation Modal ------------------------------------------------------------------>
+<div class="modal" id="consultation-modal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Free Consultation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">  
+        <div>
+        <h2>Free Consultation Form</h2> 
+        </div>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------- Free Consultation Modal ------------------------------------------------------------------>
+
 <!--------- Bootstrap Carousel Modal Gallery --------------------------------------------------------->
 <div class="modal" id="gallery-modal" tabindex="-1">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Photo Gallery</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -134,7 +158,7 @@
       <div class="carousel-caption d-none d-md-block">
         <h1>First slide label</h1>
         <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
-        <button><h2>Test Me!</h2></button>
+        <button type="button" class="btn bnt-light" data-toggle="modal" data-target="#consultation-modal">Test Me!</button>
       </div>
     </div>
     <div class="carousel-item">
