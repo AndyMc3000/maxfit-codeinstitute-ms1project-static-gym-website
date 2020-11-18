@@ -121,11 +121,11 @@ The structure and outline of page sections is outlined in the Sitemap. Click the
 
 The following wireframes were created to detail the layput of the website pages and individual sections/containers. Please click the following links to view these wireframes.
 <<<<<<< HEAD
-1. <a href="assets/readme-assets/homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
 =======
 1. <a href="/assets/readme-assets/homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
 >>>>>>> 61feda12cbea8299f80a8822bb5c3c1903d20528
-1. <a href="/"><strong>TBD Services Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-services-page-wireframe.png"><strong>Services page Wireframe</strong></a>
 1. <a href="/"><strong>TBD Classes Wireframe</strong></a>
 1. <a href="/"><strong>TBD Membership Wireframe</strong></a>
 1. <a href="/"><strong>TBD Team Wireframe</strong></a>
