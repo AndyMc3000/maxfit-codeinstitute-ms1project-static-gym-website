@@ -4,6 +4,8 @@
 ## Code Institute - Dip. in Software Development - Milestone Project 1 - User Centric Front-End Development ##
 #### Student: Andrew McDonald - Contact me on GitHub :octocat: - <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ####
 
+<hr>
+
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
 1. [User Experience Design (UX)](#user-experience-design)
@@ -13,6 +15,7 @@
 1. [Deployment](#deployment)
 1. [Credits](#deployment)
 <br>
+<hr>
 
 ## 1. <a name="introduction-heading">Introduction</a> ##
 
@@ -20,7 +23,9 @@ The MaxFit website is my Milestone Project 1 (MS1) for my Diploma in Software En
 
 MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. MaxFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit, their goal is to maximise the potential within their members.
 
-###### [Back To Top ^ ](#top-of-page) ######
+#### [Back To Top ^ ](#top-of-page) ####
+
+<hr>
 
 ## 2. <a name="user-experience-design">User Experience Design (UX)</a> ##
 
@@ -123,7 +128,7 @@ The following wireframes were created to detail the layput of the website pages 
 
 1. <a href="assets/readme-assets/maxfit-homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
 1. <a href="assets/readme-assets/maxfit-services-page-wireframe.png"><strong>Services page Wireframe</strong></a>
-1. <a href="/"><strong>TBD Classes Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-classes-page-wireframe.png"><strong>TBD Classes Wireframe</strong></a>
 1. <a href="/"><strong>TBD Membership Wireframe</strong></a>
 1. <a href="/"><strong>TBD Team Wireframe</strong></a>
 1. <a href="/"><strong>TBD Contact Wireframe</strong></a>
@@ -138,7 +143,9 @@ Images
 
 Modals
 
-###### [Back To Top ^ ](#top-of-page) ######
+#### [Back To Top ^ ](#top-of-page) ####
+
+<hr>
 
 ## 3. <a name="website-features">Website Features</a> ##
 * Bootstrap navigation bar
@@ -153,11 +160,13 @@ Modals
 * Galleries in Services page
 * Google map
 
-###### [Back To Top ^ ](#top-of-page) ######
+#### [Back To Top ^ ](#top-of-page) ####
+
+<hr>
 
 ## 4. <a name="technologies-used">Technologies Used</a> ##
 
-![Technology Used Logo Set](/assets/readme-assets/tech-logos-all.png)
+![Technology Used Logo Set](/assets/readme-assets/maxfit-tech-logos-readme.png)
 
 * HTML5
 * CSS3
@@ -171,17 +180,25 @@ Modals
 * Apple Pages
 * Apple MacBook
 
-###### [Back To Top ^ ](#top-of-page) ######
+#### [Back To Top ^ ](#top-of-page) ####
+
+<hr>
 
 ## 5. <a name="testing">Testing</a> ##
 
 * Test navigation, assets, and external links in README.md
 
-###### [Back To Top ^ ](#top-of-page) ######
+#### [Back To Top ^ ](#top-of-page) ####
+
+<hr>
 
 ## 6. <a name="deployment">Deployment</a> ##
 
-###### [Back To Top ^ ](#top-of-page) ######
+Deployed GitHub Pages
+
+#### [Back To Top ^ ](#top-of-page) ####
+
+<hr>
 
 ## 7. <a name="credits">Credits</a> ##
 
@@ -215,4 +232,6 @@ I also received help and support from;
 * Jim - GitHub username: @JimLynx - Code Institute - advice on GitHub/Git/GitPod, milestone project planning, and creating a README.md.
 * Anna - GitHub username: @anna_ci - Code Institute - advice with creating a README.md.
 
-###### [Back To Top ^ ](#top-of-page) ###### 
+#### [Back To Top ^ ](#top-of-page) ####
+
+<a name="top-of-page">![M A X F I T Logo created using FreeLogoDesign.org](/assets/readme-assets/maxfit-logo-readme.png)</a>
