@@ -1,5 +1,22 @@
 
-/* -------------------------- Containers, Dividers, Headings --- */
+
+/* -------------------------- Services page Callout Container & Jumbotron--- */
+.services-callout-container {
+    height: 60vh;
+    background: url('assets/images/maxfit-carousel-slide-placeholder.png') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+/* -------------------------- Media Queries--- */
 @media (min-width: 768px) {
     .carousel-multi-item-2 .col-md-3 {
     float: left;
