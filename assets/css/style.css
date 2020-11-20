@@ -1,9 +1,10 @@
 
 
 /* -------------------------- Services page Callout Container & Jumbotron--- */
+
 .services-callout-container {
     height: 60vh;
-    background: url('assets/images/maxfit-carousel-slide-placeholder.png') no-repeat bottom right fixed;
+    background-image: url('../images/maxfit-carousel-slide-placeholder.png') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
