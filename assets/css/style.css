@@ -15,7 +15,107 @@
     position: relative;
 }
 
+/* ----------Membership pricing cards, ----------- */ 
 
+.card.pricing1 .onoffswitch {
+  width: 70px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 0 auto;
+}
+
+.pricing1 .onoffswitch-label {
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+.pricing1 .onoffswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.pricing1 .onoffswitch-inner::before,
+.pricing1 .onoffswitch-inner::after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pricing1 .onoffswitch-inner::before {
+  content: "";
+  padding-right: 27px;
+  background-color: #2cdd9b;
+  color: #FFFFFF;
+}
+
+.pricing1 .onoffswitch-inner::after {
+  content: "";
+  padding-right: 24px;
+  background-color: #3e4555;
+  color: #999999;
+  text-align: right;
+}
+
+.pricing1 .onoffswitch-switch {
+  width: 23px;
+  margin: 6px;
+  height: 23px;
+  top: -1px;
+  bottom: 0;
+  right: 35px;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+
+.pricing1 .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+.pricing1 .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+}
+
+.pricing1 .price-badge {
+  top: -13px;
+  left: 0;
+  right: 0;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.pricing1 .badge-inverse {
+  background-color: #3e4555;
+}
+
+.pricing1 .display-5 {
+  font-size: 3rem;
+	color: #263238;
+}
+
+.pricing1 .pricing sup {
+  font-size: 18px;
+  top: -20px;
+}
+
+.pricing1 .pricing .yearly {
+  display: none;
+}
+
+/* ----------END of Membership pricing cards, ----------- */ 
 
 /* -------------------------- Media Queries--- */
 @media (min-width: 768px) {
