@@ -10,8 +10,32 @@
 </head>
 <body>
 
+<!--------- Free Trial Modal ------------------------------------------------------------------>
+<div class="modal" id="free-trial-modal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Free Trial Modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">  
+        <div>
+        <h2>Free Trial Form</h2> 
+        </div>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------- Free Trial Modal ------------------------------------------------------------------>
+
 <!---------Navigation bar --------------------------------------------------------------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="index.html">
     <img src="assets/images/maxfit-logo-navbar.png" alt="M A X F I T Logo">
   </a>
@@ -61,6 +85,29 @@
   </div>
 </nav>
 <!---------END of Navigation bar --------------------------------------------------------------------->
+
+<!---------Callout container & Bootstrap Jumbotron --------------------------------------------------->
+<div class="container-fluid services-callout-container">
+    <div class="row">
+        <div class="col-12">
+            <div class="jumbotron-container d-inline-flex p-2 bd-highlight">
+                <div class="jumbotron jumotron-fluid">
+                    <div class="container-fluid">
+                        <h1 class="display-4">Free Trial</h1>
+                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                        <button type="button" class="btn bnt-light" data-toggle="modal" data-target="#free-trial-modal">
+                        Test Me!
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------END of Callout container & Bootstrap Jumbotron  ------------------------------------------->
 
 <hr>
 <!--------- Who We Are Section ---------------------------------------------------------------->
