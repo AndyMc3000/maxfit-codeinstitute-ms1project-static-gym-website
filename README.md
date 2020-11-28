@@ -128,11 +128,10 @@ The following wireframes were created to detail the layput of the website pages 
 
 1. <a href="assets/readme-assets/maxfit-homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
 1. <a href="assets/readme-assets/maxfit-services-page-wireframe.png"><strong>Services page Wireframe</strong></a>
-1. <a href="assets/readme-assets/maxfit-classes-page-wireframe.png"><strong>TBD Classes Wireframe</strong></a>
-1. <a href="/"><strong>TBD Membership Wireframe</strong></a>
-1. <a href="/"><strong>TBD Team Wireframe</strong></a>
-1. <a href="/"><strong>TBD Contact Wireframe</strong></a>
-
+1. <a href="assets/readme-assets/maxfit-classes-page-wireframe.png"><strong>Classes Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-membership-page-wireframe.png"><strong>Membership Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-team-page-wireframe.png"><strong>Team Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-contact-page-wireframe.png"><strong>Contact Wireframe</strong></a>
 
 #### 5. The Surface Plane ####
 Colours
@@ -194,7 +193,7 @@ Modals
 
 ## 6. <a name="deployment">Deployment</a> ##
 
-Deployed GitHub Pages
+Deployed on GitHub Pages - [Click here to view deployed website](https://andymc3000.github.io/maxfit-codeinstitute-ms1project-static-gym-website/)
 
 #### [Back To Top ^ ](#top-of-page) ####
 
