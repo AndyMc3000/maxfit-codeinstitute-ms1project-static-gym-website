@@ -117,6 +117,43 @@
 
 /* ----------END of Membership pricing cards, ----------- */ 
 
+/* ---------- Social Block ----------------- */ 
+
+.social-container {
+    background-image: url('images/maxfit-carousel-slide-placeholder.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+}
+
+.social-block {
+    text-align: center;
+    color: #FFFFFF;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 0, 0.3);
+    position: absolute;
+    display: inline-block;
+    resize: both;
+    overflow: auto;
+}
+
+.social-block li {
+    font-size: 68px;
+}
+
+/* ----------END of Social Block ----------- */ 
+
 /* -------------------------- Media Queries--- */
 @media (min-width: 768px) {
     .carousel-multi-item-2 .col-md-3 {
