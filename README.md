@@ -128,10 +128,10 @@ The following wireframes were created to detail the layput of the website pages 
 
 1. <a href="assets/readme-assets/maxfit-homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
 1. <a href="assets/readme-assets/maxfit-services-page-wireframe.png"><strong>Services page Wireframe</strong></a>
-1. <a href="assets/readme-assets/maxfit-classes-page-wireframe.png"><strong>Classes Wireframe</strong></a>
-1. <a href="assets/readme-assets/maxfit-membership-page-wireframe.png"><strong>Membership Wireframe</strong></a>
-1. <a href="assets/readme-assets/maxfit-team-page-wireframe.png"><strong>Team Wireframe</strong></a>
-1. <a href="assets/readme-assets/maxfit-contact-page-wireframe.png"><strong>Contact Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-classes-page-wireframes.png"><strong>Classes Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-membership-page-wireframes.png"><strong>Membership Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-team-page-wireframes.png"><strong>Team Wireframe</strong></a>
+1. <a href="assets/readme-assets/maxfit-contact-page-wireframes.png"><strong>Contact Wireframe</strong></a>
 
 #### 5. The Surface Plane ####
 Colours
