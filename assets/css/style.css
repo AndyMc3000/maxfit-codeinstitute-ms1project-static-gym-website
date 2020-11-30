@@ -1,5 +1,44 @@
 
 
+/* -------------------------- Homepage Top Carousel----------- */
+.home-top-carousel {
+    height: 60vh;
+}
+
+.home-top-carousel img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+.carousel-caption { 
+    background-color: rgba(0, 255, 0, 0.4);
+    width: 750px; 
+    color: #fff; 
+    top: 50%; 
+    left: 25%; 
+    bottom: auto; 
+    -webkit-transform: translate(0, -50%); 
+    -ms-transform: translate(0, -50%); 
+    transform: translate(0, -50%); }
+
+.carousel-caption h1 { 
+    font-size: 80px;
+    letter-spacing: 0.2em
+}
+
+.carousel-caption h3 { 
+    font-size: 40px;
+}
+
+.carousel-caption p { 
+    font-size: 20px;
+}
+
+
+/* -------------------------- END of Homepage Top Carousel---- */
+
+
+
 /* -------------------------- Services page Callout Container & Jumbotron--- */
 
 .services-callout-container {
