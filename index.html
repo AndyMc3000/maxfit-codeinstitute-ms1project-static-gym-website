@@ -20,23 +20,46 @@
 <body>
 <!--------- Free Consultation Modal ------------------------------------------------------------------>
 <div class="modal" id="consultation-modal" tabindex="-1">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Free Consultation</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">  
-        <div>
-        <h2>Free Consultation Form</h2> 
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img class="modal-title" src="assets/css/images/maxfit-logo-navbar.png" alt="Maxfit Logo">
+                <button type="button" class="close btn btn-secondary" data-dismiss="modal" aria-label="Close">Close
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">  
+                <div class="text-center">
+                    <h2>Free Consultation</h2>
+                    <p>Complete the form below and we will contact you to arrange a free no-oblgation 30-minute consultation by phone.</p>
+                    <p>You can use the Message box to let us know about any of our Services or Classes you are interested in, or to ask any questions you might have of us.</p>
+                    <p>We look forward to speaking with you!</p>
+                    <hr> 
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class='col-sm-6'>
+                            <div>
+                                <form>
+                                    <label for="fname">First Name:</label><br>
+                                    <input type="text" id="fname" name="fname"><br>
+                                    <label for="lname">Surname:</label><br>
+                                    <input type="text" id="lname" name="lname"><br>
+                                    <label for="email">Email:</label><br>
+                                    <input type="email" id="email" name="email"><br>
+                                    <label for="tel">Telephone Number:</label><br>
+                                    <input type="tel" id="tel" name="email"><br>
+                                    <label for="message">Message:</label><br>
+                                    <input type="text" id="message" name="message"><br><br>
+                                    <button type="button submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="modal-footer">
         </div>
-        </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
     </div>
   </div>
 </div>
