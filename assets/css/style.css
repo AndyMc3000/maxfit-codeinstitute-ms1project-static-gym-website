@@ -74,9 +74,8 @@
 /* -------------------------- Free Trial Container - Homepage---- */
 
 .free-trial-box-image img {
-    max-height: 300px;
-    width: 85%;
-    object-fit: cover;
+    max-width: 400px;
+    object-fit: contain;
 }
 
 /* -------------------------- END of  Free Trial Container - Homepage---- */
@@ -236,7 +235,22 @@
 
 /* ----------END of Social Block ----------- */ 
 
+/* ----------Footer ----------- */ 
 
+.social-links-footer li i {
+    font-size: 40px;
+    margin: 6px;
+}
+
+.footer-navigation-list li {
+    list-style-type: none;
+}
+
+.footer-navigation-list li i {
+    font-size: 20px;
+}
+
+/* ----------END of Footer ----------- */ 
 
 /* -------------------------- Media Queries--- */
 @media (min-width: 768px) {
