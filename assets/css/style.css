@@ -71,7 +71,15 @@
 
 /* -------------------------- END of Main Gallery---- */
 
+/* -------------------------- Free Trial Container - Homepage---- */
 
+.free-trial-box-image img {
+    max-height: 300px;
+    width: 85%;
+    object-fit: cover;
+}
+
+/* -------------------------- END of  Free Trial Container - Homepage---- */
 
 /* -------------------------- Services page Callout Container & Jumbotron--- */
 
