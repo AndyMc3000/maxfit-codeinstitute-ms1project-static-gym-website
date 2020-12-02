@@ -20,11 +20,11 @@
 <body>
 <!--------- Free Consultation Modal ------------------------------------------------------------------>
 <div class="modal" id="consultation-modal" tabindex="-1">
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <img class="modal-title" src="assets/css/images/maxfit-logo-navbar.png" alt="Maxfit Logo">
-                <button type="button" class="close btn btn-secondary" data-dismiss="modal" aria-label="Close">Close
+                <button type="button" class="close btn btn-secondary" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -38,11 +38,18 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <div>
                                 <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
                                     <label for="fname">First Name:</label><br>
-                                    <input type="text" id="fname" name="fname"><br>
+                                    <input type="text" class="form-control" id="fname" name="fname"><br>
+                                    </div>
                                     <label for="lname">Surname:</label><br>
                                     <input type="text" id="lname" name="lname"><br>
                                     <label for="email">Email:</label><br>
@@ -67,22 +74,46 @@
 
 <!--------- Free Trial Modal ------------------------------------------------------------------>
 <div class="modal" id="free-trial-modal" tabindex="-1">
-  <div class="modal-dialog modal-xl">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Free Trial Modal</h5>
+        <img class="modal-title" src="assets/css/images/maxfit-logo-navbar.png" alt="Maxfit Logo">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">  
-        <div>
-        <h2>Free Trial Form</h2> 
+        <div class="text-center">
+            <h2>Limited Free Trial Offer</h2>
+            <p>Complete the form below, including you preferred start date, and we will set you up as a member with a Silver Pass for 7 days.</p>
+            <p>You can use the Message box to let us know about any of our Services or Classes you are interested in, or to ask any questions you might have of us.</p>
+            <p>We look forward to seeing you at MAXFIT!</p>
+            <hr> 
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-center">
+                        <form>
+                            <label for="fname">First Name:</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                            <label for="lname">Surname:</label><br>
+                            <input type="text" id="lname" name="lname"><br>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email"><br>
+                            <label for="tel">Telephone Number:</label><br>
+                            <input type="tel" id="tel" name="email"><br>
+                            <label for="message">Message:</label><br>
+                            <input type="text" id="message" name="message"><br>
+                            <label for="birthday">Start Date:</label><br>
+                            <input type="date" id="birthday" name="birthday"><br><br>
+                            <button type="button submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
