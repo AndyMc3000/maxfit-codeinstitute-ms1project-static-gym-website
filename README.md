@@ -9,6 +9,7 @@
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
 1. [User Experience Design (UX)](#user-experience-design)
+1. [Development Process](#development-process)
 1. [Website Features](#website-features)
 1. [Technologies Used](#technologies-used)
 1. [Testing & Bugs](#testing)
@@ -146,7 +147,20 @@ Modals
 
 <hr>
 
-## 3. <a name="website-features">Website Features</a> ##
+## 3. <a name="development-process">Development Process</a> ##
+1. Design
+1. Structure
+1. Content
+1. Style
+1. Responsive.
+1. Testing.
+1. Review
+
+#### [Back To Top ^ ](#top-of-page) ####
+
+<hr>
+
+## 4. <a name="website-features">Website Features</a> ##
 * Bootstrap navigation bar
 * Image Carousel 
 * Promotional Modals
@@ -163,7 +177,7 @@ Modals
 
 <hr>
 
-## 4. <a name="technologies-used">Technologies Used</a> ##
+## 5. <a name="technologies-used">Technologies Used</a> ##
 
 ![Technology Used Logo Set](/assets/readme-assets/maxfit-tech-logos-readme.png)
 
@@ -183,7 +197,7 @@ Modals
 
 <hr>
 
-## 5. <a name="testing">Testing</a> ##
+## 6. <a name="testing">Testing</a> ##
 
 * Test navigation, assets, and external links in README.md
 
@@ -191,7 +205,7 @@ Modals
 
 <hr>
 
-## 6. <a name="deployment">Deployment</a> ##
+## 7. <a name="deployment">Deployment</a> ##
 
 Deployed on GitHub Pages - [Click here to view deployed website](https://andymc3000.github.io/maxfit-codeinstitute-ms1project-static-gym-website/)
 
@@ -199,7 +213,7 @@ Deployed on GitHub Pages - [Click here to view deployed website](https://andymc3
 
 <hr>
 
-## 7. <a name="credits">Credits</a> ##
+## 8. <a name="credits">Credits</a> ##
 
 1. The design of this website employed the principles of 'The 5 Planes of UX design', which was created by Jesse James Garrett in his book; The Elements of User Experience: User-centered Design for the Web (2002). See more at; [Jjg.net](http://www.jjg.net/elements/)
 
@@ -221,8 +235,11 @@ No. | Business Name | Website | Description
 2 | **EQUINOX** | [Equinox.com](https://www.equinox.com/) | 400+ global locations, U.S.-based.
 3 | **The Squad** | [TheSquad.ie](https://thesquad.ie/) | City Gym with 3 locations, Cork, Ireland.
 4 | **Glofox** | [Glofox.com](https://www.glofox.com/) | Gym manegement and website software company.
+5 | **ActiveFitness** | [ActiveFitness.ie](https://activefitness.ie/) | 24-hr Gym with one location, Galway, Ireland.
+6 | **The Spencer Health Club** | [TheSpencerHealthClub.com](https://www.thespencerhealthclub.com/) | City Gym one location, Dublin, Ireland.
 
-I rewordered some of the marketing slogans and text content from Equinox.com and used those on my site.
+
+I rewordered some of the marketing slogans and texts/descriptions content from Equinox.com and ActiveFitness.ie, and used those on my site.
 
 ### Additonal Support ###
 

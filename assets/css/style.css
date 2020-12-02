@@ -34,8 +34,42 @@
     font-size: 20px;
 }
 
-
 /* -------------------------- END of Homepage Top Carousel---- */
+
+/* -------------------------- Main Gellery---- */
+
+.gallery-container img {
+    max-height: 400px;
+    width: 85%;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';  
+  font-size: 35px;
+  font-style: bold;
+  color: white
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  font-style: bold;
+  color: white;
+}
+
+/* -------------------------- END of Main Gallery---- */
 
 
 
