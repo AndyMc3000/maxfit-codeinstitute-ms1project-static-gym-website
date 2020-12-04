@@ -84,7 +84,7 @@
 
 .services-callout-container {
     height: 60vh;
-    background-image: url('../images/maxfit-carousel-slide-placeholder.png') no-repeat bottom right fixed;
+    background-image: url('assets/css/images/maxfit-carousel-slide-placeholder.png') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -95,8 +95,31 @@
     position: relative;
 }
 
-/* ----------Membership pricing cards, ----------- */ 
+.services-intro-container i {
+    font-size: 45px;
+}
 
+/* ----------Services intro container ----------- */ 
+
+.services-intro-container {
+    background-image: url("assets/css/images/maxfit-carousel-slide-placeholder.png");
+    object-fit: contain;
+    height: 200px;
+}
+
+/* ----------END of Services inro container ----------- */ 
+
+/* ----------Gym Gallery ----------- */ 
+
+.gym-gallery-container img {
+    max-height: 150px;
+    width: 85%;
+    object-fit: cover;
+}
+
+/* ----------END of Gym Gallery ----------- */ 
+
+/* ----------Membership pricing cards, ----------- */ 
 
 .card.pricing1 .onoffswitch {
   width: 70px;
