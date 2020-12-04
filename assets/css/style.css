@@ -95,9 +95,6 @@
     position: relative;
 }
 
-.services-intro-container i {
-    font-size: 45px;
-}
 
 /* ----------Services intro container ----------- */ 
 
@@ -118,6 +115,16 @@
 }
 
 /* ----------END of Gym Gallery ----------- */ 
+
+/* ----------Personal Training----------- */ 
+
+.trainer-gallery-container img {
+    max-height: 150px;
+    width: 85%;
+    object-fit: cover;
+}
+
+/* ----------END of Personal Training ----------- */ 
 
 /* ----------Membership pricing cards, ----------- */ 
 
