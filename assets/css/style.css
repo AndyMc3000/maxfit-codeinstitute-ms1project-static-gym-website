@@ -138,7 +138,22 @@
     object-fit: cover;
 }
 
-/* ----------END of Personal Training ----------- */
+/* ----------END of Studio Gallery ----------- */
+
+
+.classes-callout-container {
+    background-image: url("../css/images/main-gallery/danielle-cerullo-CQfNt66ttZM-unsplash.jpg");
+    object-fit: cover;
+}
+/* ----------Yoga Gallery Container----------- */ 
+
+.yoga-gallery-container img {
+    max-height: 250px;
+    width: 85%;
+    object-fit: cover;
+}
+
+/* ----------END of Yoga Gallery Container ----------- */
 
 /* ----------Membership pricing cards, ----------- */ 
 
