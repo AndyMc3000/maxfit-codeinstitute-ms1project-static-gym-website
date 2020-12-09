@@ -1,6 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
 
+
+body {
+    font-family: "Nunito+Sans", sans-serif;
+}
+
+/* -------------------------- Bootstrap Navbar ----------- */
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #FCBF49;
+}
+
+.navbar a {
+    color: #2e294e;
+}
+
+.navbar button {
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.nav li a {
+    color: #2e294e;
+    font-size: 18px;
+} 
+
+.nav li a:hover {
+    background-color: #d7263d;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+    color: #fcbf49;
+}
+
+.dropdown-menu {
+    background-color: #fcbf49;
+}
+
+.dropdown-item {
+    color: #fcbf49;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #d62828;
+    color: #fcbf49;
+}
+
+.nav li a i {
+    font-size: 28px;
+    color: #f77f00
+}
+
+/* -------------------------- / END of Bootstrap Navbar ----------- */
 
 /* -------------------------- Homepage Top Carousel----------- */
+
 .home-top-carousel {
     height: 60vh;
 }
@@ -11,7 +69,7 @@
 }
 
 .carousel-caption { 
-    background-color: rgba(0, 255, 0, 0.4);
+    background-color: rgba(230, 57, 70, 0.3);
     width: 750px; 
     color: #fff; 
     top: 50%; 
