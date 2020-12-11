@@ -70,14 +70,17 @@ body {
 
 .carousel-caption { 
     background-color: rgba(230, 57, 70, 0.3);
-    width: 750px; 
-    color: #fff; 
-    top: 50%; 
-    left: 25%; 
+    margin: 0;
+    width: 65%; 
+    color: #EAE2B7; 
+    top: 50%;
+    left: 20%;
+    z-index: 1;
     bottom: auto; 
     -webkit-transform: translate(0, -50%); 
     -ms-transform: translate(0, -50%); 
-    transform: translate(0, -50%); }
+    transform: translate(0, -50%); 
+}
 
 .carousel-caption h1 { 
     font-size: 80px;
@@ -92,14 +95,128 @@ body {
     font-size: 20px;
 }
 
+.carousel-caption button { 
+    font-size: 20px;
+    color: #fcbf49;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.carousel-caption button:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(214, 40, 40,.65);
+    color: #eae2b7;
+}
+
 /* -------------------------- END of Homepage Top Carousel---- */
+
+/* ----------Page introduction containers ----------- */ 
+
+.home-intro-container {
+    background-color: #FCBF49;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: #2e294e;
+}
+
+.home-intro-container i {
+    font-size: 45px;
+    color: #d7263d;
+}
+
+.home-intro-container button {
+    font-size: 20px;
+    color: #fcbf49;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.home-intro-container button:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(214, 40, 40,.65);
+    color: #eae2b7;
+}
+
+.services-intro-container {
+    background-image: url("assets/css/images/maxfit-carousel-slide-placeholder.png");
+    object-fit: contain;
+    height: 200px;
+}
+
+.services-intro-container i {
+    font-size: 45px;
+}
+
+
+/* ----------END of Page introduction containers ----------- */ 
+
+/* ----------Homepage - Features Section----------- */
+
+.features-container {
+    background-image: url("../css/images/main-gallery/danielle-cerullo-CQfNt66ttZM-unsplash.jpg");
+    object-fit: contain;
+    padding-bottom: 80px;
+    padding-bottom: 80px;
+}
+
+.features-title h1 {
+    margin-top: 30px;
+    color: #fcbf49;
+}
+
+.features-container .col-6 {
+    background: transparent;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.feature-box {
+    background-color: rgba(46, 41, 78,.75);
+    padding: 25px;
+    margin: 10px;
+    color: #EAE2B7;
+}
+
+.feature-box .btn {
+    font-size: 20px;
+    color: #d62828;
+    z-index: 1;
+    background-color: #fcbf49;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.feature-box .btn:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+    color: #eae2b7;
+}
+
+/* ----------/END of Homepage - Features Section----------- */
+
 
 /* -------------------------- Main Gellery---- */
 
+.gallery-container {
+    background-color: #d62828;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #fcbf49;
+}
+
+.gallery-container p {
+    color: #eae2b7;
+}
+
 .gallery-container img {
-    max-height: 400px;
-    width: 85%;
+    max-height: 500px;
+    width: 90%;
     object-fit: cover;
+    border: 10px;
+    border-color: #fff
 }
 
 .carousel-control-prev-icon,
@@ -153,20 +270,6 @@ body {
     position: relative;
 }
 
-
-/* ----------Services intro container ----------- */ 
-
-.services-intro-container {
-    background-image: url("assets/css/images/maxfit-carousel-slide-placeholder.png");
-    object-fit: contain;
-    height: 200px;
-}
-
-.services-intro-container i {
-    font-size: 45px;
-}
-
-/* ----------END of Services inro container ----------- */ 
 
 /* ----------Gym Gallery ----------- */ 
 
