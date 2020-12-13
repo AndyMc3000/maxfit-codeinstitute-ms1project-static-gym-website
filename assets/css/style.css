@@ -5,11 +5,21 @@ body {
     font-family: "Nunito+Sans", sans-serif;
 }
 
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin:  0;
+}
+
 /* -------------------------- Bootstrap Navbar ----------- */
 
 .navbar {
     margin-bottom: 0;
-    border: 0;
+    border-bottom: 3px solid;
+    border-color: #2e294e; 
     width: 100%;
     background-color: #FCBF49;
 }
@@ -32,7 +42,7 @@ body {
 .nav li a:hover {
     background-color: #d7263d;
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
-    color: #fcbf49;
+    color: #EAE2B7;
 }
 
 .dropdown-menu {
@@ -40,19 +50,20 @@ body {
 }
 
 .dropdown-item {
-    color: #fcbf49;
+    color: #EAE2B7;
     font-weight: 100;
     font-size: 18px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: #d62828;
-    color: #fcbf49;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+    color: #EAE2B7;
 }
 
 .nav li a i {
     font-size: 28px;
-    color: #f77f00
+    color: #f77f00;
 }
 
 /* -------------------------- / END of Bootstrap Navbar ----------- */
@@ -66,15 +77,17 @@ body {
 .home-top-carousel img {
     height: 60vh;
     object-fit: cover;
+    border-bottom: 3px solid;
+    border-color: #2e294e;
 }
 
 .carousel-caption { 
     background-color: rgba(230, 57, 70, 0.3);
     margin: 0;
-    width: 65%; 
+    width: 66%; 
     color: #EAE2B7; 
     top: 50%;
-    left: 20%;
+    left: 17%;
     z-index: 1;
     bottom: auto; 
     -webkit-transform: translate(0, -50%); 
@@ -97,7 +110,7 @@ body {
 
 .carousel-caption button { 
     font-size: 20px;
-    color: #fcbf49;
+    color: #eae2b7;
     z-index: 1;
     background-color: #d62828;
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
@@ -117,9 +130,15 @@ body {
     background-color: #FCBF49;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    color: #2e294e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #2e294e; 
+}
+
+.home-intro-container hr {
+    background-color: #2e294e;
+    height: 2px;
+    width: 80%;
 }
 
 .home-intro-container i {
@@ -129,7 +148,7 @@ body {
 
 .home-intro-container button {
     font-size: 20px;
-    color: #fcbf49;
+    color: #EAE2B7;
     z-index: 1;
     background-color: #d62828;
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
@@ -157,35 +176,52 @@ body {
 /* ----------Homepage - Features Section----------- */
 
 .features-container {
-    background-image: url("../css/images/main-gallery/danielle-cerullo-CQfNt66ttZM-unsplash.jpg");
-    object-fit: contain;
-    padding-bottom: 80px;
-    padding-bottom: 80px;
+    height: auto;
+    background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-edited.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-top: 3px solid;
+    border-color: #d62828;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.features-title {
+    background-color: rgba(46, 41, 78,.85);
+    margin: 20px;
+    padding: 15px;
 }
 
 .features-title h1 {
-    margin-top: 30px;
-    color: #fcbf49;
+    padding: 25px;
+    color: #EAE2B7;
 }
 
 .features-container .col-6 {
-    background: transparent;
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 .feature-box {
-    background-color: rgba(46, 41, 78,.75);
+    background-color: rgba(46, 41, 78,.85);
     padding: 25px;
     margin: 10px;
     color: #EAE2B7;
 }
 
+.feature-box i {
+    color: #fcbf49;
+    font-size: 45px;
+}
+
 .feature-box .btn {
     font-size: 20px;
-    color: #d62828;
+    color: #eae2b7;
     z-index: 1;
-    background-color: #fcbf49;
+    background-color: #d62828;
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
 }
 
@@ -198,13 +234,16 @@ body {
 /* ----------/END of Homepage - Features Section----------- */
 
 
-/* -------------------------- Main Gellery---- */
+/* -------------------------- Homepage - Main Gellery (and gallery controls for all galleries)---- */
 
 .gallery-container {
     background-color: #d62828;
     padding-top: 40px;
     padding-bottom: 60px;
-    color: #fcbf49;
+    color: #eae2b7;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #FCBF49;
 }
 
 .gallery-container p {
@@ -219,38 +258,147 @@ body {
     border-color: #fff
 }
 
+.gallery-container .btn {
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #EAE2B7;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.gallery-container .btn:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+    color: #eae2b7;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    bottom: 30%;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 60px;
-  width: 60px;
-  background-color: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none;
+    bottom: 25px;
+    height: 60px;
+    width: 60px;
+    background-color: #d62828;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
 }
 
 .carousel-control-next-icon:after {
-  content: '>';  
-  font-size: 35px;
-  font-style: bold;
-  color: white
+    content: '>';  
+    font-size: 35px;
+    font-style: bold;
+    color: #EAE2B7;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 35px;
   font-style: bold;
-  color: white;
+  color: #EAE2B7;
 }
 
-/* -------------------------- END of Main Gallery---- */
+/* -------------------------- END of Homepage - Main Gallery (and gallery controls for all galleries)---- */
+
+/* -------------------------- Homepage - Testimonial section---- */
+.testiomonial-container {
+    height: auto;
+    background: url('../css/images/hiit-gallery/jesper-aggergaard-rA5aJvQ2l6g-unsplash-edited.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.testimonial-title {
+    background-color: rgba(46, 41, 78,.75);
+    margin: 20px;
+    padding: 15px;
+}
+
+.testimonial-title h1 {
+    padding: 25px;
+    color: #EAE2B7;
+}
+
+.testiomonial-container .col-6 {
+    margin: 0px;
+    padding-top: 40px;
+}
+
+.testimonial-box {
+    background-color: rgba(46, 41, 78,.75);
+    padding: 25px;
+    margin: 20px;
+    color: #EAE2B7;
+}
+
+.testimonial-box i {
+    color: #fcbf49;
+    font-size: 45px;
+}
+
+.testiomonial-container hr {
+    background-color: #fcbf49;
+    height: 3px;
+    width: 80%
+}
+
+.testimonial-hr {
+    color: #fcbf49;
+}
+/* -------------------------- END of Homepage - Testimonial section---- */
+
 
 /* -------------------------- Free Trial Container - Homepage---- */
 
-.free-trial-box-image img {
-    max-width: 400px;
-    object-fit: contain;
+.free-trial-container {
+    height: auto;
+    background: url('../css/images/free-trial-home/bruno-nascimento-PHIgYUGQPvU-unsplash.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-top: 3px solid;
+    border-color: #d7263d;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.free-trial-box {
+    background-color: rgba(252, 191, 73.75);
+    color: #2e294e;
+    top: 50%;
+    padding: 25px;
+    margin: 8%
+}
+
+.free-trial-box .btn {
+    font-size: 20px;
+    color: #EAE2B7;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.free-trial-box .btn:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+    color: #eae2b7;
 }
 
 /* -------------------------- END of  Free Trial Container - Homepage---- */
@@ -258,7 +406,7 @@ body {
 /* -------------------------- Services page Callout Container & Jumbotron--- */
 
 .services-callout-container {
-    height: 60vh;
+    height: auto;
     background-image: url('assets/css/images/maxfit-carousel-slide-placeholder.png') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -459,17 +607,47 @@ body {
 
 /* ----------Footer ----------- */ 
 
+.footer {
+    background-color: #2e294e;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #eae2b7;
+    border-top: 3px solid;
+    border-color: #EAE2B7;
+}
+
 .social-links-footer li i {
-    font-size: 40px;
+    font-size: 50px;
     margin: 6px;
+    color: #FCBF49;;
+}
+
+.social-links-footer li i:hover {
+    color: #d62828;
 }
 
 .footer-navigation-list li {
     list-style-type: none;
+    color: #eae2b7;
+}
+
+.footer-navigation-list li a {
+    color: #eae2b7;
 }
 
 .footer-navigation-list li i {
     font-size: 20px;
+    color: #d62828;
+}
+
+.footer-divider {
+    background-color: #eae2b7;
+    height: 2px;
+    width: 60%;
+}
+
+.address-box {
+    padding-right: 30px;
 }
 
 /* ----------END of Footer ----------- */ 

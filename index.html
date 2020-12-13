@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/db71b18eb7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="icon" type="image/png" href="/assets/css/images/maxfit-favicon.png"/>
     <title>M A X F I T - Home</title>
 </head>
 <body>
@@ -307,7 +308,8 @@
                 <li data-target="#CalloutCarouselCaptions" data-slide-to="1"></li>
                 <li data-target="#CalloutCarouselCaptions" data-slide-to="2"></li>
             </ol>
-        <div class="carousel-item active">
+        <div class="carousel-inner"></div>
+            <div class="carousel-item active">
             <img src="assets/css/images/home-carousel/victor-freitas-WvDYdXDzkhs-unsplash.jpg" class="d-block w-100" alt="Weight Lifting Photo">
             <div class="carousel-caption d-none d-md-block">
                 <h1>ALWAYS.ON.</h1>
@@ -318,23 +320,18 @@
                 Lets Talk
                 </button>
             </div>
-        </div>
-        <div class="carousel-inner">
+            </div>
             <div class="carousel-item">
             <img src="assets/css/images/home-carousel/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" class="d-block w-100" alt="Pilates Photo">
-            <div class="container-fluid carousel-caption">
-                <div class="row justify-content-center">
-                    <div class="col-6 text-center">
-                        <h1>MAX.YOU.</h1>
-                        <hr>
-                        <h3>Our Mission is You</h3>
-                        <p>Talk to us today about how we can support your fitness goals</p>
-                        <button type="button" class="btn" data-toggle="modal" data-target="#consultation-modal">
-                        Lets Talk
-                        </button>
-                    </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>MAX.YOU.</h1>
+                    <hr>
+                    <h3>Our Mission is You</h3>
+                    <p>Talk to us today about how we can support your fitness goals</p>
+                    <button type="button" class="btn" data-toggle="modal" data-target="#consultation-modal">
+                    Lets Talk
+                    </button>
                 </div>
-            </div>
             </div>
             <div class="carousel-item">
             <img src="assets/css/images/home-carousel/victor-freitas-nlZTjUZX2qo-unsplash.jpg" class="d-block w-100" alt="...">
@@ -368,10 +365,10 @@
         <div class="home-intro-container">
             <div class="row justify-content-center">
                 <div class="col-8 text-center">
-                <h1>Your Health Club.Your Way.</h1>
+                <h1>Your Club.Your Way.</h1>
                 <i class="fas fa-heart"></i>
+                <hr class="home-intro-divider">
                 <h4> Your lng-term health and fitness is at the heart of what we do. Our mission is to maximise the potential within each of our Club members.</h4>
-                <hr>
                 <p>We are a passionate and dedicated team of multi-diciplinary fitness professionals. By emplying state-of-the-art equipment, best in class training and wellbeing techniques, nutrition and meal planning, we can ensure our members can work towards achievable and meaningful fitness goals. Whatever age, or level of fitness you are at, we can advise you on a fitness program tailored specifically for you.</p> 
                 <p>Talk to us to today to start your journey to a healthier and happier you.</p>
                 <button type="button" class="btn" data-toggle="modal" data-target="#consultation-modal">
@@ -389,12 +386,12 @@
     <div class="container-fluid features-container">
         <section>
             <div class="row justify-content-center">
-                <div class="col-6 text-center features-title">
+                <div class="col-4 text-center features-title">
                     <h1>What We Do</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 text-center">
+            <div class="row justify-content-center">
+                <div class="col-5 text-center">
                     <div class="feature-box">
                         <h2>Our Gym</h2>
                         <h3><i class="fas fa-dumbbell"></i></h3>
@@ -402,7 +399,7 @@
                         <a href="services.html#service1" class="btn" role="button">Learn More</a>
                     </div>
                 </div>
-                <div class="col-6 text-center">
+                <div class="col-5 text-center">
                     <div class="feature-box">
                         <h2>Our Classes</h2>
                         <h3><i class="fas fa-user-friends"></i></h3>
@@ -410,7 +407,7 @@
                         <a href="classes.html" class="btn" role="button">Learn More</a>
                     </div>
                 </div>
-                <div class="col-6 text-center">
+                <div class="col-5 text-center">
                     <div class="feature-box">
                         <h2>Personal Training</h2>
                         <h3><i class="fas fa-weight"></i></h3>
@@ -418,7 +415,7 @@
                         <a href="services.html#service2" class="btn" role="button">Learn More</a>
                     </div>
                 </div>
-                <div class="col-6 text-center">
+                <div class="col-5 text-center">
                     <div class="feature-box">
                         <h2>Membership</h2>
                         <h3><i class="fas fa-edit"></i></h3>
@@ -440,23 +437,24 @@
                 <h1>Gallery</h1>
                 <p>Click on the phtoto below to open our Photo Gallery.</p>
                 <img src="assets/css/images/main-gallery/danielle-cerullo-CQfNt66ttZM-unsplash.jpg" data-toggle="modal" data-target="#gallery-modal">
+                <button type="button" class="btn" data-toggle="modal" data-target="#gallery-modal">Open Gallery</button>
             </div>
         </div>
     </div>
 </section>
 <!--------- END of Photo Gallery Block --------------------------------------------------------------->
-<hr>
+
 <!--------- Testimonial block ----------------------------------------------------------------->
 <article>
     <div class="container-fluid">
-        <section class="testimonial-container">
-            <div class="row">
-                <div class="col-12 text-center">
+        <div class="testiomonial-container">
+            <div class="row justify-content-center">
+                <div class="col-4 text-center testimonial-title">
                     <h1>What Members Say</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 text-center">
+            <div class="row justify-content-center">
+                <div class="col-5 text-center">
                     <div class="testimonial-box">
                         <h2>"Competition Ready"</h2>
                         <h3><i class="fas fa-comments"></i></h3>
@@ -465,60 +463,55 @@
                         <p><strong>Matt Hemming, Killarney</strong></p>
                     </div>
                 </div>
-                <div class="col-6 text-center">
+                <div class="col-5 text-center">
                     <div class="testimonial-box">
                         <h2>"Peak Performance"</h2>
                         <h3><i class="fas fa-comments"></i></h3>
                         <p><strong>"</strong>Lovely and knowledgeable staff, especially Louise! As a first time gym-goer, it was very important to me that I find a trainer who listens, understands and knows what's best for me. I'm already starting to see the results and I couldn't be happier. This gym is one of those places that you go to, where people always greet you with a smile and are always kind and helpful. It's so well equipped, modern and clean. The pool/spa area is a great place to relax. It's my happy place.<strong>"</strong></p>
-                        <hr>
+                        <hr class="testimonial-hr">
                         <p><strong>Patricia Scannell, Kilorglin</strong></p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 </article>
 <!--------- END of Testimonial block ----------------------------------------------------------------->
-<hr>
+
 <!--------- Free Trial information block ------------------------------------------------------------->
 <article>
     <div class="container-fluid">
-        <section>
-            <div class="row">
-                <div class="col-5 text-center">
-                    <div class="free-trial-box-image">
-                    <img src="assets/css/images/free-trial-home/bruno-nascimento-PHIgYUGQPvU-unsplash.jpg" alt="...">
-                    </div>
-                </div>
-                <div class="col-7 text-center">
+        <div class="free-trial-container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
                     <div class="free-trial-box">
-                        <br><h1>Start you journey today..</h1>
+                        <br><h1>Take your first step today..</h1>
                         <h2>..for <strong>FREE!</strong></h2>
                         <p>Take your first steps towards a better you, on us! For a limited time are currently offering 1 week trial membereship under our Silver Pass membership. Simply click the button below to Register for your Free Trail now. We can't wait to see you..</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#free-trial-modal">Register</button>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#free-trial-modal">Register</button>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 </article>
 <!--------- END of Free Trial information block ------------------------------------------------------>
-<hr>
+
 <!--------- Footer block ----------------------------------------------------------------------------->
 <footer>
-    <div class="container-fluid">
+    <div class="container-fluid footer">
         <div class="row">
             <div class="col-4">
                 <section class="footer-navigation-list">
                     <ul style="list-style-type:none;">
                         <li>
-                        <p><a href="home.html"><i class="fas fa-home"></i>  Home</a></p>
+                        <p><a href="home.html"><i class="fas fa-home"></i>Home</a></p>
                         </li>
                         <li>
-                        <p><a href="services.html"><i class="fas fa-concierge-bell"></i>  Services</a></p>
+                        <p><a href="services.html"><i class="fas fa-concierge-bell"></i> Services</a></p>
                         </li>
                         <li>
-                        <p><a href="classes.html"><i class="fas fa-universal-access"></i>  Classes</a></p>
+                        <p><a href="classes.html"><i class="fas fa-universal-access"></i> Classes</a></p>
                         </li>
                         <li>
                         <p><a href="membership.html"><i class="fas fa-address-card"></i>  Membership</a></p>
@@ -536,7 +529,7 @@
                 <div>
                     <div class="social-media-box text-center">
                         <div class="social-links-footer" style="vertical-align: top">
-                            <h2>Connect with Us!</h2>
+                            <h3>Connect with Us!</h3>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="https://www.facebook.com/" target="-blank">
@@ -570,11 +563,11 @@
                                 </li>
                             </ul>
                         </div>
-                        <hr>
+                        <hr class="footer-divider">
                         <div style="vertical-align: middle">
-                            <h3><strong>'Maximise the Potential in You'</strong></h3>
+                            <h2><strong>"Maximise the Potential in You"</strong></h2>
                         </div>
-                        <hr>
+                        <hr class="footer-divider">
                         <div style="vertical-align: bottom">
                             <h6>Copyright MAXFIT 2020</h6>
                             <h6>Powered & Managed by McApp Software Ltd.</h6>
@@ -582,7 +575,7 @@
                     </div> 
                 </div>
             </div>
-            <div class="col-4" style="text-align:right">
+            <div class="col-4 address-box" style="text-align:right">
                 <img src="assets/css/images/maxfit-logo-navbar.png" alt="MAXFIT Logo">
                 <hr>
                 <address>
