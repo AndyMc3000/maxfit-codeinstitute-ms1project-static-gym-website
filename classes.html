@@ -767,17 +767,35 @@
 <!---------END of Navigation bar -------------------------------------------------------------->
 
 <!---------Callout container & Bootstrap Jumbotron --------------------------------------------------->
-<div class="container-fluid">
+<div class="container-fluid services-callout-container">
     <div class="row">
-        <div class="col-12 classes-callout-container d-flex justify-content-center">
-            <div class="jumbotron-container d-inline-flex p-2 bd-highlight">
+        <div class="col-12 jumbotron-col classes-callout-container justify-content-center">
+            <div class="jumbotron-container bd-highlight">
                 <div class="jumbotron jumotron-fluid">
                     <div class="container-fluid text-center">
                         <h1 class="display-4">It's Good to Talk</h1>
                         <p class="lead">Get in touch with us today for a Free no-obligation fitness consultation</p>
                         <hr class="my-4">
                         <p>Click on the button below and we will contact you to arrange a good time for you for a 30-minute consultation with one of our persona trainers.</p>
-                        <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#consultation-modal">Request a Call</a>
+                        <a class="btn btn-lg" href="#" role="button" data-toggle="modal" data-target="#consultation-modal">Request a Call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid services-callout-container">
+    <div class="row">
+        <div class="col-12 jumbotron-col justify-content-center">
+            <div class="jumbotron-container bd-highlight">
+                <div class="jumbotron jumotron-fluid">
+                    <div class="container-fluid text-center">
+                        <h1 class="display-4">Just Do It</h1>
+                        <p class="lead">Limited offer. Join us Free for 7 days!</p>
+                        <hr class="my-4">
+                        <p>For a limited time are currently offering 1 week trial membereship under our Silver Pass membership to new clients. Simply click the button below to Register for your Free Trail now. We can't wait to see you..</p>
+                        <a class="btn btn-lg" href="#" role="button" data-toggle="modal" data-target="#free-trial-modal">Register</a>
                     </div>
                 </div>
             </div>
@@ -1243,21 +1261,40 @@
 </section>
 <!---------END of Circuit Training container & Gallery  -------------------------------------------------------------------------->
 <hr>
+<!--------- Free Trial information block ------------------------------------------------------------->
+<article>
+    <div class="container-fluid">
+        <div class="free-trial-container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <div class="free-trial-box">
+                        <br><h1>Take your first step today..</h1>
+                        <h2>..for <strong>FREE!</strong></h2>
+                        <p>Take your first steps towards a better you, on us! For a limited time are currently offering 1 week trial membereship under our Silver Pass membership. Simply click the button below to Register for your Free Trail now. We can't wait to see you..</p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#free-trial-modal">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<!--------- END of Free Trial information block ------------------------------------------------------>
+
 <!--------- Footer block ----------------------------------------------------------------------------->
 <footer>
-    <div class="container-fluid">
+    <div class="container-fluid footer">
         <div class="row">
             <div class="col-4">
                 <section class="footer-navigation-list">
                     <ul style="list-style-type:none;">
                         <li>
-                        <p><a href="home.html"><i class="fas fa-home"></i>  Home</a></p>
+                        <p><a href="home.html"><i class="fas fa-home"></i>Home</a></p>
                         </li>
                         <li>
-                        <p><a href="services.html"><i class="fas fa-concierge-bell"></i>  Services</a></p>
+                        <p><a href="services.html"><i class="fas fa-concierge-bell"></i> Services</a></p>
                         </li>
                         <li>
-                        <p><a href="classes.html"><i class="fas fa-universal-access"></i>  Classes</a></p>
+                        <p><a href="classes.html"><i class="fas fa-universal-access"></i> Classes</a></p>
                         </li>
                         <li>
                         <p><a href="membership.html"><i class="fas fa-address-card"></i>  Membership</a></p>
@@ -1275,7 +1312,7 @@
                 <div>
                     <div class="social-media-box text-center">
                         <div class="social-links-footer" style="vertical-align: top">
-                            <h2>Connect with Us!</h2>
+                            <h3>Connect with Us!</h3>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="https://www.facebook.com/" target="-blank">
@@ -1309,11 +1346,11 @@
                                 </li>
                             </ul>
                         </div>
-                        <hr>
+                        <hr class="footer-divider">
                         <div style="vertical-align: middle">
-                            <h3><strong>'Maximise the Potential in You'</strong></h3>
+                            <h2><strong>"Maximise the Potential in You"</strong></h2>
                         </div>
-                        <hr>
+                        <hr class="footer-divider">
                         <div style="vertical-align: bottom">
                             <h6>Copyright MAXFIT 2020</h6>
                             <h6>Powered & Managed by McApp Software Ltd.</h6>
@@ -1321,7 +1358,7 @@
                     </div> 
                 </div>
             </div>
-            <div class="col-4" style="text-align:right">
+            <div class="col-4 address-box" style="text-align:right">
                 <img src="assets/css/images/maxfit-logo-navbar.png" alt="MAXFIT Logo">
                 <hr>
                 <address>

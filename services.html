@@ -424,15 +424,15 @@
 <!---------Callout container & Bootstrap Jumbotron --------------------------------------------------->
 <div class="container-fluid services-callout-container">
     <div class="row">
-        <div class="col-12">
-            <div class="jumbotron-container d-inline-flex p-2 bd-highlight">
+        <div class="col-12 jumbotron-col justify-content-center">
+            <div class="jumbotron-container bd-highlight">
                 <div class="jumbotron jumotron-fluid bg-cover">
                     <div class="container-fluid text-center">
                         <h1 class="display-4">Just Do It</h1>
                         <p class="lead">Limited offer. Join us Free for 7 days!</p>
                         <hr class="my-4">
                         <p>For a limited time are currently offering 1 week trial membereship under our Silver Pass membership to new clients. Simply click the button below to Register for your Free Trail now. We can't wait to see you..</p>
-                        <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#free-trial-modal">Register</a>
+                        <a class="btn btn-lg" href="#" role="button" data-toggle="modal" data-target="#free-trial-modal">Register</a>
                     </div>
                 </div>
             </div>
@@ -443,12 +443,13 @@
 
 <!---------Services introduction container--------------------------------------------------------------------->
 <section>
-    <div class="container-fluid">
-        <div class="services-intro-container">
+    <div class="container-fluid page-intro-container">
+        <div class="page-intro-container">
             <div class="row justify-content-center">
-                <div class="col-9 text-center">
+                <div class="col-8 text-center">
                 <h1>Our Services</h1>
                 <i class="fas fa-concierge-bell"></i>
+                <hr>
                 <p>Whether you are an experienced gym user or a complete beginner, our team can help you achieve the results you have been looking for in our modern, comfortable health and fitness club. Our experienced and enthusiastic team will help guide you on your journey to a fitter, healthier and happier you. Please see more detials below.</p>
                 </div>
                 <div id="service1">
@@ -458,150 +459,136 @@
     </div>
 </section>
 <!---------END of Services introduction container  ------------------------------------------------------------>
-<hr>
+
 <!---------Gym Facilities container  -------------------------------------------------------------------------->
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid services-container-gym">
         <div class="row justify-content-center">
-            <div class="col-9 text-center">
+            <div class="col-4 text-center services-box-gym">
                 <div>
                 <h2>Gym Facilities</h2>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-9 text-center">
+            <div class="col-10 text-center services-box-gym">
                 <div>
                 <p>MAXFIT provides our members with the top quality cardio, free weight, and strength training equipment they need to get in shape. Our gym is stocked with world-class equipment from leading manufacturers such as Life Fitness and Hammer Strength. Our equipment and workout spaces are clean, safe, and comfortable.</p>
                 </div>
+                <div>
+                    <h4>Gym Gallery</h4>
+                    <p>Click on the images below to open our Gym Photo Gallery</p>
+                </div>
+                <section class="gym gym-gallery-container">
+                    <div class="row gym-gallery-container justify-content-center">
+                        <div class="col-4 text-center">
+                            <img src="assets/css/images/gym-gallery/humphrey-muleba-dDp-6pXrYik-unsplash.jpg" data-toggle="modal" data-target="#gym-gallery-modal">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="assets/css/images/gym-gallery/danielle-cerullo-CQfNt66ttZM-unsplash.jpg" data-toggle="modal" data-target="#gym-gallery-modal">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="assets/css/images/gym-gallery/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg" data-toggle="modal" data-target="#gym-gallery-modal">
+                        </div>
+                    </div>
+                </section>
             </div>
-        </div>
-        <div class="container-fluid">
-            <section class="gym gym-gallery-container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h4>Gym Gallery</h4>
-                        <p>Click on the images below to open our Gym Photo Gallery</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4 text-center">
-                        <img src="assets/css/images/gym-gallery/humphrey-muleba-dDp-6pXrYik-unsplash.jpg" data-toggle="modal" data-target="#gym-gallery-modal">
-                    </div>
-                    <div class="col-4 text-center">
-                        <img src="assets/css/images/gym-gallery/danielle-cerullo-CQfNt66ttZM-unsplash.jpg" data-toggle="modal" data-target="#gym-gallery-modal">
-                    </div>
-                    <div class="col-4 text-center">
-                        <img src="assets/css/images/gym-gallery/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg" data-toggle="modal" data-target="#gym-gallery-modal">
-                    </div>
-                </div>
-                <div id="service2">
-                </div>
-            </section>
         </div>
     </div>
 </section>
 <!---------END of Gym Facilities container   ------------------------------------------------------------------>
-<hr>
+
 <!---------Personal Training Facilities container  -------------------------------------------------------------------------->
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid services-container-pt">
         <div class="row justify-content-center">
-            <div class="col-9 text-center">
+            <div class="col-4 text-center services-box-pt">
                 <div>
                 <h2>Personal Training</h2>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-9 text-center">
+            <div class="col-10 text-center services-box-pt">
                 <div>
                 <p>Our team of Personal Trainers and Nutritionists are pasionate about what they. Benefit from the expertise of professionals who have the training and experience to guide you toward success. It’s the best way to stay focused and motivated.</p>
                 </div>
+                <div>
+                    <h4>Personal Training Gallery</h4>
+                    <p>Click on the phtoto below to open our Personal Training Photo Gallery.</p>
+                </div>
+                <section class="trainer trainer-gallery-container">
+                    <div class="row">
+                        <div class="col-4 text-center">
+                            <img src="assets/css/images/personal-training-gallery/alora-griffiths-H6ED86m2TMQ-unsplash.jpg" data-toggle="modal" data-target="#trainer-gallery-modal">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="assets/css/images/personal-training-gallery/logan-weaver-sPiMBrdGG9c-unsplash.jpg" data-toggle="modal" data-target="#trainer-gallery-modal">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="assets/css/images/personal-training-gallery/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" data-toggle="modal" data-target="#trainer-gallery-modal">
+                        </div>
+                    </div>
+                </section>
             </div>
-        </div>
-        <div class="container-fluid">
-            <section class="trainer trainer-gallery-container">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <h4>Personal Training Gallery</h4>
-                        <p>Click on the phtoto below to open our Personal Training Photo Gallery.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4 text-center">
-                        <img src="assets/css/images/personal-training-gallery/alora-griffiths-H6ED86m2TMQ-unsplash.jpg" data-toggle="modal" data-target="#trainer-gallery-modal">
-                    </div>
-                    <div class="col-4 text-center">
-                        <img src="assets/css/images/personal-training-gallery/logan-weaver-sPiMBrdGG9c-unsplash.jpg" data-toggle="modal" data-target="#trainer-gallery-modal">
-                    </div>
-                    <div class="col-4 text-center">
-                        <img src="assets/css/images/personal-training-gallery/jonathan-borba-R0y_bEUjiOM-unsplash.jpg" data-toggle="modal" data-target="#trainer-gallery-modal">
-                    </div>
-                </div>
-            </section>
         </div>
     </div>
 </section>
 <!---------END of Personal Training Facilities container   ------------------------------------------------------------------>
-<hr id="service3">
+
 <!---------Studio Facilities container  -------------------------------------------------------------------------->
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid services-container-studio">
         <div class="row justify-content-center">
-            <div class="col-9 text-center">
+            <div class="col-4 text-center services-box-studio">
                 <div>
                 <h2>Studio Facilities</h2>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-9 text-center">
+            <div class="col-10 text-center services-box-studio">
                 <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum iste amet ea architecto provident, quam omnis explicabo veniam reiciendis commodi atque distinctio reprehenderit ex nam odit eveniet at ducimus.</p>
                 </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <section class="studio studio-gallery-container">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <h4>Studio Gallery</h4>
-                        <p>Click on the phtoto below to open our Gym Photo Gallery.</p>
-                    </div>
+                <div>
+                    <h4>Studio Gallery</h4>
+                    <p>Click on the phtoto below to open our Gym Photo Gallery.</p>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-4 text-center">
-                        <img src="assets/css/images/studio-gallery/geert-pieters-NbpUM86Jo8Y-unsplash (1).jpg" data-toggle="modal" data-target="#studio-gallery-modal">
+                <section class="trainer studio-gallery-container">
+                    <div class="row justify-content-center">
+                        <div class="col-4 text-center">
+                            <img src="assets/css/images/studio-gallery/geert-pieters-NbpUM86Jo8Y-unsplash (1).jpg" data-toggle="modal" data-target="#studio-gallery-modal">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="assets/css/images/studio-gallery/thought-catalog-lNy5RIiGQ1s-unsplash.jpg" data-toggle="modal" data-target="#studio-gallery-modal">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="assets/css/images/studio-gallery/inner-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-full.jpg" data-toggle="modal" data-target="#studio-gallery-modal">
+                        </div>
                     </div>
-                    <div class="col-4 text-center">
-                        <img src="assets/css/images/studio-gallery/thought-catalog-lNy5RIiGQ1s-unsplash.jpg" data-toggle="modal" data-target="#studio-gallery-modal">
-                    </div>
-                    <div class="col-4 text-center">
-                        <img src="assets/css/images/studio-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash.jpg" data-toggle="modal" data-target="#studio-gallery-modal">
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>    
         </div>
     </div>
 </section>
 <!---------END of Studio Facilities container   ------------------------------------------------------------------>
-<hr>
+
 <!--------- Footer block ----------------------------------------------------------------------------->
 <footer>
-    <div class="container-fluid">
+    <div class="container-fluid footer">
         <div class="row">
             <div class="col-4">
                 <section class="footer-navigation-list">
-                    <ul>
+                    <ul style="list-style-type:none;">
                         <li>
-                        <p><a href="home.html"><i class="fas fa-home"></i>  Home</a></p>
+                        <p><a href="home.html"><i class="fas fa-home"></i>Home</a></p>
                         </li>
                         <li>
-                        <p><a href="services.html"><i class="fas fa-concierge-bell"></i>  Services</a></p>
+                        <p><a href="services.html"><i class="fas fa-concierge-bell"></i> Services</a></p>
                         </li>
                         <li>
-                        <p><a href="classes.html"><i class="fas fa-universal-access"></i>  Classes</a></p>
+                        <p><a href="classes.html"><i class="fas fa-universal-access"></i> Classes</a></p>
                         </li>
                         <li>
                         <p><a href="membership.html"><i class="fas fa-address-card"></i>  Membership</a></p>
@@ -619,7 +606,7 @@
                 <div>
                     <div class="social-media-box text-center">
                         <div class="social-links-footer" style="vertical-align: top">
-                            <h2>Connect with Us!</h2>
+                            <h3>Connect with Us!</h3>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="https://www.facebook.com/" target="-blank">
@@ -653,11 +640,11 @@
                                 </li>
                             </ul>
                         </div>
-                        <hr>
+                        <hr class="footer-divider">
                         <div style="vertical-align: middle">
-                            <h3><strong>'Maximise the Potential in You'</strong></h3>
+                            <h2><strong>"Maximise the Potential in You"</strong></h2>
                         </div>
-                        <hr>
+                        <hr class="footer-divider">
                         <div style="vertical-align: bottom">
                             <h6>Copyright MAXFIT 2020</h6>
                             <h6>Powered & Managed by McApp Software Ltd.</h6>
@@ -665,11 +652,11 @@
                     </div> 
                 </div>
             </div>
-            <div class="col-4" style="text-align:right">
+            <div class="col-4 address-box" style="text-align:right">
                 <img src="assets/css/images/maxfit-logo-navbar.png" alt="MAXFIT Logo">
-                <hr><br>
+                <hr>
                 <address>
-                M A X F I T Ltd.
+                <h5>M A X F I T Ltd.</h5>
                 Fossa<br>
                 Kilarney<br>
                 Co.Kerry<br>

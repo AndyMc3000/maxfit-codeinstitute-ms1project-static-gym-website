@@ -93,6 +93,7 @@ body {
     -webkit-transform: translate(0, -50%); 
     -ms-transform: translate(0, -50%); 
     transform: translate(0, -50%); 
+    border-radius: 0.3rem;
 }
 
 .carousel-caption h1 { 
@@ -126,7 +127,7 @@ body {
 
 /* ----------Page introduction containers ----------- */ 
 
-.home-intro-container {
+.page-intro-container {
     background-color: #FCBF49;
     padding-left: 0px;
     padding-right: 0px;
@@ -135,18 +136,18 @@ body {
     color: #2e294e; 
 }
 
-.home-intro-container hr {
+.page-intro-container hr {
     background-color: #2e294e;
     height: 2px;
     width: 80%;
 }
 
-.home-intro-container i {
+.page-intro-container i {
     font-size: 45px;
     color: #d7263d;
 }
 
-.home-intro-container button {
+.page-intro-container button {
     font-size: 20px;
     color: #EAE2B7;
     z-index: 1;
@@ -154,22 +155,11 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
 }
 
-.home-intro-container button:hover {
+.page-intro-container button:hover {
     background-color: #2e294e;
     box-shadow: 0 0 0 0.2rem rgba(214, 40, 40,.65);
     color: #eae2b7;
 }
-
-.services-intro-container {
-    background-image: url("assets/css/images/maxfit-carousel-slide-placeholder.png");
-    object-fit: contain;
-    height: 200px;
-}
-
-.services-intro-container i {
-    font-size: 45px;
-}
-
 
 /* ----------END of Page introduction containers ----------- */ 
 
@@ -193,6 +183,7 @@ body {
     background-color: rgba(46, 41, 78,.85);
     margin: 20px;
     padding: 15px;
+    border-radius: 0.3rem;
 }
 
 .features-title h1 {
@@ -210,6 +201,7 @@ body {
     padding: 25px;
     margin: 10px;
     color: #EAE2B7;
+    border-radius: 0.3rem;
 }
 
 .feature-box i {
@@ -255,7 +247,8 @@ body {
     width: 90%;
     object-fit: cover;
     border: 10px;
-    border-color: #fff
+    border-color: #fff;
+    border-radius: 0.3rem;
 }
 
 .gallery-container .btn {
@@ -311,7 +304,8 @@ body {
 /* -------------------------- END of Homepage - Main Gallery (and gallery controls for all galleries)---- */
 
 /* -------------------------- Homepage - Testimonial section---- */
-.testiomonial-container {
+
+.testimonial-container {
     height: auto;
     background: url('../css/images/hiit-gallery/jesper-aggergaard-rA5aJvQ2l6g-unsplash-edited.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -327,6 +321,7 @@ body {
     background-color: rgba(46, 41, 78,.75);
     margin: 20px;
     padding: 15px;
+    border-radius: 0.3rem;
 }
 
 .testimonial-title h1 {
@@ -344,6 +339,7 @@ body {
     padding: 25px;
     margin: 20px;
     color: #EAE2B7;
+    border-radius: 0.3rem;
 }
 
 .testimonial-box i {
@@ -384,7 +380,8 @@ body {
     color: #2e294e;
     top: 50%;
     padding: 25px;
-    margin: 8%
+    margin: 8%;
+    border-radius: 0.3rem;
 }
 
 .free-trial-box .btn {
@@ -407,47 +404,137 @@ body {
 
 .services-callout-container {
     height: auto;
-    background-image: url('assets/css/images/maxfit-carousel-slide-placeholder.png') no-repeat bottom right fixed;
+}
+
+.jumbotron {
+    background-color: rgba(214, 40, 40,.55);
+    width: 70%;
+    height: 80%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 25px;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: #EAE2B7;
+}
+
+.jumbotron-container {
+    background: url("../css/images/personal-training-gallery/inner-gallery/meghan-holmes-wy_L8W0zcpI-unsplash.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    padding: 70px;
+    border-bottom: 3px solid;
+    border-color: #2e294e;
+}
+
+.jumbotron-col {
+    padding: 0;
+}
+
+.jumbotron hr {
+    height: 2px;
+    width: 80%;
+    background-color: #EAE2B7;
+}
+
+.jumbotron .btn {
+    font-size: 20px;
+    color: #EAE2B7;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.jumbotron .btn:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+    color: #eae2b7;
 }
 
 
-/* ----------Gym Gallery ----------- */ 
+/* ---------- Services sections on services.html - Gym, Personal Training, and Studio sections ----------- */ 
+
+.services-container-gym {
+    background: url("../css/images/circuit-gallery/inner-gallery/anastase-maragos-BKvwCAco-jw-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 70px;
+    border-top: 3px solid;
+    border-color: #d7263d;
+}
+
+.services-box-gym {
+    background-color: rgba(46, 41, 78,.85);
+    padding: 25px;
+    margin: 10px;
+    color: #EAE2B7;
+    border-radius: 0.3rem;
+}
 
 .gym-gallery-container img {
-    max-height: 150px;
-    width: 85%;
+    max-height: 300px;
+    width: 98%;
     object-fit: cover;
 }
 
-/* ----------END of Gym Gallery ----------- */ 
+.services-container-pt {
+    background-color: #d62828;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: #eae2b7;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #FCBF49;
+}
 
-/* ----------Personal Training----------- */ 
+.services-box-pt {
+    background-color: rgba(46, 41, 78,.85);
+    padding: 25px;
+    margin: 10px;
+    color: #EAE2B7;
+    border-radius: 0.3rem;
+}
 
 .trainer-gallery-container img {
-    max-height: 150px;
-    width: 85%;
+    max-height: 300px;
+    width: 98%;
     object-fit: cover;
 }
 
-/* ----------END of Personal Training ----------- */ 
+.services-container-studio {
+    background: url("../css/images/studio-gallery/inner-gallery/anupam-mahapatra-Vz0RbclzG_w-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 70px;
+    color: #eae2b7;
+}
 
-/* ----------Studio Gallery Container----------- */ 
+.services-box-studio {
+    background-color: rgba(46, 41, 78,.85);
+    padding: 25px;
+    margin: 10px;
+    color: #EAE2B7;
+    border-radius: 0.3rem;
+}
 
 .studio-gallery-container img {
-    max-height: 150px;
-    width: 85%;
+    max-height: 300px;
+    width: 98%;
     object-fit: cover;
 }
 
-/* ----------END of Studio Gallery ----------- */
+/* ----------/END of Services sections on services.html - Gym, Personal Training, and Studio sections ----------- */  
 
 /* ----------Classes.html Gallery Containers----------- */ 
 
