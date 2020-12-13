@@ -539,14 +539,134 @@ body {
 /* ----------Classes.html Gallery Containers----------- */ 
 
 .classes-callout-container {
-    background-image: url("../css/images/main-gallery/danielle-cerullo-CQfNt66ttZM-unsplash.jpg");
+    height: auto;
+}
+
+.jumbotron-container-classes {
+    background: url("../css/images/zumba-gallery/inner-gallery/pixabay-zumba-andrzej-rembowski-002.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 70px;
+    border-bottom: 3px solid;
+    border-color: #2e294e;
+}
+
+.yoga-container {
+    border-top: 2px solid;
+    border-color: #2e294e;
+}
+
+.yoga-gallery-box {
+    background: #d62828;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #EAE2B7;
+}
+
+.yoga-text-box {
+    background: url("../css/images/yoga-gallery/inner-gallery/alex-shaw-U7e8LzAn-0s-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 70px;
+}
+
+.service-description {
+    background-color: rgba(46, 41, 78,.85);
+    padding: 25px;
+    margin: 10px;
+    color: #EAE2B7;
+    border-radius: 0.3rem;
+}
+
+.pilates-container {
+    border-top: 2px solid;
+    border-color: #d62828;
+}
+
+.pilates-gallery-box {
+    background: #d62828;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #EAE2B7;
+}
+
+.pilates-text-box {
+    background: url("../css/images/pilates-gallery/inner-gallery/thought-catalog-lNy5RIiGQ1s-unsplash-full.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 70px;
     object-fit: cover;
 }
 
 .classes-gallery-container img {
-    max-height: 250px;
-    width: 85%;
+    max-height: 350px;
+    width: 95%;
     object-fit: cover;
+}
+
+.classes-gallery-container .btn {
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #EAE2B7;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.classes-gallery-container .btn:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+    color: #eae2b7;
+}
+
+.card {
+    border: 0px;
+    border-radius: 0rem;
+}
+
+.card-header {
+    background-color: #2e294e;
+    padding: 20px;
+}
+
+.card-body {
+    background-color: #2e294e;
+}
+
+.table {
+    color: #EAE2B7;
+}
+
+.card-header .btn h5 {
+    margin: 0;
+}
+
+.card-header button {
+    color: #EAE2B7;
+}
+
+.card-header button:hover {
+    color: #FCBF49;
+}
+
+.classes-accordian {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.classes-table-head {
+    background-color: #d62828;
+    color: #EAE2B7;
 }
 
 /* ----------End of Classes.html Gallery Containers----------- */ 
@@ -555,11 +675,11 @@ body {
 /* ----------Membership pricing cards, ----------- */ 
 
 .card.pricing1 .onoffswitch {
-  width: 70px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  margin: 0 auto;
+    width: 70px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 0 auto;
 }
 
 .pricing1 .onoffswitch-label {
