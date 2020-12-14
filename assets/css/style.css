@@ -553,6 +553,23 @@ body {
     border-color: #2e294e;
 }
 
+.service-description {
+    background-color: rgba(46, 41, 78,.85);
+    width: 100%;
+    height: 100%; 
+    padding: 30px;
+    color: #EAE2B7;
+    border-radius: 0.3rem;
+    align-content: center;
+}
+
+.classes-gallery-container img {
+    max-height: 350px;
+    width: 95%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+}
+
 .yoga-container {
     border-top: 2px solid;
     border-color: #2e294e;
@@ -571,27 +588,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 70px;
-}
-
-.service-description {
-    background-color: rgba(46, 41, 78,.85);
-    padding: 25px;
-    margin: 10px;
-    color: #EAE2B7;
-    border-radius: 0.3rem;
-}
-
-.pilates-container {
-    border-top: 2px solid;
-    border-color: #d62828;
+    padding: 40px;
 }
 
 .pilates-gallery-box {
-    background: #d62828;
+    background: #FCBF49;
     padding-top: 25px;
     padding-bottom: 50px;
-    color: #EAE2B7;
+    color: #2e294e;
 }
 
 .pilates-text-box {
@@ -600,14 +604,104 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 70px;
+    padding: 40px;
     object-fit: cover;
 }
 
-.classes-gallery-container img {
-    max-height: 350px;
-    width: 95%;
-    object-fit: cover;
+.spinning-gallery-box {
+    background: #d62828;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #EAE2B7;
+}
+
+.spinning-text-box {
+    background: url("../css/images/yoga-gallery/inner-gallery/alex-shaw-U7e8LzAn-0s-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
+}
+
+.aerobics-gallery-box {
+    background: #FCBF49;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #2e294e;
+}
+
+.aerobics-text-box {
+    background: url("../css/images/yoga-gallery/inner-gallery/alex-shaw-U7e8LzAn-0s-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
+}
+
+.seniors-gallery-box {
+    background: #d62828;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #EAE2B7;
+}
+
+.seniors-text-box {
+    background: url("../css/images/yoga-gallery/inner-gallery/alex-shaw-U7e8LzAn-0s-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
+}
+
+.hiit-gallery-box {
+    background: #FCBF49;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #2e294e;
+}
+
+.hiit-text-box {
+    background: url("../css/images/yoga-gallery/inner-gallery/alex-shaw-U7e8LzAn-0s-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
+}
+
+.zumba-gallery-box {
+    background: #d62828;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #EAE2B7;
+}
+
+.zumba-text-box {
+    background: url("../css/images/yoga-gallery/inner-gallery/alex-shaw-U7e8LzAn-0s-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
+}
+
+.circuit-gallery-box {
+    background: #FCBF49;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #2e294e;
+}
+
+.circuit-text-box {
+    background: url("../css/images/yoga-gallery/inner-gallery/alex-shaw-U7e8LzAn-0s-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px;
 }
 
 .classes-gallery-container .btn {
@@ -636,7 +730,7 @@ body {
 
 .card-header {
     background-color: #2e294e;
-    padding: 20px;
+    padding: 10px;
 }
 
 .card-body {
