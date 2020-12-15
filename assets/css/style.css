@@ -202,6 +202,8 @@ body {
     margin: 10px;
     color: #EAE2B7;
     border-radius: 0.3rem;
+    width: 95%;
+    height: 95%;
 }
 
 .feature-box i {
@@ -290,14 +292,14 @@ body {
 .carousel-control-next-icon:after {
     content: '>';  
     font-size: 35px;
-    font-style: bold;
+    font-style: normal;
     color: #EAE2B7;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 35px;
-  font-style: bold;
+  font-style: normal;
   color: #EAE2B7;
 }
 
@@ -340,6 +342,8 @@ body {
     margin: 20px;
     color: #EAE2B7;
     border-radius: 0.3rem;
+    width: 95%;
+    height: 95%;
 }
 
 .testimonial-box i {
@@ -465,7 +469,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 70px;
+    padding: 30px;
     border-top: 3px solid;
     border-color: #d7263d;
 }
@@ -476,20 +480,19 @@ body {
     margin: 10px;
     color: #EAE2B7;
     border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
 }
 
 .gym-gallery-container img {
-    max-height: 300px;
-    width: 98%;
+    max-height: 350px;
+    width: 100%;
     object-fit: cover;
 }
 
 .services-container-pt {
     background-color: #d62828;
-    padding-top: 40px;
-    padding-bottom: 60px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 30px;
     color: #eae2b7;
     border-top: 3px solid;
     border-bottom: 3px solid;
@@ -502,11 +505,13 @@ body {
     margin: 10px;
     color: #EAE2B7;
     border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
 }
 
 .trainer-gallery-container img {
-    max-height: 300px;
-    width: 98%;
+    max-height: 350px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -516,7 +521,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 70px;
+    padding: 30px;
     color: #eae2b7;
 }
 
@@ -526,11 +531,13 @@ body {
     margin: 10px;
     color: #EAE2B7;
     border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
 }
 
 .studio-gallery-container img {
-    max-height: 300px;
-    width: 98%;
+    max-height: 350px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -735,6 +742,7 @@ body {
 
 .card-body {
     background-color: #2e294e;
+    padding-top: 0;
 }
 
 .table {
@@ -763,11 +771,24 @@ body {
     color: #EAE2B7;
 }
 
+.card-header .collapsed i {
+  transform: rotateX(0deg);
+}
+
+.card-header i {
+  transition: transform .8s;
+  transform: rotateX(180deg);
+}
+
 /* ----------End of Classes.html Gallery Containers----------- */ 
 
 
 /* ----------Membership pricing cards, ----------- */ 
 
+.card-body {
+    background-color: #EAE2B7;
+    color: #2e294e;
+}
 .card.pricing1 .onoffswitch {
     width: 70px;
     -webkit-user-select: none;
