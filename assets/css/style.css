@@ -82,7 +82,7 @@ body {
 }
 
 .carousel-caption { 
-    background-color: rgba(230, 57, 70, 0.3);
+    background-color: rgba(230, 57, 70, 0.5);
     margin: 0;
     width: 66%; 
     color: #EAE2B7; 
@@ -933,7 +933,7 @@ body {
 
 /* ----------END of Footer ----------- */ 
 
-/* -------------------------- Media Queries--- */
+/* --Media Queries-- */
 @media (min-width: 768px) {
     .carousel-multi-item-2 .col-md-3 {
     float: left;
@@ -944,4 +944,17 @@ body {
     .carousel-multi-item-2 .card img {
     border-radius: 2px; 
     }
+}
+
+
+@media screen and (min-width: 601px) {
+  .carousel-caption h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-caption h1 {
+    font-size: 40px;
+  }
 }
