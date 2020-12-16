@@ -102,7 +102,7 @@ body {
 }
 
 .carousel-caption h3 { 
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .carousel-caption p { 
@@ -783,108 +783,67 @@ body {
 /* ----------End of Classes.html Gallery Containers----------- */ 
 
 
-/* ----------Membership pricing cards, ----------- */ 
+/* ----------Membership page & pricing cards, ----------- */ 
+
+.membership {
+    padding-bottom: 0;
+}
+
+.club-pass-pricing {
+    background-color: #FCBF49; 
+    border: 1px;
+    border-color: #d62828;
+    padding-top: 5px;
+}
+
+.card {
+    margin-bottom: 45px;
+}
 
 .card-body {
     background-color: #EAE2B7;
     color: #2e294e;
-}
-.card.pricing1 .onoffswitch {
-    width: 70px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    margin: 0 auto;
+    border-radius: 0.3rem;
 }
 
-.pricing1 .onoffswitch-label {
-  cursor: pointer;
-  border: 2px solid transparent;
-  border-radius: 20px;
+.most-popular {
+    box-shadow: 10px 12px 20px rgba(243, 52, 4, 0.4);
+} 
+
+.club-pass-pricing .ribbon {
+  width: 160px;
+  height: 38px;
+  font-size: 16px;
+  text-align: center;
+  color: #EAE2B7;
+  font-weight: bold;
+  box-shadow: 0px 3px 5px rgba(136, 136, 136, 0.55);
+  background: #d62828;
+  position: absolute;
+  right: -15px;
+  top: -32px;
+  padding-top: 7px; 
+  border-radius: 0.5rem;
 }
 
-.pricing1 .onoffswitch-inner {
-  width: 200%;
-  margin-left: -100%;
-  -webkit-transition: margin 0.3s ease-in 0s;
-  -o-transition: margin 0.3s ease-in 0s;
-  transition: margin 0.3s ease-in 0s;
+.membership-gallery {
+    border: none;
 }
 
-.pricing1 .onoffswitch-inner::before,
-.pricing1 .onoffswitch-inner::after {
-  display: block;
-  float: left;
-  width: 50%;
-  height: 30px;
-  padding: 0;
-  line-height: 30px;
-  font-size: 14px;
-  color: white;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+.card-membership {
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
 }
 
-.pricing1 .onoffswitch-inner::before {
-  content: "";
-  padding-right: 27px;
-  background-color: #2cdd9b;
-  color: #FFFFFF;
+.card-membership:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.pricing1 .onoffswitch-inner::after {
-  content: "";
-  padding-right: 24px;
-  background-color: #3e4555;
-  color: #999999;
-  text-align: right;
-}
-
-.pricing1 .onoffswitch-switch {
-  width: 23px;
-  margin: 6px;
-  height: 23px;
-  top: -1px;
-  bottom: 0;
-  right: 35px;
-  border-radius: 20px;
-  -webkit-transition: all 0.3s ease-in 0s;
-  -o-transition: all 0.3s ease-in 0s;
-  transition: all 0.3s ease-in 0s;
-}
-
-.pricing1 .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
-  margin-left: 0;
-}
-
-.pricing1 .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
-  right: 0px;
-}
-
-.pricing1 .price-badge {
-  top: -13px;
-  left: 0;
-  right: 0;
-  width: 100px;
-  margin: 0 auto;
-}
-
-.pricing1 .badge-inverse {
-  background-color: #3e4555;
-}
-
-.pricing1 .display-5 {
-  font-size: 3rem;
-	color: #263238;
-}
-
-.pricing1 .pricing sup {
-  font-size: 18px;
-  top: -20px;
-}
-
-.pricing1 .pricing .yearly {
-  display: none;
+.card-membership h3{
+    font-weight: 600;
 }
 
 /* ----------END of Membership pricing cards, ----------- */ 
