@@ -29,7 +29,6 @@ body {
 }
 
 .navbar button {
-    z-index: 1;
     background-color: #d62828;
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
 }
@@ -64,6 +63,10 @@ body {
 .nav li a i {
     font-size: 28px;
     color: #f77f00;
+}
+
+.navbar-toggler-icon {
+    background-color: #FCBF49;
 }
 
 /* -------------------------- / END of Bootstrap Navbar ----------- */
@@ -228,7 +231,7 @@ body {
 /* ----------/END of Homepage - Features Section----------- */
 
 
-/* -------------------------- Homepage - Main Gellery (and gallery controls for all galleries)---- */
+/* -------------------------- Homepage - Main Gallery (and gallery controls for all galleries)---- */
 
 .gallery-container {
     background-color: #d62828;
@@ -248,7 +251,7 @@ body {
     max-height: 500px;
     width: 90%;
     object-fit: cover;
-    border: 10px;
+    border: 2px;
     border-color: #fff;
     border-radius: 0.3rem;
 }
@@ -377,13 +380,23 @@ body {
     margin: 0;
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px0;
+}
+
+.free-trial-container div {
+    padding: 5px;
+    padding-bottom: 25px;
 }
 
 .free-trial-box {
     background-color: rgba(252, 191, 73.75);
     color: #2e294e;
     top: 50%;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin: 8%;
     border-radius: 0.3rem;
 }
@@ -946,15 +959,98 @@ body {
     }
 }
 
-
-@media screen and (min-width: 601px) {
-  .carousel-caption h1 {
-    font-size: 80px;
-  }
-}
+/* --Homepage - Media Queries-- */
 
 @media screen and (max-width: 600px) {
   .carousel-caption h1 {
     font-size: 40px;
   }
 }
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+  .carousel-caption h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .carousel-caption h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .page-intro-container h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 702px) and (max-width: 992px) {
+  .page-intro-container  h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-intro-container  h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .features-container h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .features-container h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .testimonial-container h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .testimonial-container h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .gallery-container h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .gallery-container img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .free-trial-container {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .free-trial-container h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .free-trial-container h2 {
+    font-size: 30px;
+  }
+}
+/* --/END of Homepage - Media Queries-- */
+
+/* --/END of Media Queries-- */
