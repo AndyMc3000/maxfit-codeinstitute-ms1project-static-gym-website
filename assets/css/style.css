@@ -990,21 +990,33 @@ body {
 /* --Homepage - Media Queries-- */
 
 
-@media screen and (orientation:landscape) {
+@media screen and (max-width: 896px) and (orientation: landscape) {
    .home-top-carousel {
-    height: 80vh;
+    height: 100vh;
   }
 }
 
-@media screen and (orientation:landscape) and (min-device-width: 896px) {
-   .home-top-carousel h3 {
+@media screen and (max-width: 896px) and (orientation: landscape) {
+   .home-top-carousel .carousel img {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 896px) and (orientation: landscape)  {
+   .home-top-carousel .carousel .carousel-caption h3 {
     display: none;
   }
 }
 
-@media screen and (orientation:landscape) and (min-device-width: 896px) {
-   .home-top-carousel h1 {
-    font-size: 50px;
+@media screen and (max-width: 896px) and (orientation: landscape) {
+   .carousel .carousel-caption  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 576px) and (orientation: landscape) {
+    .d-sm-block {
+        display: none;
   }
 }
 
