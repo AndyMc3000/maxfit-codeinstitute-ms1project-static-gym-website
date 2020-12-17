@@ -903,7 +903,7 @@ body {
 
 .footer {
     background-color: #2e294e;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 40px;
     color: #eae2b7;
     border-top: 3px solid;
@@ -923,25 +923,53 @@ body {
 .footer-navigation-list li {
     list-style-type: none;
     color: #eae2b7;
+    padding-top: 5px;
 }
 
 .footer-navigation-list li a {
     color: #eae2b7;
 }
 
+.footer-navigation-list li a:hover  {
+    color: #d62828;
+}
+
 .footer-navigation-list li i {
     font-size: 20px;
-    color: #d62828;
+    color: #FCBF49;
 }
 
 .footer-divider {
     background-color: #eae2b7;
-    height: 2px;
+    height: 1.5px;
     width: 60%;
 }
 
 .address-box {
     padding-right: 30px;
+}
+
+.social-links-footer li i {
+    font-size: 40px;
+    margin: 4px;
+    color: #FCBF49;;
+}
+
+.footer-mobile-only-home-link {
+    background-color: #2e294e;
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 10;
+    padding-top: 0;
+    border-top: 2px;
+    border-color: #eae2b7;
+}
+
+.footer-mobile-only-home-link a i {
+    background-color: #2e294e;
+    font-size: 30px;
+    margin: 4px;
+    color: #FCBF49;;
 }
 
 /* ----------END of Footer ----------- */ 
@@ -1062,6 +1090,7 @@ body {
   .address-box {
     justify-content: center;
     text-align: center;
+    padding-top: 10px;
   }
 } 
 
@@ -1099,10 +1128,21 @@ body {
 } 
 
 @media screen and (min-width: 992px) {
-  .mobile-home-link {
+  .footer-mobile-only-home-link {
     display: none;
   }
 } 
+
+@media screen and (max-width: 992px) {
+  .footer {
+    border-color: #eae2b7;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px; 
+    padding-top: 20px;
+  }
+} 
+
 
 /* --/END of Homepage - Media Queries-- */
 
