@@ -989,6 +989,25 @@ body {
 
 /* --Homepage - Media Queries-- */
 
+
+@media screen and (orientation:landscape) {
+   .home-top-carousel {
+    height: 80vh;
+  }
+}
+
+@media screen and (orientation:landscape) and (min-device-width: 896px) {
+   .home-top-carousel h3 {
+    display: none;
+  }
+}
+
+@media screen and (orientation:landscape) and (min-device-width: 896px) {
+   .home-top-carousel h1 {
+    font-size: 50px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .carousel-caption h1 {
     font-size: 40px;
