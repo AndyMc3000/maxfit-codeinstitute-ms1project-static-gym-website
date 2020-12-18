@@ -1036,84 +1036,110 @@ body {
   .carousel-caption h1 {
     font-size: 80px;
   }
+
+  .page-intro-container  h1 {
+    font-size: 45px;
+  }
+
+  .address-box {
+    justify-content: right;
+    text-align: right;
+  }
+
+  .address-box address {
+    justify-content: right;
+    text-align: right;
+  }
+
+  .footer-mobile-only-home-link {
+    display: none;
+  }
+
+  .jumbotron-container {
+    padding-left: 60px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .jumbotron-container h1 {
+    font-size: 55px;
+  }
+
 }
 
 @media screen and (max-width: 702px) {
   .page-intro-container h1 {
+    font-size: 30px;
+  }
+
+  .features-container h1 {
+    font-size: 30px;
+  }
+
+  .features-container h2 {
+    font-size: 25px;
+  }
+
+  .testimonial-container h1 {
+    font-size: 30px;
+  }
+
+  .testimonial-container h2 {
+    font-size: 25px;
+  }
+
+  .gallery-container h1 {
+    font-size: 30px;
+  }
+
+  .gallery-container img {
+    width: 100%;
+  }
+
+  .free-trial-container {
+    margin: 0;
+    padding: 15px;
+  }
+
+  .free-trial-container h1 {
+    font-size: 30px;
+  }
+
+  .free-trial-container h2 {
+    font-size: 30px;
+  }
+
+  .footer-navigation-list {
+    display: none;
+  }
+
+  .address-box hr {
+    display: none;
+  }
+
+  .jumbotron {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
+    margin: 15px auto;
+  }
+
+  .jumbotron-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .jumbotron-container h1 {
     font-size: 35px;
   }
 }
 
 @media screen and (min-width: 702px) and (max-width: 992px) {
   .page-intro-container  h1 {
-    font-size: 45px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .page-intro-container  h1 {
-    font-size: 50px;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .features-container h1 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .features-container h2 {
-    font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .testimonial-container h1 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .testimonial-container h2 {
-    font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .gallery-container h1 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .gallery-container img {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .free-trial-container {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .free-trial-container h1 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .free-trial-container h2 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .footer-navigation-list {
-    display: none;
+    font-size: 40px;
   }
 }
 
@@ -1132,34 +1158,8 @@ body {
   }
 } 
 
-@media screen and (min-width: 992px) {
-  .address-box {
-    justify-content: right;
-    text-align: right;
-  }
-} 
-
-@media screen and (min-width: 992px) {
-  .address-box address {
-    justify-content: right;
-    text-align: right;
-  }
-} 
-
 @media screen and (max-width: 767px) {
   .address-box img {
-    display: none;
-  }
-} 
-
-@media screen and (max-width: 702px) {
-  .address-box hr {
-    display: none;
-  }
-} 
-
-@media screen and (min-width: 992px) {
-  .footer-mobile-only-home-link {
     display: none;
   }
 } 
@@ -1174,7 +1174,25 @@ body {
   }
 } 
 
+/* -- /END of Homepage - Media Queries-- */
 
-/* --/END of Homepage - Media Queries-- */
+/* -- Jumbotron - Media Queries-- */
+
+@media screen and (min-width: 702px) and (max-width: 992px) {
+  .jumbotron-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 702px) and (max-width: 992px) {
+  .jumbotron-container h1 {
+    font-size: 45px;
+  }
+}
+
+/* -- /END of Jumbotron - Media Queries-- */
 
 /* --/END of Media Queries-- */
