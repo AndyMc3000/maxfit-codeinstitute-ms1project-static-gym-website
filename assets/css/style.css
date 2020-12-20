@@ -912,6 +912,30 @@ body {
 }
 
 /*-- /END of Team page -----------*/ 
+
+/*-- Contact page -----------*/ 
+
+.address-box-contact {
+    color: #2e294e;
+    background-color: #FCBF49;
+    font-size: 18px;
+}
+
+page-intro-container-contact {
+    padding-bottom: 0px;
+}
+
+.map-box {
+    background-color: #FCBF49;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.map-box iframe {
+    border: 3px solid;
+    border-color: #d62828; 
+}
+
 /*-- Footer -----------*/ 
 
 .footer {
