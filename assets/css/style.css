@@ -919,6 +919,7 @@ body {
     color: #2e294e;
     background-color: #FCBF49;
     font-size: 18px;
+    padding-bottom: 20px;
 }
 
 page-intro-container-contact {
@@ -928,12 +929,22 @@ page-intro-container-contact {
 .map-box {
     background-color: #FCBF49;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 .map-box iframe {
     border: 3px solid;
     border-color: #d62828; 
+}
+
+.form-control:focus {
+    border-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(214, 40, 40,.25);
+}
+
+.contact-form-box {
+    background-color: #fcbf49;
+    color: #2e294e;
 }
 
 /*-- Footer -----------*/ 
