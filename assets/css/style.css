@@ -837,7 +837,20 @@ body {
 }
 
 .card-membership {
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
     margin-bottom: 45px;
+}
+
+.card-membership:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2), 0 4px 8px rgba(0,0,0,.4);
+}
+
+.card-membership h3{
+    font-weight: 600;
 }
 
 .card-membership-body {
@@ -847,8 +860,23 @@ body {
 }
 
 .most-popular {
-    box-shadow: 10px 12px 20px rgba(243, 52, 4, 0.4);
+    box-shadow: 8px 8px 30px 4px rgba(243, 52, 4, 0.6);
+    border-radius: 4px;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    margin-bottom: 45px;
+    background-color: #EAE2B7;
+    color: #2e294e;
+    border-radius: 0.3rem;
 } 
+
+.most-popular:hover {
+    box-shadow: 8px 8px 30px 4px rgba(214, 40, 40, 0.8);
+}
+
+.club-pass-pricing {
+    color: #2e294e;
+}
 
 .club-pass-pricing .ribbon {
   width: 160px;
@@ -861,29 +889,13 @@ body {
   background: #d62828;
   position: absolute;
   right: -15px;
-  top: -32px;
+  top: -28px;
   padding-top: 7px; 
   border-radius: 0.5rem;
 }
 
 .membership-gallery {
     border: none;
-}
-
-.card-membership {
-    border-radius: 4px;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-    cursor: pointer;
-}
-
-.card-membership:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
-
-.card-membership h3{
-    font-weight: 600;
 }
 
 /* ----------END of Membership pricing cards, ----------- */ 
