@@ -14,6 +14,15 @@ body {
     margin:  0;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.modal {
+    background-color: rgba(0, 48, 73,.35);
+    color: #EAE2B7;
+}
+
 /* -------------------------- Bootstrap Navbar ----------- */
 
 .navbar {
@@ -275,14 +284,9 @@ body {
     color: #eae2b7;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    bottom: 30%;
-}
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    bottom: 25px;
+    bottom: 70px;
     height: 60px;
     width: 60px;
     background-color: #d62828;
@@ -498,9 +502,7 @@ body {
 }
 
 .gym-gallery-container img {
-    max-height: 350px;
     width: 100%;
-    object-fit: cover;
 }
 
 .services-container-pt {
@@ -553,6 +555,31 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+.services-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #EAE2B7;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.services-button:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+    color: #eae2b7;
+}
+
+.services-containers img {
+    max-height: 450px;
+    object-fit: cover;
+}
+
 
 /* ----------/END of Services sections on services.html - Gym, Personal Training, and Studio sections ----------- */  
 
@@ -809,11 +836,11 @@ body {
     padding-top: 5px;
 }
 
-.card {
+.card-membership {
     margin-bottom: 45px;
 }
 
-.card-body {
+.card-membership-body {
     background-color: #EAE2B7;
     color: #2e294e;
     border-radius: 0.3rem;
@@ -1017,55 +1044,122 @@ body {
 @media screen and (min-width: 576px) and (orientation: landscape) {
     .d-sm-block {
         display: none;
-  }
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .carousel-caption h1 {
-    font-size: 40px;
-  }
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+
+    .services-containers h2 {
+        font-size: 28px;
+    }
+
+    .services-containers img {
+        margin-top: 10px;
+    }
+
+    .classes-box h2 {
+        font-size: 24px;
+    }
+
+    .classes-box h3 {
+        font-size: 20px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .carousel-control-next-icon:after {
+        content: '>';  
+        font-size: 17.5px;
+        font-style: normal;
+        color: #EAE2B7;
+    }
+
+    .carousel-control-prev-icon:after {
+        content: '<';
+        font-size: 17.5px;
+        font-style: normal;
+        color: #EAE2B7;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 991px) {
-  .carousel-caption h1 {
-    font-size: 60px;
+    .carousel-caption h1 {
+        font-size: 60px;
   }
+
+    .services-containers h2 {
+        font-size: 34px;
+  }
+
+    .services-containers img {
+        margin-top: 10px;
+  }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .carousel-control-next-icon:after {
+        content: '>';  
+        font-size: 17.5px;
+        font-style: normal;
+        color: #EAE2B7;
+    }
+
+    .carousel-control-prev-icon:after {
+        content: '<';
+        font-size: 17.5px;
+        font-style: normal;
+        color: #EAE2B7;
+    }
 }
 
 @media screen and (min-width: 992px) {
-  .carousel-caption h1 {
-    font-size: 80px;
+    .carousel-caption h1 {
+        font-size: 80px;
   }
 
-  .page-intro-container  h1 {
-    font-size: 45px;
+    .page-intro-container  h1 {
+        font-size: 45px;
   }
 
-  .address-box {
-    justify-content: right;
-    text-align: right;
+    .address-box {
+        justify-content: right;
+        text-align: right;
   }
 
-  .address-box address {
-    justify-content: right;
-    text-align: right;
+    .address-box address {
+        justify-content: right;
+        text-align: right;
   }
 
-  .footer-mobile-only-home-link {
-    display: none;
+    .footer-mobile-only-home-link {
+        display: none;
   }
 
-  .jumbotron-container {
-    padding-left: 60px;
-    padding-left: 60px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    .jumbotron-container {
+        padding-left: 60px;
+        padding-left: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
   }
 
-  .jumbotron-container h1 {
-    font-size: 55px;
+    .jumbotron-container h1 {
+        font-size: 55px;
   }
 
+    .services-containers h2 {
+        font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 702px) {
