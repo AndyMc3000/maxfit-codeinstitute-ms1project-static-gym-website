@@ -898,47 +898,21 @@ body {
     border: none;
 }
 
-/* ----------END of Membership pricing cards, ----------- */ 
+/*-- /END of Membership pricing cards, ----------- */ 
 
-/* ---------- Social Block ----------------- */ 
+/*-- Team page -----------*/ 
 
-.social-container {
-    background-image: url('images/maxfit-carousel-slide-placeholder.png');
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center center;
-    height: 300px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    resize: both;
-    overflow: auto;
+.team-section {
+    background-color: #FCBF49;
+    color: #2e294e;
 }
 
-.social-block {
-    text-align: center;
-    color: #FFFFFF;
-    height: 200px;
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgba(0, 255, 0, 0.3);
-    position: absolute;
-    display: inline-block;
-    resize: both;
-    overflow: auto;
+.page-intro-container-team {
+    padding-bottom: 5px;
 }
 
-.social-block li {
-    font-size: 68px;
-}
-
-/* ----------END of Social Block ----------- */ 
-
-
-/* ----------Footer ----------- */ 
+/*-- /END of Team page -----------*/ 
+/*-- Footer -----------*/ 
 
 .footer {
     background-color: #2e294e;
@@ -949,14 +923,33 @@ body {
     border-color: #EAE2B7;
 }
 
+.social-links-footer .bio {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
 .social-links-footer li i {
     font-size: 40px;
     margin: 4px;
-    color: #FCBF49;;
+    color: #FCBF49;
 }
 
 .social-links-footer li i:hover {
     color: #d62828;
+}
+
+.social-links-footer ul {
+    padding-inline-start: 0px;
+}
+
+.social-links-footer ul i {
+    font-size: 40px;
+    margin: 4px;
+    color: #d62828;
+}
+
+.social-links-footer ul i:hover {
+    color: #2e294e;
 }
 
 .footer-navigation-list li {
@@ -986,12 +979,6 @@ body {
 
 .address-box {
     padding-right: 30px;
-}
-
-.social-links-footer li i {
-    font-size: 40px;
-    margin: 4px;
-    color: #FCBF49;;
 }
 
 .footer-mobile-only-home-link {
