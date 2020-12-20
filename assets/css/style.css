@@ -18,14 +18,11 @@ body {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .modal {
     background-color: rgba(0, 48, 73,.35);
     color: #EAE2B7;
 }
 
-=======
->>>>>>> d12c2d8c5b6033f8e4892fab0cd76f7c4ef2549e
 /* -------------------------- Bootstrap Navbar ----------- */
 
 .navbar {
@@ -1065,7 +1062,6 @@ body {
 @media screen and (max-width: 600px) {
     .carousel-caption h1 {
         font-size: 40px;
-<<<<<<< HEAD
     }
 
     .services-containers h2 {
@@ -1075,17 +1071,6 @@ body {
     .services-containers img {
         margin-top: 10px;
     }
-=======
-  }
-
-    .services-containers h2 {
-        font-size: 28px;
-  }
-
-    .services-containers img {
-        margin-top: 10px;
-  }
->>>>>>> d12c2d8c5b6033f8e4892fab0cd76f7c4ef2549e
 
     .classes-box h2 {
         font-size: 24px;
@@ -1094,7 +1079,6 @@ body {
     .classes-box h3 {
         font-size: 20px;
     }
-<<<<<<< HEAD
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
@@ -1115,24 +1099,11 @@ body {
         font-style: normal;
         color: #EAE2B7;
     }
-=======
->>>>>>> d12c2d8c5b6033f8e4892fab0cd76f7c4ef2549e
 }
 
 @media screen and (min-width: 600px) and (max-width: 991px) {
     .carousel-caption h1 {
         font-size: 60px;
-<<<<<<< HEAD
-=======
-  }
-
-    .services-containers h2 {
-        font-size: 34px;
-  }
-
-    .services-containers img {
-        margin-top: 10px;
->>>>>>> d12c2d8c5b6033f8e4892fab0cd76f7c4ef2549e
   }
 
     .services-containers h2 {
