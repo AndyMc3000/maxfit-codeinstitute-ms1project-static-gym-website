@@ -938,17 +938,17 @@ body {
     color: #d62828;
 }
 
-.social-links-footer ul {
+.social-links-team ul {
     padding-inline-start: 0px;
 }
 
-.social-links-footer ul i {
+.social-links-team ul i {
     font-size: 40px;
     margin: 4px;
     color: #d62828;
 }
 
-.social-links-footer ul i:hover {
+.social-links-team ul i:hover {
     color: #2e294e;
 }
 
