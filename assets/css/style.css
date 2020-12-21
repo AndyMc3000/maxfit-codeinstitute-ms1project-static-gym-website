@@ -945,6 +945,28 @@ page-intro-container-contact {
 .contact-form-box {
     background-color: #fcbf49;
     color: #2e294e;
+    padding-bottom: 45px;
+}
+
+.contact-form-box i {
+    font-size: 60px;
+    color: #d62828;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.form-group button {
+    font-size: 20px;
+    color: #eae2b7;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.form-group button:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(214, 40, 40,.65);
+    color: #eae2b7;
 }
 
 /*-- Footer -----------*/ 

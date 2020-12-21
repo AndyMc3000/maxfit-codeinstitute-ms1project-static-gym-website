@@ -134,10 +134,13 @@
 <!-- Contact Form block -->
 
 <section>
-    <div class="container-fluid contact-form-box ">
+    <div class="container-fluid contact-form-box">
         <div class="row justify-content-center">
             <div class="col-9 justify-content-center">  
                 <div class="text-center">
+                    <div>
+                    <i class="fas fa-phone-volume"></i><br>
+                    </div>
                     <h2>Request a Callback</h2>
                     <p>Complete the form below and we will contact you to arrange a free no-oblgation 30-minute consultation by phone.</p>
                     <p>You can use the Message box to let us know about any of our Services or Classes you are interested in, or to ask any questions you might have of us.</p>
@@ -159,31 +162,28 @@
                                 <div class="form-group">
                                     <label for="emailAddress">Email Address:</label>
                                     <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter your email address">
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else!</small>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else!</small><br>
                                 </div>
                                 <div class="form-group">
                                     <label for="telNumber">Telephone Number:</label>
-                                    <input type="number" class="form-control" id="telNumber" aria-describedby="telephoneHelp" placeholder="Enter your Telephone Number">
+                                    <input type="number" class="form-control" id="telNumber" aria-describedby="telephoneHelp" placeholder="Enter your Telephone Number"><br>
                                 </div>
                                 <div class="form-group">
-                                    <h5>Select</h5>
-                                    <input type="radio" id="freeConsultation" name="freeConsultation" value="freeConsultation">
-                                    <label for="freeConsultation">Free Consultation</label><br>
-                                    <input type="radio" id="freeTrial" name="freeTrial" value="freeTrial">
-                                    <label for="freeTrial">Free Trial</label><br>
-                                    <input type="radio" id="" name="signUp" value="signUp">
-                                    <label for="signUp">Sign Up</label><br>
+                                    <label for="cars">Choose a car:</label>
+                                    <select class="form-control" id="cars" name="cars">
+                                    <option value="volvo">Volvo</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="fiat">Fiat</option>
+                                    <option value="audi">Audi</option>
+                                    </select><br>
                                 </div>
-                            
-                                <label for="lname">Surname:</label><br>
-                                <input type="text" id="lname" name="lname"><br>
-                                <label for="email">Email:</label><br>
-                                <input type="email" id="email" name="email"><br>
-                                <label for="tel">Telephone Number:</label><br>
-                                <input type="tel" id="tel" name="email"><br>
-                                <label for="message">Message:</label><br>
-                                <input type="text" id="message" name="message"><br><br>
-                                <button type="button submit" class="btn btn-primary">Submit</button>
+                                <div class="form-group">
+                                    <label for="start">Start date:</label>
+                                    <input class="form-control" type="date" id="start" name="trip-start" value="2018-07-22" min="2021-01-01" max="2021-12-31"><br>
+                                </div>
+                                <div class="form-group">
+                                    <button type="button submit" class="btn form-control">Submit</button><br>
+                                </div>
                             </form>
                         </div>
                     </div>
