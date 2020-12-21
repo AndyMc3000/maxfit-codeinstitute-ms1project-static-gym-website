@@ -121,7 +121,7 @@ body {
     font-size: 20px;
 }
 
-.carousel-caption button { 
+.carousel-caption .button { 
     font-size: 20px;
     color: #eae2b7;
     z-index: 1;
@@ -159,7 +159,7 @@ body {
     color: #d7263d;
 }
 
-.page-intro-container button {
+.page-intro-container .button {
     font-size: 20px;
     color: #EAE2B7;
     z-index: 1;
@@ -983,9 +983,9 @@ page-intro-container-contact {
     color: #eae2b7;
 }
 
-.select-selected {
-    background-color: #2e294e;
-    color: #EAE2B7;
+select option {
+    background-color: #FCBF49;
+    color: #2e294e;
     font-size: 18px;
     align-items: center;
 }

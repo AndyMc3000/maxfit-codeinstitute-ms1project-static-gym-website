@@ -138,7 +138,7 @@
         <div class="row justify-content-center">
             <div class="col-9 justify-content-center">  
                 <div class="text-center">
-                    <div>
+                    <div id=callback-form>
                     <i class="fas fa-phone-volume"></i><br>
                     </div>
                     <h2>Request a Callback</h2>
@@ -152,37 +152,36 @@
                         <div class="col-12 col-md-10">
                             <form>
                                 <div class="form-group">
-                                    <label for="firstname">First Name:</label><br>
-                                    <input type="text" class="form-control" id="firstname" name="firstname"><br>
+                                    <label for="firstname">Your First Name:</label><br>
+                                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter your first name"><br>
                                 </div>
                                 <div class="form-group">
-                                    <label for="lastname">Last Name:</label><br>
-                                    <input type="text" class="form-control" id="lastname" name="lastname"><br>
+                                    <label for="lastname">Your Surname:</label><br>
+                                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter your surname"><br>
                                 </div>
                                 <div class="form-group">
-                                    <label for="emailAddress">Email Address:</label>
-                                    <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter your email address">
+                                    <label for="emailAddress">Your Email Address:</label>
+                                    <input type="email" class="form-control" id="emailAddress" name="email" aria-describedby="emailHelp" placeholder="Enter your email address">
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else!</small><br>
                                 </div>
                                 <div class="form-group">
-                                    <label for="telNumber">Telephone Number:</label>
+                                    <label for="telNumber">YourTelephone Number:</label>
                                     <input type="number" class="form-control" id="telNumber" aria-describedby="telephoneHelp" placeholder="Enter your Telephone Number"><br>
                                 </div>
-                                <div class="form-group">
-                                    <label for="cars">Choose a car:</label>
+                                <div class="form-group options-group">
+                                    <label for="cars">Choose an option:</label>
                                     <select class="form-control" id="cars" name="cars">
-                                    <option value="volvo">Volvo</option>
-                                    <option value="saab">Saab</option>
-                                    <option value="fiat">Fiat</option>
-                                    <option value="audi">Audi</option>
+                                    <option value="I would like to sign-up for a PASS or Class membership">I would like to sign-up for a PASS or Class membership</option>
+                                    <option value="I would like a FREE Trial">I would like a FREE Trial</option>
+                                    <option value="I would like a FREE Consultation">I would like a FREE Consultation</option>
                                     </select><br>
                                 </div>
                                 <div class="form-group">
-                                    <label for="start">Start date:</label>
-                                    <input class="form-control" type="date" id="start" name="trip-start" value="2018-07-22" min="2021-01-01" max="2021-12-31"><br>
+                                    <label for="start">Your preferred contact date:</label>
+                                    <input class="form-control" type="date" id="start" name="trip-start" value="2020-12-23" min="2020-12-23" max="2021-12-31"><br>
                                 </div>
                                 <div class="form-group">
-                                    <button type="button submit" class="btn form-control">Submit</button><br>
+                                    <button type="button submit" class="btn btn-md form-control">Send</button><br>
                                 </div>
                             </form>
                         </div>

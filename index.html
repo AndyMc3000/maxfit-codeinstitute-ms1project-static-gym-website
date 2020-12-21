@@ -18,108 +18,11 @@
     <link rel="icon" type="image/png" href="assets/css/images/maxfit-favicon.png"/>
     <title>M A X F I T - Home</title>
 </head>
+
 <body>
-<!-- Free Consultation Modal ------------------------------------------------------------------>
-<div class="modal" id="consultation-modal" tabindex="-1">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <img class="modal-title" src="assets/css/images/maxfit-logo-navbar.png" alt="Maxfit Logo">
-                <button type="button" class="close btn btn-secondary" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">  
-                <div class="text-center">
-                    <h2>Request a Callback</h2>
-                    <p>Complete the form below and we will contact you to arrange a free no-oblgation 30-minute consultation by phone.</p>
-                    <p>You can use the Message box to let us know about any of our Services or Classes you are interested in, or to ask any questions you might have of us.</p>
-                    <p>We look forward to speaking with you!</p>
-                    <hr> 
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div>
-                                <form>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                    </div>
-                                    <div class="form-group">
-                                    <label for="fname">First Name:</label><br>
-                                    <input type="text" class="form-control" id="fname" name="fname"><br>
-                                    </div>
-                                    <label for="lname">Surname:</label><br>
-                                    <input type="text" id="lname" name="lname"><br>
-                                    <label for="email">Email:</label><br>
-                                    <input type="email" id="email" name="email"><br>
-                                    <label for="tel">Telephone Number:</label><br>
-                                    <input type="tel" id="tel" name="email"><br>
-                                    <label for="message">Message:</label><br>
-                                    <input type="text" id="message" name="message"><br><br>
-                                    <button type="button submit" class="btn btn-primary">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Free Consultation Modal ------------------------------------------------------------------>
-
-<!-- Free Trial Modal ------------------------------------------------------------------>
-<div class="modal" id="free-trial-modal" tabindex="-1">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <img class="modal-title" src="assets/css/images/maxfit-logo-navbar.png" alt="Maxfit Logo">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">  
-                <div class="text-center">
-                    <h2>Limited Free Trial Offer</h2>
-                    <p>Complete the form below, including you preferred start date, and we will set you up as a member with a Silver Pass for 7 days.</p>
-                    <p>You can use the Message box to let us know about any of our Services or Classes you are interested in, or to ask any questions you might have of us.</p>
-                    <p>We look forward to seeing you at MAXFIT!</p>
-                    <hr> 
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="text-center">
-                                <form>
-                                    <label for="fname">First Name:</label><br>
-                                    <input type="text" id="fname" name="fname"><br>
-                                    <label for="lname">Surname:</label><br>
-                                    <input type="text" id="lname" name="lname"><br>
-                                    <label for="email">Email:</label><br>
-                                    <input type="email" id="email" name="email"><br>
-                                    <label for="tel">Telephone Number:</label><br>
-                                    <input type="tel" id="tel" name="email"><br>
-                                    <label for="message">Message:</label><br>
-                                    <input type="text" id="message" name="message"><br>
-                                    <label for="birthday">Start Date:</label><br>
-                                    <input type="date" id="birthday" name="birthday"><br><br>
-                                    <button type="button submit" class="btn btn-primary">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Free Trial Modal ------------------------------------------------------------------>
 
 <!-- Main Gallery - Bootstrap Carousel Modal Gallery --------------------------------------------------------->
+
 <div class="modal fade" id="gallery-modal" tabindex="-1">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -241,7 +144,8 @@
     </div>
   </div>
 </div>
-<!-- END of Main Gallery - Bootstrap Carousel Modal Gallery ------------------------------------->
+
+<!-- /END of Main Gallery - Bootstrap Carousel Modal Gallery ------------------------------------->
 
 <!-- Navigation bar --------------------------------------------------------------------->
     <nav class="navbar sticky-top navbar-expand-lg">
@@ -275,9 +179,9 @@
         </div>
     </nav>
 
-<!-- END of Navigation bar -------------------------------------------------------------->
+<!-- /END of Navigation bar -->
 
-<!-- Call-out Carousel ----------------------------------------------------------------->
+<!-- Call-out Carousel -->
 
 <section>
     <div class="container-fluid home-top-carousel">
@@ -290,9 +194,9 @@
                         <hr>
                         <h3 class="d-none d-sm-block">Maximise the potential within yourself</h3>
                         <p class="d-block">Talk to us today about how we can support your fitness goals</p>
-                        <button type="button" class="btn" data-toggle="modal" data-target="#consultation-modal">
+                        <a href="contact.html#callback-form" class="btn button" role="button">
                         Lets Talk
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -302,9 +206,9 @@
                         <hr>
                         <h3 class="d-none d-sm-block">Our Mission is You</h3>
                         <p class="d-block">Talk to us today about how we can support your fitness goals</p>
-                        <button type="button" class="btn" data-toggle="modal" data-target="#consultation-modal">
+                        <a href="contact.html#callback-form" class="btn button" role="button">
                         Lets Talk
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -314,9 +218,9 @@
                         <hr>
                         <h3 class="d-none d-sm-block">We support your Goals and Passions</h3>
                         <p class="d-block">Talk to us today about how we can support your fitness goals</p>
-                        <button type="button" class="btn" data-toggle="modal" data-target="#consultation-modal">
+                        <a href="contact.html#callback-form" class="btn button" role="button">
                         Lets Talk
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -355,18 +259,19 @@
                     <p>
                         Talk to us to today to start your journey to a healthier and happier you!
                     </p>
-                    <button type="button" class="btn" data-toggle="modal" data-target="#consultation-modal">
-                        Request a Callback
-                    </button>
+                    <a href="contact.html#callback-form" class="btn button" role="button">
+                    Lets Talk
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- END of Homepage introduction container  ------------------------------------------------------------>
+<!-- END of Homepage introduction container  -->
 
-<!-- Features/Unique Selling Points container and blocks --------------------------------->
+<!-- Features/Unique Selling Points container and blocks -->
+
 <div class="container-wrapper">
     <div class="container-fluid features-container">
         <section>
@@ -473,7 +378,9 @@
                         <br><h1>Take your first step today..</h1>
                         <h2>..for <strong>FREE!</strong></h2>
                         <p>Take your first steps towards a better you, on us! For a limited time are currently offering 1 week trial membereship under our Silver Pass membership. Simply click the button below to Register for your Free Trail now. We can't wait to see you..</p>
-                        <button type="button" class="btn pointer" data-toggle="modal" data-target="#free-trial-modal">Register</button>
+                        <a href="contact.html#callback-form" class="btn button" role="button">
+                        Lets Talk
+                        </a>
                     </div>
                 </div>
             </div>
