@@ -836,6 +836,20 @@ body {
     padding-top: 5px;
 }
 
+.card-membership-body .btn {
+    font-size: 18px;
+    color: #eae2b7;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.card-membership-body .btn:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(214, 40, 40,.65);
+    color: #eae2b7;
+}
+
 .card-membership {
     border-radius: 4px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
@@ -967,6 +981,13 @@ page-intro-container-contact {
     background-color: #2e294e;
     box-shadow: 0 0 0 0.2rem rgba(214, 40, 40,.65);
     color: #eae2b7;
+}
+
+.select-selected {
+    background-color: #2e294e;
+    color: #EAE2B7;
+    font-size: 18px;
+    align-items: center;
 }
 
 /*-- Footer -----------*/ 
