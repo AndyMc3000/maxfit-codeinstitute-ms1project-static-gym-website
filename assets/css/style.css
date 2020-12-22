@@ -423,7 +423,7 @@ gallery-carousel-caption {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 10px;
-    padding-right: 10px0;
+    padding-right: 10px;
 }
 
 .free-trial-container div {
@@ -648,6 +648,15 @@ gallery-carousel-caption {
     align-content: center;
 }
 
+.service-description i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.service-description h2 {
+    margin-bottom: 15px;
+}
+
 .classes-gallery-container img {
     max-height: 350px;
     width: 95%;
@@ -816,6 +825,7 @@ gallery-carousel-caption {
 .card-header {
     background-color: #2e294e;
     padding: 10px;
+    padding-bottom: 0px;
 }
 
 .card-body {
@@ -833,6 +843,11 @@ gallery-carousel-caption {
 
 .card-header button {
     color: #EAE2B7;
+    font-size: 20px;
+}
+
+.card-header p {
+    margin-bottom: 0px;
 }
 
 .card-header button:hover {
@@ -844,18 +859,22 @@ gallery-carousel-caption {
     padding-left: 0;
 }
 
+.classes-accordian button i {
+    font-size: 30px;
+}
+
 .classes-table-head {
     background-color: #d62828;
     color: #EAE2B7;
 }
 
 .card-header .collapsed i {
-  transform: rotateX(0deg);
+  transform: rotateX(180deg);
 }
 
 .card-header i {
-  transition: transform .8s;
-  transform: rotateX(180deg);
+  transition: transform 1s;
+  transform: rotateX(0deg);
 }
 
 /* ----------End of Classes.html Gallery Containers----------- */ 
@@ -1056,6 +1075,7 @@ select option {
 
 .social-links-team ul {
     padding-inline-start: 0px;
+    writing-mode: horizontal-tb;
 }
 
 .social-links-team ul i {
@@ -1101,7 +1121,7 @@ select option {
     background-color: #2e294e;
     margin: 0px;
     padding: 10px;
-    padding-bottom: 10;
+    padding-bottom: 10px;
     padding-top: 0;
     border-top: 2px;
     border-color: #eae2b7;
