@@ -18,12 +18,36 @@ body {
     cursor: pointer;
 }
 
+/* -- Bootstrap Modal -- */
+
 .modal {
-    background-color: rgba(0, 48, 73,.35);
+    background-color: rgba(0, 48, 73,.85);
     color: #EAE2B7;
 }
 
-/* -------------------------- Bootstrap Navbar ----------- */
+.modal-content {
+    background-color: rgba(252, 191, 73,.95);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    padding-top: 0px;
+    color: #2e294e;
+    border-bottom: none;
+}
+
+gallery-carousel-caption {
+    border-top: none;
+    padding-top: 10px;
+    color: #2e294e;
+}
+
+/* -- /END of Bootstrap Modal -- */
+
+/* -- Bootstrap Navbar -- */
 
 .navbar {
     margin-bottom: 0;
@@ -167,10 +191,24 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
 }
 
-.page-intro-container button:hover {
+.page-intro-container .button:hover {
     background-color: #2e294e;
     box-shadow: 0 0 0 0.2rem rgba(214, 40, 40,.65);
     color: #eae2b7;
+}
+
+.page-intro-container .dropdown-menu {
+    background-color: #2e294e;
+    width: auto;
+}
+
+.page-intro-container .dropdown-item {
+    padding-right: 60px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #d62828;
+    color: #EAE2B7;
 }
 
 /* ----------END of Page introduction containers ----------- */ 

@@ -18,54 +18,25 @@
     <link rel="icon" type="image/png" href="assets/css/images/maxfit-favicon.png"/>
     <title>M A X F I T - Home</title>
 </head>
+
 <body>
 
-<!--------- Free Trial Modal ------------------------------------------------------------------>
-<div class="modal" id="free-trial-modal" tabindex="-1">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Free Trial Modal</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">  
-        <div>
-        <h2>Free Trial Form</h2> 
-        </div>
-        </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!--------- Free Trial Modal ------------------------------------------------------------------>
-
-<!--------- Main Gallery - Bootstrap Carousel Modal Gallery --------------------------------------------------------->
+<!-- Main Gallery (Bootstrap Carousel Modal Gallery) -->
 <div class="modal fade" id="gallery-modal" tabindex="-1">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Photo Gallery</h5>
+        <img class="modal-title" src="assets/css/images/maxfit-logo-navbar.png" alt="Maxfit Logo"><br>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div id="MainCarouselCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-pause="hover">
-        <ol class="carousel-indicators">
-            <li data-target="#MainCarouselCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#MainCarouselCaptions" data-slide-to="1"></li>
-            <li data-target="#MainCarouselCaptions" data-slide-to="2"></li>
-            <li data-target="#MainCarouselCaptions" data-slide-to="3"></li>
-        </ol>
         <div class="modal-body">  
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/css/images/main-gallery/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg" class="d-block w-100" alt="Photo 1 Gym">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>First slide label</h5>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -73,7 +44,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/jonathan-borba-lrQPTQs7nQQ-unsplash.jpg" class="d-block w-100" alt="image 2">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -81,7 +52,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/humphrey-muleba-dDp-6pXrYik-unsplash.jpg" class="d-block w-100" alt="image office sea">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Third slide label</h5>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -89,7 +60,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/keith-yap-uTHTcQZYuJ4-unsplash.jpg" class="d-block w-100" alt="image 2">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -97,7 +68,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/gina-lin-m27OTMegUyA-unsplash.jpg" class="d-block w-100" alt="image 2">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -105,7 +76,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/sriyoga-ashram-QgCl-pNkfPc-unsplash.jpg" class="d-block w-100" alt="image 2">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -113,7 +84,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/erik-brolin-ZARfCYDaVg0-unsplash.jpg" class="d-block w-100" alt="image 2">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -121,7 +92,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/jonathan-borba-lrQPTQs7nQQ-unsplash.jpg" class="d-block w-100" alt="image 2">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -129,7 +100,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/jonathan-borba-lrQPTQs7nQQ-unsplash.jpg" class="d-block w-100" alt="image 2">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -137,7 +108,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/anastase-maragos-fG0p4Qh_aWI-unsplash.jpg" class="d-block w-100" alt="image 2">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -145,7 +116,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="assets/css/images/main-gallery/jonathan-borba-9MmySMZ42PI-unsplash.jpg" class="d-block w-100" alt="image 2">
-                    <div class="main-gallery-carousel-caption d-none d-md-block text-center">
+                    <div class="gallery-carousel-caption d-none d-md-block text-center">
                         <hr>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -165,9 +136,11 @@
     </div>
   </div>
 </div>
-<!--------- END of Main Gallery - Bootstrap Carousel Modal Gallery ------------------------------------->
 
-<!---------Navigation bar --------------------------------------------------------------------->
+<!-- END of Main Gallery - Bootstrap Carousel Modal Gallery -->
+
+<!-- Navigation Bar (Bootstrap Navigation Bar) -->
+
     <nav class="navbar sticky-top navbar-expand-lg">
         <a class="navbar-brand" href="index.html">
             <img src="assets/css/images/maxfit-logo-navbar.png" alt="M A X F I T Logo">
@@ -199,9 +172,10 @@
         </div>
     </nav>
 
-<!---------END of Navigation bar -------------------------------------------------------------->
+<!-- /END of Navigation Bar (Bootstrap Navigation Bar) -->
 
-<!---------Callout container & Bootstrap Jumbotron --------------------------------------------------->
+<!-- Callout container & Bootstrap Jumbotron -->
+
 <div class="container-fluid services-callout-container">
     <div class="row">
         <div class="col-12 jumbotron-col justify-content-center">
