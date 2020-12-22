@@ -1082,7 +1082,7 @@ select option {
 }
 
 .social-links-team ul {
-    padding-inline-start: 0px;
+    padding: 0px;
     writing-mode: horizontal-tb;
 }
 

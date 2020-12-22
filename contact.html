@@ -84,7 +84,7 @@
         <div class="page-intro-container-contact">
             <div class="row justify-content-center">
                 <div class="col-10 col-sm-8 text-center">
-                <h1>Contact Us</h1>
+                <h2>Contact Us</h2>
                 <i class="fas fa-phone-volume"></i>
                 <hr>
                 <p>Whether you are an experienced gym user or a complete beginner, our team can help you achieve the results you have been looking for in our modern, comfortable health and fitness club. Our experienced and enthusiastic team will help guide you on your journey to a fitter, healthier and happier you. Please see more detials below.</p>
@@ -107,9 +107,10 @@
                 <div>
                     <img src="assets/css/images/maxfit-logo-navbar.png" alt="MAXFIT Logo">
                 </div>
+                <br>
                 <div>
+                    <h6>M A X F I T Ltd.</h6>
                     <address>
-                        M A X F I T Ltd.<br>
                         Fossa<br>
                         Kilarney<br>
                         Co.Kerry<br>
@@ -153,24 +154,24 @@
                             <form>
                                 <div class="form-group">
                                     <label for="firstname">Your First Name:</label><br>
-                                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter your first name"><br>
+                                    <input type="text" class="form-control" id="firstname" name="firstname" aria-describedby="lastname" placeholder="Enter your first name"><br>
                                 </div>
                                 <div class="form-group">
                                     <label for="lastname">Your Surname:</label><br>
-                                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter your surname"><br>
+                                    <input type="text" class="form-control" id="lastname" name="lastname" aria-describedby="lastname" placeholder="Enter your surname"><br>
                                 </div>
                                 <div class="form-group">
                                     <label for="emailAddress">Your Email Address:</label>
-                                    <input type="email" class="form-control" id="emailAddress" name="email" aria-describedby="emailHelp" placeholder="Enter your email address">
+                                    <input type="email" class="form-control" id="emailAddress" name="email" aria-describedby="emailAddres" placeholder="Enter your email address">
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else!</small><br>
                                 </div>
                                 <div class="form-group">
                                     <label for="telNumber">YourTelephone Number:</label>
-                                    <input type="number" class="form-control" id="telNumber" aria-describedby="telephoneHelp" placeholder="Enter your Telephone Number"><br>
+                                    <input type="number" class="form-control" id="telNumber" aria-describedby="telNumber" placeholder="Enter your Telephone Number"><br>
                                 </div>
                                 <div class="form-group options-group">
                                     <label for="cars">Choose an option:</label>
-                                    <select class="form-control" id="cars" name="cars">
+                                    <select class="form-control" id="cars" name="cars" aria-describedby="cars">
                                     <option value="I would like to sign-up for a PASS or Class membership">I would like to sign-up for a PASS or Class membership</option>
                                     <option value="I would like a FREE Trial">I would like a FREE Trial</option>
                                     <option value="I would like a FREE Consultation">I would like a FREE Consultation</option>
@@ -178,10 +179,10 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="start">Your preferred contact date:</label>
-                                    <input class="form-control" type="date" id="start" name="trip-start" value="2020-12-23" min="2020-12-23" max="2021-12-31"><br>
+                                    <input class="form-control" type="date" id="start" name="trip-start" aria-describedby="start" value="2020-12-23" min="2020-12-23" max="2021-12-31"><br>
                                 </div>
                                 <div class="form-group">
-                                    <button type="button submit" class="btn btn-md form-control">Send</button><br>
+                                    <button type="submit" value="Submit" class="btn btn-md form-control">Send</button><br>
                                 </div>
                             </form>
                         </div>
@@ -280,8 +281,8 @@
             <div class="col-12 col-md-6 col-lg-4 address-box">
                 <img src="assets/css/images/maxfit-logo-navbar.png" alt="MAXFIT Logo">
                 <hr>
-                <address>
                 <h5>M A X F I T Ltd.</h5>
+                <address>
                 Fossa<br>
                 Kilarney<br>
                 Co.Kerry<br>
