@@ -844,14 +844,22 @@ gallery-carousel-caption {
 .card-header button {
     color: #EAE2B7;
     font-size: 20px;
-}
-
-.card-header p {
     margin-bottom: 0px;
+    border: none;
+    padding: 0px;
 }
 
 .card-header button:hover {
     color: #FCBF49;
+}
+
+.card-body h3 {
+    color: #EAE2B7;
+    text-align: center;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
 }
 
 .classes-accordian {
