@@ -99,7 +99,12 @@ gallery-carousel-caption {
 }
 
 .navbar-toggler-icon {
-    background-color: #FCBF49;
+    background-color: #d62828;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto #fcbf49;
 }
 
 /* -------------------------- / END of Bootstrap Navbar ----------- */
