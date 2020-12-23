@@ -123,7 +123,7 @@ button:focus {
 }
 
 .carousel-caption { 
-    background-color: rgba(230, 57, 70, 0.5);
+    background-color: rgba(230, 57, 70, 0.7);
     margin: 0;
     width: 66%; 
     color: #EAE2B7; 
@@ -134,11 +134,13 @@ button:focus {
     -webkit-transform: translate(0, -50%); 
     -ms-transform: translate(0, -50%); 
     transform: translate(0, -50%); 
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .carousel-caption h1 { 
-    font-size: 80px;
+    font-size: 70px;
     letter-spacing: 0.2em
 }
 
@@ -150,6 +152,12 @@ button:focus {
     font-size: 20px;
 }
 
+.carousel-caption hr { 
+    background-color: #eae2b7;
+    height: 1px;
+    width: 80%;
+}
+
 .carousel-caption .button { 
     font-size: 20px;
     color: #eae2b7;
@@ -158,7 +166,7 @@ button:focus {
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
 }
 
-.carousel-caption button:hover {
+.carousel-caption .button:hover {
     background-color: #2e294e;
     box-shadow: 0 0 0 0.2rem rgba(214, 40, 40,.65);
     color: #eae2b7;
@@ -172,8 +180,8 @@ button:focus {
     background-color: #FCBF49;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #2e294e; 
 }
 
@@ -264,6 +272,8 @@ button:focus {
 .feature-box i {
     color: #fcbf49;
     font-size: 45px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .feature-box .btn {
@@ -399,6 +409,8 @@ button:focus {
 .testimonial-box i {
     color: #fcbf49;
     font-size: 45px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .testiomonial-container hr {
@@ -446,6 +458,11 @@ button:focus {
     padding-left: 10px;
     margin: 8%;
     border-radius: 0.3rem;
+}
+
+.free-trial-box p {
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .free-trial-box .btn {
