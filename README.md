@@ -20,7 +20,7 @@
 
 ## 1. <a name="introduction-heading">Introduction</a> ##
 
-The MaxFit website is my Milestone Project 1 (MS1) for my Diploma in Software Engineering course at Code Institute. The below refers to MaFit as a fictional client of mine, where I have been hired to develop a website for them to meet certain requirements (see UX section below). However the underlying goal of the project is to meet and exceed the requirements laid out for the MS1 by Code Institute. The main goal of the MS1 is to "..build a static front-end site to present useful information to users, using all the technologies that you have learned about so far." Thosee principle technologies being HTML5, CSS3, and Bootstrap front-end framework.
+The MaxFit website is my Milestone Project 1 (MS1) for my Diploma in Software Engineering course at Code Institute. The below refers to MaxFit as a fictional client of mine, where I have been hired to develop a website for them to meet certain requirements (see UX section below). However the underlying goal of the project is to meet and exceed the requirements laid out for the MS1 by Code Institute. The main goal of the MS1 is to "..build a static front-end site to present useful information to users, using all the technologies that you have learned about so far." Those principle technologies being HTML5, CSS3, and Bootstrap front-end framework.
 
 MaxFit is a Gym and Fitness Club based on the beautiful shores of Lough Leane, Killarney. MaxFit is run by a passionate and inclusive group of fitness experts and professionals, and boasts state-of-the-art equipment and facilities. At MaxFit, their goal is to maximise the potential within their members.
 
@@ -38,89 +38,91 @@ The design of this website was determined by assessing and quantifying the goals
 Please see below details of 'Client Stories' to detail the requirements of the business owners, and 'User Stories' which highlight the requiremnts of end users of the website.
 
 #### Client Stories ####
-> - [ ] “The main goal of the website is to attract new customers, and provide value to existing customers in the information is provides.”
-> - [ ] “The website must show and promote the quality of the facilities at MAXFIT.”
-> - [ ] “The website must detail Membership costs and features (Gold & Silver Passes, each with 3-month, 6-month, 12-month, student/senior pricing).” 
-> - [ ] “The website must allow people to easily contact MAXFIT to arrange a free fitness consultation.”
-> - [ ] “The website must promote details about MAXFIT’s 1-month free trial membership offer.”
-> - [ ] “The website must promote MAXFIT’s Personal Training services.”
-> - [ ] “The website must detail the classes MAXFIT currently offer and highlight their costs and schedule/frequency.”
-> - [ ] “The website must visually appeal to potential customers from all walks of life. MAXFIT is not just a ‘hard-core workout’ gym, it is an fitness and wellness centre too. MAXFIT’s range of services appeal to customers of all age groups, male and female.”
-> - [ ] “The website must promote the fact that MAXFIR offers 24-hour access.”
-> - [ ] “The website must promote MAXFIT’s social media channels” 
-> - [ ] “The website must show some testimonial quotes”
-> - [ ] “There must be a system in place to track website usage statistics and end user interactions. All MAXFIT owned internet-connected computers, routers, or devices should be automatically excluded from website statistics/reports.”
-> - [ ] “The website must be mobile-friendly.”
+> - [x] “The main goal of the website is to attract new customers, and provide value to existing customers in the information is provides.”
+> - [x] “The website must show and promote the quality of the facilities at MAXFIT.”
+> - [x] “The website must detail Membership costs and features (Gold & Silver Passes, each with 3-month, 6-month, 12-month, student/senior pricing).” 
+> - [x] “The website must allow people to easily contact MAXFIT to arrange a free fitness consultation.”
+> - [x] “The website must promote details about MAXFIT’s 1-month free trial membership offer.”
+> - [x] “The website must promote MAXFIT’s Personal Training services.”
+> - [x] “The website must detail the classes MAXFIT currently offer and highlight their costs and schedule/frequency.”
+> - [x] “The website must visually appeal to potential customers from all walks of life. MAXFIT is not just a ‘hard-core workout’ gym, it is an fitness and wellness centre too. MAXFIT’s range of services appeal to customers of all age groups, male and female.”
+> - [x] “The website must promote the fact that MAXFIR offers 24-hour access.”
+> - [x] “The website must promote MAXFIT’s social media channels” 
+> - [x] “The website must show some testimonial quotes”
+> - [x] “There must be a system in place to track website usage statistics and end user interactions. All MAXFIT owned internet-connected computers, routers, or devices should be automatically excluded from website statistics/reports.”
+> - [x] “The website must be mobile-friendly.”
 
 #### User Stories ####
-> - [ ] “I want to see what kind of facilities MAXFIT have.”
-> - [ ] “I want to find about the different classes MAXFIT run.”
-> - [ ] “I want to find out when certain classes are on at.”
-> - [ ] “I want to be able to see where MAXFIT is located.”
-> - [ ] “I am interested in a membership and want talk to someone about what is best for me.”
-> - [ ] “I am interested in a membership and want to understand what the costs are.”
-> - [ ] “I want to find out a little bit about the people who work at MAXFIT.”
-> - [ ] “I want to see what other people say about MAXFIT”.
-> - [ ] “I want to find the MAXFIT social media channels.”
+> - [x] “I want to see what kind of facilities MAXFIT have.”
+> - [x] “I want to find about the different classes MAXFIT run.”
+> - [x] “I want to find out when certain classes are on at.”
+> - [x] “I want to be able to see where MAXFIT is located.”
+> - [x] “I am interested in a membership and want talk to someone about what is best for me.”
+> - [x] “I am interested in a membership and want to understand what the costs are.”
+> - [x] “I want to find out a little bit about the people who work at MAXFIT.”
+> - [x] “I want to see what other people say about MAXFIT”.
+> - [x] “I want to find the MAXFIT social media channels.”
 
 #### 2. The Scope Plane ####
 
 #### Functional Specifications: ####
 * Build a esponsive Website with 6 pages - Home, Services, Classes, Membership, Team, Contact.
 * Use photo/image carousel at top of homepage.
-* Homepage carousel to include link to free consultation Modal.
-* Modal also required for free trial sign-up form.
-* Jumbotron for top of Membership/pricing page.
+* Homepage carousel to include link to free consultation contact form.
+* Contact form required for free trial sign-up form.
+* Jumbotron for top of all other pages.
 * Google Analytics integration.
 
 #### Content Requirements: ####
 * Inspirational images & messaging throughout. Aimed at: gym workout, fitness machines, yoga/wellness classes, zumbo, seniors fitness.
-* Facilities images
-* Testimonial sections throughout.
+* Facilities images.
+* Testimonial sections.
 * Pricing table.
-* Promotional campaign section on Membership page
+* Promotional sections for Free Trial and Free Consultation.
 * Personal Trainer motto’s.
-* Location images
+* A main Image gallery for homepage and othe locations, and individual galleries for services and classes.
 
 #### 3. The Structure Plane ####
 
 #### Interaction Design: ####
 
+Interaction design is defined as the "development of application flows to facilitate user tasks, defining how the user interacts with site functionality (Copyright 2000 James Garrett)." Inline with this principle, the pages were designed as follows;
+
 1. The Homepage;
 * It should contain a call-to-action to promote the free fitness consultation offer.
-* It should link to a Free Consultation contact modal.
-* It should link to a Free Trial sign-up modal.
-* It should also contain a ‘why us’ section highlighting 4 main features/benefits of using MAXFIT - The Gym/equipment, Personal Training, Classes, and 24-hour access.
-* It should contain a section to show Testimonial quotes.
+* It should have links to the Free Consultation callback form.
 * It should contain a section to promote free trial offer.
+* It should contain a link to the Free Trial sign-up form.
+* It should also contain a ‘why us’ section highlighting 4 main features/benefits of using MAXFIT - The Gym/equipment, Personal Training, Classes, and Membership benfits.
+* It should contain a section to show Testimonial quotes.
 
 2. The Services page;
 * It should have 3 main sections focusing on; The Gym/equipment, Personal Training Services, and the Studio/class facilities.
-* Each section should give 
-* The Gym and Studio sections should show detailed text information and a gallery of photographs.
-* The Personal Training section should include information on fitness plans, dietary planning, and online services.
+* The sections should show detailed text information and a gallery of photographs.
 
 3. The Classes page;
-* It should contain a short section giving details of what each class is, how much it costs, what the current schedule for the class is, and who runs the class.
+* It should contain a short section giving details of what each class is, a link how much it costs, what the current timetable for the class is, and who runs the class.
 * Each section should also contain images/gallery relevant to the class.
 
 4. The Membership page;
 * It should contain pricing information for the different offerings/packages.
-* It should contain a 'hero' section which details the free trial offer. This should link to the free trial modal sign-up form.
+* It should contain a 'hero' section which details the Free Trial offer. This should link to the Free Trial sign-up form.
 
 5. The Team page;
-* It should contain contain infromation about the site management team and personal trainers.
+* It should contain contain information about the site management team and personal trainers.
 * It shoud offer a quoick bio, a photo, and qualification details for each team member.
 * It should contain messaging around a mission statement.
 
 6. The Contact page;
 * It should contain address and contact information.
 * It should include a Google Map.
-* It should include a section for social Media channels.
+* It should contain a contact form with a dropdown to allow users to indicate their are of interest: Sign-up to a plan, Free Trial, or Free Consultation.
 
 #### Information Architecture: ####
 
-The structure and outline of page sections is outlined in the Sitemap. Click the link to view the <a href="assets/readme-assets/maxfit-sitemap-final.png"><strong>Sitemap.</strong></a>
+Infromation Architechture is defined as; "The structural design of the information space to facilitate intuitive access to content" (Copyright 2000 James Garrett). As such MaxFit was designed to allows a user to find the information they need easily. For example, the navigation bar is fixed to the top of the page view so is always immediately accessible, and buttons and links are clearly visible and communicate their purpose in an unambiguous way.
+
+The structure of the website and outline of page sections is outlined in the Sitemap. Click the link to view the <a href="assets/readme-assets/maxfit-sitemap-final.png"><strong>Sitemap.</strong></a>
 
 
 #### 4. The Skeleton Plane ####
@@ -141,20 +143,23 @@ Fonts
 
 Images
 
-Modals
+Modal Galleries
 
 #### [Back To Top ^ ](#top-of-page) ####
 
 <hr>
 
 ## 3. <a name="development-process">Development Process</a> ##
-1. Design
-1. Structure
-1. Content
-1. Style
-1. Responsive.
-1. Testing.
-1. Review
+
+I implemented the following process for building the website;
+
+1. Design - design the site based on the User Stories requirements, by reviewing fitness club/gym websites and creating wireframes/sketches.
+1. Structure - write HTML code for all pages; navigation, footers, sections, galleries, forms, iframes.
+1. Content - add text content to sections (lorem ipsum/placeholder text) and images to galleries. 
+1. Style - add colours and fonts and write CSS rule sets and media queries in order to style the site.
+1. Responsive - make sure all texts/headings, images, and container elements transform approprately and look good when viewed on different devices such as: mobile phones, tablets, laptops, large screen computers (PC's), and large TV's.  
+1. Testing - validate HTML and CSS code, and test functionality of site elemenst on different devices and browsers.
+1. Review - a last review of all code (formatting etc), content, fixing anys bugs/typo's etc.
 
 #### [Back To Top ^ ](#top-of-page) ####
 
@@ -163,7 +168,7 @@ Modals
 ## 4. <a name="website-features">Website Features</a> ##
 * Bootstrap navigation bar
 * Image Carousel 
-* Promotional Modals
+* Gallery Modals
 * Free Trial signup form
 * Free Consultation call-back form
 * Bootstrap responsive grid
