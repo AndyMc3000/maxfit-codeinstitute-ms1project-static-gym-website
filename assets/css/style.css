@@ -921,6 +921,10 @@ button:focus {
     border: 1px;
     border-color: #d62828;
     padding-top: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0px;
+    color: #2e294e;
 }
 
 .card-membership-body .btn {
@@ -973,10 +977,6 @@ button:focus {
 
 .most-popular:hover {
     box-shadow: 8px 8px 30px 4px rgba(214, 40, 40, 0.8);
-}
-
-.club-pass-pricing {
-    color: #2e294e;
 }
 
 .club-pass-pricing .ribbon {
@@ -1036,6 +1036,8 @@ page-intro-container-contact {
 .map-box iframe {
     border: 3px solid;
     border-color: #d62828; 
+    width: 90%;
+    min-height: 600px;
 }
 
 .form-control:focus {
