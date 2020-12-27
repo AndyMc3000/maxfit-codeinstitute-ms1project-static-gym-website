@@ -191,17 +191,19 @@ I implemented the following process for building the website;
 
 <img src="assets/readme-assets/maxfit-tech-logos-readme-2.png" width="430">
 
-* HTML5
-* CSS3
-* Bootstrap
-* GitHub
-* GitPod
-* Github Pages
-* Balsamiq
-* ami.responsivedesign.is
-* Apple Preview
-* Apple Pages
-* Apple MacBook
+I used the following technologies, services, and devices to develop, style, deploy, and test the MAXFIT website;
+<br>
+* HTML5 - The site was develop using HTML5 markup language.
+* CSS3 - The site was styled and in some cases made responsive using CSS3.
+* Bootstrap - I used the Bootstrap framework for implementing some sections and features.
+* GitHub - I set up a free repository on GitHub.com to maintain a master of all website files, content, and resources.
+* GitPod - I used the free GitPod.io Integrated Development Environment to write and develop the code for the website.
+* Github Pages - I used the free GitHub Pages to deploy/publish the live website on the web.
+* Balsamiq - I used the Balsamiq application to create the website sitemap and webpage wireframes.
+* Responsive Viewer - I used a Chrome Browser Extension called Responsive Viewer to emulate the presentation of the website on multiple device sizes and types.
+* Apple Preview - I used the Apple Preview image editor application to crop and resize photo's and images. 
+* Apple Pages - I used the Apple Pages word processor to manage and edit text content for the website. 
+* Apple Hardware - I used a MacBook Pro to develop the site. I also used an Apple iPhone, Apple TV, and Apple iPad for testing the website.
 
 #### [Back To Top ^ ](#top-of-page) ####
 
