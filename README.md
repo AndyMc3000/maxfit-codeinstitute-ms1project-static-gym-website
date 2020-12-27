@@ -189,7 +189,7 @@ I implemented the following process for building the website;
 
 ## 5. <a name="technologies-used">Technologies Used</a> ##
 
-![Technology Used Logo Set](/assets/readme-assets/maxfit-tech-logos-readme-2.png | width=50)
+<img src="assets/readme-assets/maxfit-tech-logos-readme-2.png" width="430">
 
 * HTML5
 * CSS3
