@@ -137,7 +137,10 @@ The following wireframes were created to detail the layput of the website pages 
 1. <a href="assets/readme-assets/maxfit-contact-page-wireframes.png"><strong>Contact Wireframe</strong></a>
 
 #### 5. The Surface Plane ####
-Colours
+
+Having completed the previous 4 stages in the UX design process, I moved on to making decisions around the design and styling of the website.
+
+Colours - I choose the website colours from 2 palletes
 
 Fonts
 
@@ -157,9 +160,10 @@ I implemented the following process for building the website;
 1. Structure - write HTML code for all pages; navigation, footers, sections, galleries, forms, iframes.
 1. Content - add text content to sections (lorem ipsum/placeholder text) and images to galleries. 
 1. Style - add colours and fonts and write CSS rule sets and media queries in order to style the site.
-1. Responsive - make sure all texts/headings, images, and container elements transform approprately and look good when viewed on different devices such as: mobile phones, tablets, laptops, large screen computers (PC's), and large TV's.  
-1. Testing - validate HTML and CSS code, and test functionality of site elemenst on different devices and browsers.
+1. Responsive - make sure all texts/headings, images, and container elements transform approprately and look good when viewed on different devices such as: mobile phones, tablets, laptops, large screen computers (PC's), and large TV's. 
 1. Review - a last review of all code (formatting etc), content, fixing anys bugs/typo's etc.
+1. Testing - validate HTML and CSS code, and test functionality of site elemenst on different devices and browsers.
+
 
 #### [Back To Top ^ ](#top-of-page) ####
 
@@ -171,6 +175,7 @@ I implemented the following process for building the website;
 * Gallery Modals
 * Free Trial signup form
 * Free Consultation call-back form
+* Membership sign-up form
 * Bootstrap responsive grid
 * Social Links in footer
 * Navigation links in Footer
@@ -184,19 +189,21 @@ I implemented the following process for building the website;
 
 ## 5. <a name="technologies-used">Technologies Used</a> ##
 
-![Technology Used Logo Set](/assets/readme-assets/maxfit-tech-logos-readme.png)
+<img src="assets/readme-assets/maxfit-tech-logos-readme-2.png" width="430">
 
-* HTML5
-* CSS3
-* Bootstrap
-* GitHub
-* GitPod
-* Github Pages
-* Balsamiq
-* ami.responsivedesign.is
-* Apple Preview
-* Apple Pages
-* Apple MacBook
+I used the following technologies, services, and devices to develop, style, deploy, and test the MAXFIT website;
+<br>
+* HTML5 - The site was develop using HTML5 markup language.
+* CSS3 - The site was styled and in some cases made responsive using CSS3.
+* Bootstrap - I used the Bootstrap framework for implementing some sections and features.
+* GitHub - I set up a free repository on GitHub.com to maintain a master of all website files, content, and resources.
+* GitPod - I used the free GitPod.io Integrated Development Environment to write and develop the code for the website.
+* Github Pages - I used the free GitHub Pages to deploy/publish the live website on the web.
+* Balsamiq - I used the Balsamiq application to create the website sitemap and webpage wireframes.
+* Responsive Viewer - I used a Chrome Browser Extension called Responsive Viewer to emulate the presentation of the website on multiple device sizes and types.
+* Apple Preview - I used the Apple Preview image editor application to crop and resize photo's and images. 
+* Apple Pages - I used the Apple Pages word processor to manage and edit text content for the website. 
+* Apple Hardware - I used a MacBook Pro to develop the site. I also used an Apple iPhone, Apple TV, and Apple iPad for testing the website.
 
 #### [Back To Top ^ ](#top-of-page) ####
 
@@ -212,7 +219,25 @@ I implemented the following process for building the website;
 
 ## 7. <a name="deployment">Deployment</a> ##
 
-Deployed on GitHub Pages - [Click here to view deployed website](https://andymc3000.github.io/maxfit-codeinstitute-ms1project-static-gym-website/)
+This site was developed by firstly setting up a GitHub repository to store the website files. GitHub is a free online code hosting platform for websites or web applications, which enables version control and collaboration during the development of a project. A repository on GitHub containes all of a project's files and each file's revision history. You can learn more about GitHub and repositories here: [Click here to go to GitHub](https://docs.github.com/en/free-pro-team@latest/github)
+
+I used the online GitPod Integrated Development Environment (or GitPod IDE) to write the site code. Once I was happy with a section of code I commited or saved that to the working version of the website on GitPod. I then 'pushed' those changes from the GitPod IDE to my GitHub repository where the master set of files was updated. You can learn more about GitPod: [Click here to go to GitPod](https://docs.github.com/en/free-pro-team@latest/github)
+
+Early on in the development process I also deployed the website to a live web address using GitHub Pages. GitHub pages is a free static-site hosting service. It takes HTML, CSS, and JavaScript files directly from a GitHub repository and publishes a website with them. Once setup, any changes you make on your IDE which are subsequently 'pushed' to your GitHub repository, are automatically updated on GitHub Pages too. 
+
+Here are the steps I took to deploy the website on GitHub Pages;
+1. Login to GitHub.
+1. Select 'Your Repositores' by selecting the dropdown button on the your account icon at the top right-hand corner of the screen. 
+1. When you get to the Your Repositories page, select the project you want to deploy.
+1. When in the individual repository page, click on the Settings icon from the lists of options above the repository file list (settings can be seen listed on the far-right of this list).
+1. Once in the settings page, scroll down the GitHub Pages section near the bottom of the page.
+1. Under the Source section, select the branch of the project you want to deploy from the first dropdown box (normally the master branch).
+1. Also under the Source section choose the folder of the files you wnat to deploy (normally '/root').
+1. Once you have made your selection, click Save. This will deploy your site to a unique URL. Once the site has been deployed, green text with a tcick mark will appear above the Source secion to notify you that deployment has been successful, and will also show you the URL for the website.
+
+I deployed the website early on in the developmnt process, as it useful to be able to examine the website on various physical devices in its live state. Also, while the GitPod IDE has the ability to show a preview of changes to a project, sometimes that does not pick up or display issues which would appear on a live site. For example, when I deployed my website on GitHub Pages initially, I found that it was not reading my CSS file, so no styling was appearing on the site. The Preview tab in GitPod was reading the CSS file correctly. I found that a typo relating to the CSS file source address in my page headers caused the issue for the deployed site, while GitPod Preview did not pick it up. By having the deployed site up and running, I was able to address and correct the bug early in the development process.
+
+The working version of the MAXFIT website deployed on GitHub Pages can be seen here: [Click here to view deployed website](https://andymc3000.github.io/maxfit-codeinstitute-ms1project-static-gym-website/)
 
 #### [Back To Top ^ ](#top-of-page) ####
 
