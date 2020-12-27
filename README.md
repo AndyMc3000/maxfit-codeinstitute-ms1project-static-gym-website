@@ -160,9 +160,10 @@ I implemented the following process for building the website;
 1. Structure - write HTML code for all pages; navigation, footers, sections, galleries, forms, iframes.
 1. Content - add text content to sections (lorem ipsum/placeholder text) and images to galleries. 
 1. Style - add colours and fonts and write CSS rule sets and media queries in order to style the site.
-1. Responsive - make sure all texts/headings, images, and container elements transform approprately and look good when viewed on different devices such as: mobile phones, tablets, laptops, large screen computers (PC's), and large TV's.  
-1. Testing - validate HTML and CSS code, and test functionality of site elemenst on different devices and browsers.
+1. Responsive - make sure all texts/headings, images, and container elements transform approprately and look good when viewed on different devices such as: mobile phones, tablets, laptops, large screen computers (PC's), and large TV's. 
 1. Review - a last review of all code (formatting etc), content, fixing anys bugs/typo's etc.
+1. Testing - validate HTML and CSS code, and test functionality of site elemenst on different devices and browsers.
+
 
 #### [Back To Top ^ ](#top-of-page) ####
 
@@ -188,7 +189,7 @@ I implemented the following process for building the website;
 
 ## 5. <a name="technologies-used">Technologies Used</a> ##
 
-![Technology Used Logo Set](/assets/readme-assets/maxfit-tech-logos-readme.png)
+![Technology Used Logo Set](/assets/readme-assets/maxfit-tech-logos-readme-2.png)
 
 * HTML5
 * CSS3
