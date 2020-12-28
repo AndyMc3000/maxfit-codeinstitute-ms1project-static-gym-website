@@ -35,7 +35,10 @@ The design of this website was determined by assessing and quantifying the goals
 ### The 5 Planes of UX Design: ###
 
 #### 1. The Strategy Plane ####
-Please see below details of 'Client Stories' to detail the requirements of the business owners, and 'User Stories' which highlight the requiremnts of end users of the website.
+
+The Strategy Plane is, as defined by Jesse James Garrett "..incorporates not only what the people running the site want to get out of it but what the users want to get out of the site as well." 
+
+Please see below details of 'Client Stories' to detail the requirements of the MAXFIT business owners, and 'User Stories' which highlight the requiremnts of end users of the MAXFIT website.
 
 #### Client Stories ####
 > - [x] “The main goal of the website is to attract new customers, and provide value to existing customers in the information is provides.”
@@ -46,7 +49,7 @@ Please see below details of 'Client Stories' to detail the requirements of the b
 > - [x] “The website must promote MAXFIT’s Personal Training services.”
 > - [x] “The website must detail the classes MAXFIT currently offer and highlight their costs and schedule/frequency.”
 > - [x] “The website must visually appeal to potential customers from all walks of life. MAXFIT is not just a ‘hard-core workout’ gym, it is an fitness and wellness centre too. MAXFIT’s range of services appeal to customers of all age groups, male and female.”
-> - [x] “The website must promote the fact that MAXFIR offers 24-hour access.”
+> - [x] “The website must promote the fact that MAXFIT offers 24-hour access.”
 > - [x] “The website must promote MAXFIT’s social media channels” 
 > - [x] “The website must show some testimonial quotes”
 > - [x] “There must be a system in place to track website usage statistics and end user interactions. All MAXFIT owned internet-connected computers, routers, or devices should be automatically excluded from website statistics/reports.”
@@ -65,55 +68,64 @@ Please see below details of 'Client Stories' to detail the requirements of the b
 
 #### 2. The Scope Plane ####
 
+Based on the outcomes the Strategy Plane, The Scope Plane determines what features, functionality, and types of content, should be included within the scope of the project. Listed below are the functional specifications and content requirements decided upon for the MAXFIT website. 
+
 #### Functional Specifications: ####
 * Build a esponsive Website with 6 pages - Home, Services, Classes, Membership, Team, Contact.
 * Use photo/image carousel at top of homepage.
 * Homepage carousel to include link to free consultation contact form.
 * Contact form required for free trial sign-up form.
-* Jumbotron for top of all other pages.
+* Contact form required for membership sign-up.
+* A main photo Gallery using a pop-out modal carousel, and similar galleries for indivudual services and classes.
+* Use a bootstrap Jumbotron for the top of all other pages to promote contact.
 * Google Analytics integration.
 
 #### Content Requirements: ####
-* Inspirational images & messaging throughout. Aimed at: gym workout, fitness machines, yoga/wellness classes, zumbo, seniors fitness.
-* Facilities images.
+* Inspirational images & messaging throughout.
+* Photos of the facilities, equipment, and members using services.
 * Testimonial sections.
 * Pricing table.
 * Promotional sections for Free Trial and Free Consultation.
 * Personal Trainer motto’s.
-* A main Image gallery for homepage and othe locations, and individual galleries for services and classes.
+* A main Image gallery for homepage and other locations, and individual galleries for services and classes.
 
 #### 3. The Structure Plane ####
 
 #### Interaction Design: ####
 
-Interaction design is defined as the "development of application flows to facilitate user tasks, defining how the user interacts with site functionality (Copyright 2000 James Garrett)." Inline with this principle, the pages were designed as follows;
+Interaction design is defined as the "..development of application flows to facilitate user tasks, defining how the user interacts with site functionality" Inline with this principle, the pages were designed as follows;
 
 1. The Homepage;
-* It should contain a call-to-action to promote the free fitness consultation offer.
-* It should have links to the Free Consultation callback form.
-* It should contain a section to promote free trial offer.
-* It should contain a link to the Free Trial sign-up form.
-* It should also contain a ‘why us’ section highlighting 4 main features/benefits of using MAXFIT - The Gym/equipment, Personal Training, Classes, and Membership benfits.
+* It should have a navigation bar with individual links to each page.
+* It should contain a call-to-action to promote the free fitness consultation offer. This should link to a contact form on the contact page.
+* It should contain a section to promote free trial offer. This should link to a contact form on the contact page.
+* It should also contain a ‘why us’ section highlighting 4 main features/benefits of using MAXFIT - The Gym/equipment, Personal Training, Classes, and Membership benfits. The would link to relevant pages via buttons.
 * It should contain a section to show Testimonial quotes.
+* It should have a furthe navigation section in the footer. The footer will also contain links to all MAXFIT's social media channels.
 
 2. The Services page;
+* It should have the same navigation bar and footer as described un The Homepage section above.
 * It should have 3 main sections focusing on; The Gym/equipment, Personal Training Services, and the Studio/class facilities.
 * The sections should show detailed text information and a gallery of photographs.
 
 3. The Classes page;
+* It should have the same navigation bar and footer as described un The Homepage section above.
 * It should contain a short section giving details of what each class is, a link how much it costs, what the current timetable for the class is, and who runs the class.
 * Each section should also contain images/gallery relevant to the class.
 
 4. The Membership page;
+* It should have the same navigation bar and footer as described un The Homepage section above.
 * It should contain pricing information for the different offerings/packages.
 * It should contain a 'hero' section which details the Free Trial offer. This should link to the Free Trial sign-up form.
 
 5. The Team page;
+* It should have the same navigation bar and footer as described un The Homepage section above.
 * It should contain contain information about the site management team and personal trainers.
 * It shoud offer a quoick bio, a photo, and qualification details for each team member.
 * It should contain messaging around a mission statement.
 
 6. The Contact page;
+* It should have the same navigation bar and footer as described un The Homepage section above.
 * It should contain address and contact information.
 * It should include a Google Map.
 * It should contain a contact form with a dropdown to allow users to indicate their are of interest: Sign-up to a plan, Free Trial, or Free Consultation.
@@ -127,7 +139,9 @@ The structure of the website and outline of page sections is outlined in the Sit
 
 #### 4. The Skeleton Plane ####
 
-The following wireframes were created to detail the layput of the website pages and individual sections/containers. Please click the following links to view these wireframes.
+Based on the structure decided upon, The Skeleton Plane ".. The skeleton is designed to optimize the arrangement of these elements (such as the placement of buttons, tabs, photos's and blockd of text) for maximum effect and efficiency..".
+
+With this in min the following wireframes were created to detail the layput of the website pages and individual sections/containers. Please click the following links to view these wireframes.
 
 1. <a href="assets/readme-assets/maxfit-homepage-wireframe.png"><strong>Homepage Wireframe</strong></a>
 1. <a href="assets/readme-assets/maxfit-services-page-wireframe.png"><strong>Services page Wireframe</strong></a>
@@ -138,15 +152,19 @@ The following wireframes were created to detail the layput of the website pages 
 
 #### 5. The Surface Plane ####
 
-Having completed the previous 4 stages in the UX design process, I moved on to making decisions around the design and styling of the website.
+Having completed the previous 4 stages in the UX design process, I moved on to making decisions around the design and styling of the website. The Surface Plane focuses on the styling of images, backgrounds, fonts, and colours used on a website. The details of these decisions are listed here;
 
-Colours - I choose the website colours from 2 palletes
+1. Colours - The color scheme for the website was chosen from a selection of colours I considered, using tools on the [Coolors.co](https://coolors.co/) website. The color schemes chosen, along with their HEX values, is shown here;
+<img src="assets/readme-assets/maxfit-coolors-palettes.png" width="450">
 
-Fonts
+1. Font - I used the Google Fonts website to help me decide on a font to use on the MAXFIT website. I wanted something simple yet strong at the same time - not too light, not too bold. I decided upon a Font called Nunito Sans. An example of it can be seen here;   
+<img src="assets/readme-assets/maxfit-fonts-nunito-sans.png" width="220">
 
-Images
+1. Images - I mainly used photos taken from the [Unsplash.com](https://unsplash.com/) website. On Unspalsh.com I was able to create collections of phtotos for each of the services and classes which I wanted a gallery for. E.g. a selection for yoga, pilates, personal training etc.
 
-Modal Galleries
+1. Icons - I used Font Awesome to add icons to various page and section headings. The footer navigation list had icons which matched the icon found on each page heading. I also added a Font Awesme Favicon to the page headers.
+
+1. Galleries - I decide to use Bootstrap Modals as containers for my Carousel Galleries.
 
 #### [Back To Top ^ ](#top-of-page) ####
 
@@ -154,15 +172,15 @@ Modal Galleries
 
 ## 3. <a name="development-process">Development Process</a> ##
 
-I implemented the following process for building the website;
+I drew up a process to follow for developing the MAXFIT website. This is listed in sequence below.
 
-1. Design - design the site based on the User Stories requirements, by reviewing fitness club/gym websites and creating wireframes/sketches.
-1. Structure - write HTML code for all pages; navigation, footers, sections, galleries, forms, iframes.
-1. Content - add text content to sections (lorem ipsum/placeholder text) and images to galleries. 
-1. Style - add colours and fonts and write CSS rule sets and media queries in order to style the site.
-1. Responsive - make sure all texts/headings, images, and container elements transform approprately and look good when viewed on different devices such as: mobile phones, tablets, laptops, large screen computers (PC's), and large TV's. 
-1. Review - a last review of all code (formatting etc), content, fixing anys bugs/typo's etc.
-1. Testing - validate HTML and CSS code, and test functionality of site elemenst on different devices and browsers.
+1. Design - I firstly designed the site based on the Client/User Stories requirements, by getting ideas from fitness club/gym websites, and by creating wireframes/sketches.
+1. Structure - I then wrote the HTML code for all pages including; navigation, footers, sections, galleries, forms, iframes.
+1. Content - I then added text content to sections (lorem ipsum/placeholder text), and images to galleries. 
+1. Style - I then added colours and fonts and wrote CSS rule sets and media queries in order to style the website.
+1. Responsive - I made sure all texts/headings, images, and container elements transform approprately and look good when viewed on different devices such as: mobile phones, tablets, laptops, large screen computers (PC's), and large TV's. 
+1. Review - I did a last review of all code (formatting, besutifying etc) and content, fixing anys bugs/typo's etc as I did so.
+1. Testing - And finally I validated my HTML and CSS code, and tested functionality of site elements across a range of different devices and browsers.
 
 
 #### [Back To Top ^ ](#top-of-page) ####
@@ -179,9 +197,9 @@ I implemented the following process for building the website;
 * Bootstrap responsive grid
 * Social Links in footer
 * Navigation links in Footer
-* Accordian in Services page
-* Galleries in Services page
-* Google map
+* Accordian on Classes page
+* Google map on Contact page
+* Google Analytics
 
 #### [Back To Top ^ ](#top-of-page) ####
 
@@ -245,14 +263,25 @@ The working version of the MAXFIT website deployed on GitHub Pages can be seen h
 
 ## 8. <a name="credits">Credits</a> ##
 
-1. The design of this website employed the principles of 'The 5 Planes of UX design', which was created by Jesse James Garrett in his book; The Elements of User Experience: User-centered Design for the Web (2002). See more at; [Jjg.net](http://www.jjg.net/elements/)
+1. Coding Websites - W3Schools, Mozila MDN, Bootstrap, GitHub, StackOverflow
 
-1. The color scheme for the website was chosen from a selection of schemes considered using tools on the Coolors.co website. See more at; [Coolors.co](https://coolors.co/) . The color scheme chosen, along with HEX values, is shown here;
-![Color scheme and HEX values created using tools on Coolors.co](/assets/readme-assets/maxfit-website-color-scheme.png)
+1. Colours - I used the Coolors.co website to help me decide on a colour scheme for the webite. This website allows you to create your own colour palettes or to use one of thiers. See more about the Coolors.co palette catalogue and tools here: [Coolors.co](https://coolors.co/). 
+
+1. Font - 
+
+1. Icons -
+
+1. Design Principles - The design of this website employed the principles of 'The 5 Planes of UX design', which was created by Jesse James Garrett in his book; The Elements of User Experience: User-centered Design for the Web (2002). See more at; [Jjg.net](http://www.jjg.net/elements/)
   
-1. The Maxfit logo was created using tools on the FreeLogoDesign.org website. See more at; [FreeLogoDesign.org](https://www.freelogodesign.org/)
+1. Company Logo - The Maxfit logo was created using tools on the FreeLogoDesign.org website. See more at; [FreeLogoDesign.org](https://www.freelogodesign.org/)
 
 1. Wikimedia commons - Technology logo's.
+
+1. Text content - I rewordered some of the marketing slogans and texts/descriptions content from Equinox.com and ActiveFitness.ie, and used those on my site.
+
+1. Map - 
+
+1. Website Analytics - 
 
 ### Acknowledgements ###
 
@@ -268,15 +297,14 @@ No. | Business Name | Website | Description
 5 | **ActiveFitness** | [ActiveFitness.ie](https://activefitness.ie/) | 24-hr Gym with one location, Galway, Ireland.
 6 | **The Spencer Health Club** | [TheSpencerHealthClub.com](https://www.thespencerhealthclub.com/) | City Gym one location, Dublin, Ireland.
 
-
-I rewordered some of the marketing slogans and texts/descriptions content from Equinox.com and ActiveFitness.ie, and used those on my site.
-
 ### Additonal Support ###
 
 I also received help and support from;
 * Allen Thomas Varghese - GitHub username: @allentv - my mento at Code Institute. He gave me advice on project planning, VSCode, Wireframing, and requirements.
 * Jim - GitHub username: @JimLynx - Code Institute - advice on GitHub/Git/GitPod, milestone project planning, and creating a README.md.
 * Anna - GitHub username: @anna_ci - Code Institute - advice with creating a README.md.
+* Student Support - Code Institute
+* Tutor Support - Code Institute
 
 #### [Back To Top ^ ](#top-of-page) ####
 
