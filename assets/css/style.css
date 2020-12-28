@@ -35,13 +35,15 @@ body {
 
 .modal-body {
     padding-top: 0px;
+    padding-bottom: 25px;
     color: #2e294e;
     border-bottom: none;
 }
 
 gallery-carousel-caption {
     border-top: none;
-    padding-top: 10px;
+    padding-top: 30px;
+    margin-top: 10px;
     color: #2e294e;
 }
 
@@ -699,7 +701,7 @@ button:focus {
 }
 
 .yoga-text-box {
-    background: url("../css/images/yoga-gallery/inner-gallery/alex-shaw-U7e8LzAn-0s-unsplash.jpg") no-repeat center center fixed;
+    background: url("../css/images/yoga-gallery/dane-wetton-lBpmXaNQOCM-700px-bg.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -715,7 +717,7 @@ button:focus {
 }
 
 .pilates-text-box {
-    background: url("../css/images/pilates-gallery/inner-gallery/thought-catalog-lNy5RIiGQ1s-unsplash-full.jpg") no-repeat center center fixed;
+    background: url("../css/images/pilates-gallery/dylan-gillis-YJdCZba0TYE-unsplash-700px-bg.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
