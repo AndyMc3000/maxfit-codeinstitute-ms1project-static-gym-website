@@ -158,7 +158,7 @@ Having completed the previous 4 stages in the UX design process, I moved on to m
 <img src="assets/readme-assets/maxfit-coolors-palettes.png" width="450">
 
 1. Font - I used the Google Fonts website to help me decide on a font to use on the MAXFIT website. I wanted something simple yet strong at the same time - not too light, not too bold. I decided upon a Font called Nunito Sans. An example of it can be seen here;   
-<img src="assets/readme-assets/maxfit-fonts-nunito-sans.png" width="220">
+<img src="assets/readme-assets/maxfit-font-nunito-sans.png" width="220">
 
 1. Images - I mainly used photos taken from the [Unsplash.com](https://unsplash.com/) website. On Unspalsh.com I was able to create collections of phtotos for each of the services and classes which I wanted a gallery for. E.g. a selection for yoga, pilates, personal training etc.
 
