@@ -263,19 +263,24 @@ button:focus {
 
 .feature-box {
     background-color: rgba(46, 41, 78,.85);
-    padding: 25px;
+    padding: 45px;
     margin: 10px;
     color: #EAE2B7;
     border-radius: 0.3rem;
     width: 95%;
     height: 95%;
 }
+.feature-box p {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
 
 .feature-box i {
     color: #fcbf49;
-    font-size: 45px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    font-size: 55px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .feature-box .btn {
@@ -400,7 +405,7 @@ button:focus {
 
 .testimonial-box {
     background-color: rgba(46, 41, 78,.75);
-    padding: 25px;
+    padding: 45px;
     margin: 20px;
     color: #EAE2B7;
     border-radius: 0.3rem;
@@ -410,9 +415,15 @@ button:focus {
 
 .testimonial-box i {
     color: #fcbf49;
-    font-size: 45px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    font-size: 55px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.testimonial-box p {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px; 
 }
 
 .testiomonial-container hr {
@@ -445,11 +456,6 @@ button:focus {
     padding-right: 10px;
 }
 
-.free-trial-container div {
-    padding: 5px;
-    padding-bottom: 25px;
-}
-
 .free-trial-box {
     background-color: rgba(252, 191, 73.75);
     color: #2e294e;
@@ -458,13 +464,18 @@ button:focus {
     padding-bottom: 25px;
     padding-right: 10px;
     padding-left: 10px;
-    margin: 8%;
-    border-radius: 0.3rem;
+    margin: 4%;
+    border-radius: 0.5rem;
+}
+
+.free-trial-title {
+    padding: 20px;
 }
 
 .free-trial-box p {
     padding-right: 10%;
     padding-left: 10%;
+    padding-bottom: 25px;
 }
 
 .free-trial-box .btn {
@@ -640,6 +651,22 @@ button:focus {
 .services-containers img {
     max-height: 450px;
     object-fit: cover;
+    padding-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.services-containers i {
+    color: #fcbf49;
+    font-size: 55px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.services-containers p {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;    
 }
 
 
