@@ -516,7 +516,7 @@ button:focus {
 }
 
 .jumbotron-container {
-    background: url("../css/images/hiit-gallery/inner-gallery/john-fornander-dMWL8V7L8G4-unsplash.jpg") no-repeat center center fixed;
+    background: url("../css/images/Jumbotron/services/john-fornander-d2LQwlZXylk-unsplash-1800px.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -554,7 +554,7 @@ button:focus {
 /* ---------- Services sections on services.html - Gym, Personal Training, and Studio sections ----------- */ 
 
 .services-container-gym {
-    background: url("../css/images/circuit-gallery/inner-gallery/anastase-maragos-BKvwCAco-jw-unsplash.jpg") no-repeat center center fixed;
+    background: url("../css/images/gym-gallery/damir-spanic-DBk90-e61Hw-unsplash.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -576,6 +576,12 @@ button:focus {
 
 .gym-gallery-container img {
     width: 100%;
+}
+
+.services-containers hr { 
+    background-color: #eae2b7;
+    height: 1px;
+    width: 80%;
 }
 
 .services-container-pt {
