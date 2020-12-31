@@ -160,6 +160,12 @@ button:focus {
     width: 80%;
 }
 
+.gallery-carousel-caption hr {
+    height: 2px;
+    width: 80%;
+    background-color: #d62828;
+}
+
 .carousel-caption .button { 
     font-size: 20px;
     color: #eae2b7;
@@ -714,9 +720,21 @@ button:focus {
     margin-bottom: 15px;
 }
 
+.service-description p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.service-description hr {
+    background-color: #eae2b7;
+    height: 1px;
+    width: 80%;
+}
+
 .classes-gallery-container img {
     max-height: 350px;
     width: 95%;
+    align-items: center;
     object-fit: cover;
     border-radius: 0.3rem;
 }
@@ -724,6 +742,7 @@ button:focus {
 .yoga-container {
     border-top: 2px solid;
     border-color: #2e294e;
+    background-color: #d62828;
 }
 
 .yoga-gallery-box {
@@ -740,6 +759,10 @@ button:focus {
     -o-background-size: cover;
     background-size: cover;
     padding: 40px;
+}
+
+.pilates-container {
+    background-color: #FCBF49;
 }
 
 .pilates-gallery-box {
@@ -759,6 +782,10 @@ button:focus {
     object-fit: cover;
 }
 
+.spinning-container {
+    background-color: #d62828;
+}
+
 .spinning-gallery-box {
     background: #d62828;
     padding-top: 25px;
@@ -773,6 +800,10 @@ button:focus {
     -o-background-size: cover;
     background-size: cover;
     padding: 40px;
+}
+
+.aerobics-container {
+    background-color: #FCBF49;
 }
 
 .aerobics-gallery-box {
@@ -791,6 +822,10 @@ button:focus {
     padding: 40px;
 }
 
+.seniors-container {
+    background-color: #d62828;
+}
+
 .seniors-gallery-box {
     background: #d62828;
     padding-top: 25px;
@@ -805,6 +840,10 @@ button:focus {
     -o-background-size: cover;
     background-size: cover;
     padding: 40px;
+}
+
+.hiit-container {
+    background-color: #FCBF49;
 }
 
 .hiit-gallery-box {
@@ -823,6 +862,10 @@ button:focus {
     padding: 40px;
 }
 
+.zumba-container {
+    background-color: #d62828;
+}
+
 .zumba-gallery-box {
     background: #d62828;
     padding-top: 25px;
@@ -837,6 +880,10 @@ button:focus {
     -o-background-size: cover;
     background-size: cover;
     padding: 40px;
+}
+
+.circuit-container {
+    background-color: #FCBF49;
 }
 
 .circuit-gallery-box {
@@ -869,6 +916,23 @@ button:focus {
 }
 
 .classes-gallery-container .btn:hover {
+    background-color: #2e294e;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+    color: #eae2b7;
+}
+
+.classes-box .btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #EAE2B7;
+    z-index: 1;
+    background-color: #d62828;
+    box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
+}
+
+.classes-box .btn:hover {
     background-color: #2e294e;
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
     color: #eae2b7;
