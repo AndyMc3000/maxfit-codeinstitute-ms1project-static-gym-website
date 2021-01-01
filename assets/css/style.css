@@ -1015,13 +1015,24 @@ button:focus {
     padding-bottom: 0;
 }
 
+.jumbotron-container-membership {
+    background: url("../css/images/Jumbotron/membership/geert-pieters-AfgJpWQH4lw-unsplash-1555px.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 70px;
+    border-bottom: 3px solid;
+    border-color: #2e294e;
+}
+
 .club-pass-pricing {
     background-color: #FCBF49; 
     border: 1px;
     border-color: #d62828;
     padding-top: 5px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin: 0px;
     color: #2e294e;
 }
@@ -1060,7 +1071,20 @@ button:focus {
 .card-membership-body {
     background-color: #EAE2B7;
     color: #2e294e;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
+    padding-top: 15px;
+}
+
+.card-membership-body hr {
+    background-color: #d62828;
+    height: 1px;
+    width: 60%;
+}
+
+.card-membership-body i {
+    color: #d62828;
+    font-size: 45px;
+    padding-top: 10px;
 }
 
 .most-popular {
@@ -1102,6 +1126,17 @@ button:focus {
 
 /*-- Team page -----------*/ 
 
+.jumbotron-container-team {
+    background: url("../css/images/Jumbotron/team/john-arano-h4i9G-de7Po-unsplash-1200px.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 70px;
+    border-bottom: 3px solid;
+    border-color: #2e294e;
+}
+
 .team-section {
     background-color: #FCBF49;
     color: #2e294e;
@@ -1114,6 +1149,17 @@ button:focus {
 /*-- /END of Team page -----------*/ 
 
 /*-- Contact page -----------*/ 
+
+.jumbotron-container-contact {
+    background: url("../css/images/Jumbotron/contact/joshua-ness--bEZ_OfWu3Y-unsplash-1200px.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 70px;
+    border-bottom: 3px solid;
+    border-color: #2e294e;
+}
 
 .address-box-contact {
     color: #2e294e;
