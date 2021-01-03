@@ -1033,6 +1033,7 @@ button:focus {
     padding-top: 5px;
     padding-left: 2%;
     padding-right: 2%;
+    padding-bottom: 30px;
     margin: 0px;
     color: #2e294e;
 }
@@ -1056,7 +1057,9 @@ button:focus {
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     cursor: pointer;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
+    height: 95%;
+    background-color: #EAE2B7;
 }
 
 .card-membership:hover {
@@ -1064,15 +1067,17 @@ button:focus {
     box-shadow: 0 10px 20px rgba(0,0,0,.2), 0 4px 8px rgba(0,0,0,.4);
 }
 
-.card-membership h3{
+.card-membership h3 {
     font-weight: 600;
 }
 
 .card-membership-body {
     background-color: #EAE2B7;
     color: #2e294e;
-    border-radius: 0.5rem;
-    padding-top: 15px;
+    border-radius: 0.3rem;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    margin-bottom: 20px;
 }
 
 .card-membership-body hr {
@@ -1082,7 +1087,7 @@ button:focus {
 }
 
 .card-membership-body i {
-    color: #d62828;
+    color: #FCBF49;
     font-size: 45px;
     padding-top: 10px;
 }
@@ -1122,6 +1127,10 @@ button:focus {
     border: none;
 }
 
+.classes-heading {
+    padding-bottom: 0px;
+}
+
 /*-- /END of Membership pricing cards, ----------- */ 
 
 /*-- Team page -----------*/ 
@@ -1143,7 +1152,33 @@ button:focus {
 }
 
 .page-intro-container-team {
-    padding-bottom: 5px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+.social-links-team {
+    padding-bottom: 18px;
+}
+
+.social-links-team p {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5px;
+}
+
+.social-links-team ul {
+    padding: 0px;
+    writing-mode: horizontal-tb;
+}
+
+.social-links-team ul i {
+    font-size: 40px;
+    margin: 4px;
+    color: #d62828;
+}
+
+.social-links-team ul i:hover {
+    color: #2e294e;
 }
 
 /*-- /END of Team page -----------*/ 
@@ -1248,21 +1283,6 @@ select option {
 
 .social-links-footer li i:hover {
     color: #d62828;
-}
-
-.social-links-team ul {
-    padding: 0px;
-    writing-mode: horizontal-tb;
-}
-
-.social-links-team ul i {
-    font-size: 40px;
-    margin: 4px;
-    color: #d62828;
-}
-
-.social-links-team ul i:hover {
-    color: #2e294e;
 }
 
 .footer-navigation-list li {
