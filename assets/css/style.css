@@ -237,7 +237,6 @@ button:focus {
 /* ----------Homepage - Features Section----------- */
 
 .features-container {
-    height: 100%;
     background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-edited.jpg") no-repeat center center fixed;
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;;
