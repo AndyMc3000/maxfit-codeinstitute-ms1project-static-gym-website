@@ -293,6 +293,7 @@ button:focus {
     font-size: 20px;
     color: #eae2b7;
     z-index: 1;
+    margin-bottom: 20px;
     background-color: #d62828;
     box-shadow: 0 0 0 0.2rem rgba(247, 127, 0,.65);
 }
@@ -570,6 +571,17 @@ button:focus {
     border-color: #d7263d;
 }
 
+.services-box-gym-title {
+    background-color: rgba(46, 41, 78,.85);
+    padding: 25px;
+    margin: 10px;
+    margin-top: 35px;
+    color: #EAE2B7;
+    border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
+}
+
 .services-box-gym {
     background-color: rgba(46, 41, 78,.85);
     padding: 25px;
@@ -597,6 +609,17 @@ button:focus {
     border-top: 3px solid;
     border-bottom: 3px solid;
     border-color: #FCBF49;
+}
+
+.services-box-pt-title {
+    background-color: rgba(46, 41, 78,.85);
+    padding: 25px;
+    margin: 10px;
+    margin-top: 35px;
+    color: #EAE2B7;
+    border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
 }
 
 .services-box-pt {
@@ -1375,18 +1398,15 @@ select option {
         left: 10%;
         align-items: center;
     }
-
-    .carousel-control-next, .carousel-control-prev {
-        display: none;
-    }
     
     .carousel-caption h1 {
         font-size: 35px;
     }
 
     .features-container {
+        width: 100%;
         height: fit-content;
-        background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-1000px.jpeg") center center no-repeat fixed;
+        background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-700px.jpeg") center center no-repeat fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1424,12 +1444,36 @@ select option {
         top: 70%;
     }
 
+    .services-box-gym {
+        background-color: rgba(46, 41, 78,.85);
+        padding: 5px;
+        margin: 0;
+        color: #EAE2B7;
+        border-radius: 0.3rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .services-container-gym {
+        padding: 5px;
+    }
+
     .services-containers h2 {
         font-size: 28px;
     }
 
     .services-containers img {
         margin-top: 10px;
+        padding: 2%;
+        padding-bottom: 15px;
+    }
+
+    .services-box-pt {
+        padding: 5px;
+    }
+
+    .services-container-pt {
+        padding: 5px;
     }
 
     .classes-box h2 {
