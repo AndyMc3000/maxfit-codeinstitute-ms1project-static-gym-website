@@ -242,7 +242,7 @@ button:focus {
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
-    background-size: cover;
+    background-size: auto;
     border-top: 3px solid;
     border-color: #d62828;
     margin: 0;
@@ -412,7 +412,7 @@ button:focus {
 .testimonial-box {
     background-color: rgba(46, 41, 78,.75);
     padding: 45px;
-    margin: 20px;
+    margin: 10px;
     color: #EAE2B7;
     border-radius: 0.3rem;
     width: 95%;
