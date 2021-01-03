@@ -463,7 +463,7 @@ button:focus {
 }
 
 .free-trial-box {
-    background-color: rgba(252, 191, 73.75);
+    background-color: rgba(252, 191, 73, .85);
     color: #2e294e;
     top: 50%;
     padding-top: 25px;
@@ -1334,20 +1334,6 @@ select option {
 /* ----------END of Footer ----------- */ 
 
 /* --Media Queries-- */
-@media (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
-    float: left;
-    width: 25%;
-    max-width: 100%;  
-    }  
-
-    .carousel-multi-item-2 .card img {
-    border-radius: 2px; 
-    }
-}
-
-/* --Homepage - Media Queries-- */
-
 
 @media screen and (max-width: 896px) and (orientation: landscape) {
    .home-top-carousel {
@@ -1380,8 +1366,48 @@ select option {
 }
 
 @media screen and (max-width: 600px) {
+    .navbar-toggler {
+        padding: 5px;
+    }
+    
+    .carousel-caption {
+        width: 80%;
+        left: 10%;
+        align-items: center;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        display: none;
+    }
+    
     .carousel-caption h1 {
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    .feature-box {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .testimonial-box {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .free-trial-box {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .free-trial-box p {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .gallery-container .btn {
+        top: 70%;
     }
 
     .services-containers h2 {
@@ -1600,10 +1626,6 @@ select option {
   }
 } 
 
-/* -- /END of Homepage - Media Queries-- */
-
-/* -- Jumbotron - Media Queries-- */
-
 @media screen and (min-width: 702px) and (max-width: 992px) {
   .jumbotron-container {
     padding-left: 25px;
@@ -1618,7 +1640,5 @@ select option {
     font-size: 45px;
   }
 }
-
-/* -- /END of Jumbotron - Media Queries-- */
 
 /* --/END of Media Queries-- */
