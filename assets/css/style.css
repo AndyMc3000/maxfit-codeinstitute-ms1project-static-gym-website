@@ -1384,6 +1384,20 @@ select option {
         font-size: 35px;
     }
 
+    .features-container {
+        height: fit-content;
+        background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-1000px.jpeg") center center no-repeat fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border-top: 3px solid;
+        border-color: #d62828;
+        margin: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
     .feature-box {
         padding-right: 3%;
         padding-left: 3%;
