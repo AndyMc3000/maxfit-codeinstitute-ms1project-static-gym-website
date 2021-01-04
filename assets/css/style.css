@@ -1167,6 +1167,10 @@ button:focus {
     border: none;
 }
 
+.gallery-img {
+    padding: 0px;
+}
+
 .classes-heading {
     padding-bottom: 0px;
 }
