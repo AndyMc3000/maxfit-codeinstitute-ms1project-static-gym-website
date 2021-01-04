@@ -1056,7 +1056,7 @@ button:focus {
 }
 
 .jumbotron-container-membership {
-    background: url("../css/images/Jumbotron/membership/geert-pieters-AfgJpWQH4lw-unsplash-1555px.jpeg") no-repeat center center fixed;
+    background: url("../css/images/Jumbotron/membership/geert-pieters-AfgJpWQH4lw-unsplash-1555px.jpeg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
