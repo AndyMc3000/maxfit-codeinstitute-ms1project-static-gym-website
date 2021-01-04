@@ -1433,7 +1433,7 @@ select option {
     .features-container {
         width: 100%;
         height: fit-content;
-        background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-700px.jpeg") center center no-repeat fixed;
+        background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-700px.jpeg") center center no-repeat scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
