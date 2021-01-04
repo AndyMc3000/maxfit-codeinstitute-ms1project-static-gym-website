@@ -139,7 +139,7 @@
 <section>
     <div class="container-fluid contact-form-box">
         <div class="row justify-content-center">
-            <div class="col-9 justify-content-center">  
+            <div class="col-12 col-sm-9 justify-content-center">  
                 <div class="text-center">
                     <div id="callback-form">
                     <i class="fas fa-phone-volume"></i><br>
@@ -150,7 +150,7 @@
                     <p>We look forward to speaking with you!</p>
                     <hr> 
                 </div>
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-10">
                             <form>
@@ -168,15 +168,21 @@
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else!</small><br>
                                 </div>
                                 <div class="form-group">
-                                    <label for="telNumber">YourTelephone Number:</label>
+                                    <label for="telNumber">Your Telephone Number:</label>
                                     <input type="number" class="form-control" id="telNumber" aria-describedby="telNumber" placeholder="Enter your Telephone Number"><br>
                                 </div>
                                 <div class="form-group options-group">
-                                    <label for="cars">Choose an option:</label>
-                                    <select class="form-control" id="cars" name="cars" aria-describedby="cars">
-                                    <option value="I would like to sign-up for a PASS or Class membership">I would like to sign-up for a PASS or Class membership</option>
-                                    <option value="I would like a FREE Trial">I would like a FREE Trial</option>
-                                    <option value="I would like a FREE Consultation">I would like a FREE Consultation</option>
+                                    <label for="options">Choose a contact option:</label>
+                                    <select class="form-control" id="cars" name="options" aria-describedby="ContactOptions">
+                                    <option value="I would like to choose">Choose..</option>
+                                    <option value="I would like a FREE Trial">Register for a FREE Trial</option>
+                                    <option value="I would like a FREE Consultation">Request a FREE Consultation</option>
+                                    <option value="Sign-up for a DAILY PASS">Sign-up for a DAILY PASS</option>
+                                    <option value="Sign-up for a GOLD PASS">Sign-up for a GOLD PASS</option>
+                                    <option value="Sign-up for a SILVER PASS">Sign-up for a SILVER PASS</option>
+                                    <option value="Sign-up for a BRONZE PASS">Sign-up for a BRONZE PASS</option>
+                                    <option value="Sign-up for a GOLD CLASS PASS">Sign-up for a GOLD CLASS PASS</option>
+                                    <option value="Sign-up for a SILVER CLASS PASS">Sign-up for a SILVER CLASS PASS</option>
                                     </select><br>
                                 </div>
                                 <div class="form-group">
@@ -184,7 +190,12 @@
                                     <input class="form-control" type="date" id="start" name="trip-start" aria-describedby="start" value="2020-12-23" min="2020-12-23" max="2021-12-31"><br>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" value="Submit" class="btn btn-md form-control">Send</button><br>
+                                    <label for="timePicker">Your preferred contact time:</label>
+                                    <input type="time" id="timePicker" class="form-control">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <button type="submit" value="Submit" class="btn form-control">Send</button><br>
                                 </div>
                             </form>
                         </div>

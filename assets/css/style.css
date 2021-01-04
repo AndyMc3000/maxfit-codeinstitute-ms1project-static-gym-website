@@ -1282,6 +1282,12 @@ page-intro-container-contact {
     padding-top: 25px;
 }
 
+.contact-form-box hr {
+    background-color: #d7263d;
+    height: 2px;
+    width: 60%;
+}
+
 .form-group button {
     font-size: 20px;
     color: #eae2b7;
