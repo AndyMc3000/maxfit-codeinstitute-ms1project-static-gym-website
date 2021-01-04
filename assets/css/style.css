@@ -1008,9 +1008,15 @@ button:focus {
     color: #FCBF49;
 }
 
-.card-body h3 {
+.card-body h4 {
     color: #EAE2B7;
     text-align: center;
+}
+
+.card-body hr {
+    background-color: #FCBF49;
+    height: 1px;
+    width: 60%;
 }
 
 .btn.focus, .btn:focus {
@@ -1501,6 +1507,16 @@ select option {
 
     .classes-box h3 {
         font-size: 20px;
+    }
+
+    .class-description {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .service-description {
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     .carousel-control-prev-icon,
