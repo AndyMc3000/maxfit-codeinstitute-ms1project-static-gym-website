@@ -523,7 +523,7 @@ button:focus {
 }
 
 .jumbotron-container {
-    background: url("../css/images/Jumbotron/services/john-fornander-d2LQwlZXylk-unsplash-1800px.jpeg") no-repeat center center fixed;
+    background: url('../css/images/Jumbotron/team/john-arano-h4i9G-de7Po-unsplash-1200px.jpeg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -561,7 +561,7 @@ button:focus {
 /* ---------- Services sections on services.html - Gym, Personal Training, and Studio sections ----------- */ 
 
 .services-container-gym {
-    background: url("../css/images/gym-gallery/damir-spanic-DBk90-e61Hw-unsplash.jpg") no-repeat center center fixed;
+    background: url("../css/images/gym-gallery/damir-spanic-DBk90-e61Hw-unsplash.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -639,7 +639,7 @@ button:focus {
 }
 
 .services-container-studio {
-    background: url("../css/images/studio-gallery/anupam-mahapatra-Vz0RbclzG_w-unsplash.jpg") no-repeat center center fixed;
+    background: url("../css/images/studio-gallery/anupam-mahapatra-Vz0RbclzG_w-unsplash.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -725,7 +725,7 @@ button:focus {
 }
 
 .jumbotron-container-classes {
-    background: url("../css/images/zumba-gallery/pixabay-zumba-andrzej-rembowski-002-1900x1100.jpeg") no-repeat center center fixed;
+    background: url("../css/images/zumba-gallery/pixabay-zumba-andrzej-rembowski-002-1900x1100.jpeg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1180,7 +1180,7 @@ button:focus {
 /*-- Team page -----------*/ 
 
 .jumbotron-container-team {
-    background: url("../css/images/Jumbotron/team/john-arano-h4i9G-de7Po-unsplash-1200px.jpeg") no-repeat center center fixed;
+    background: url("../css/images/Jumbotron/services/john-fornander-d2LQwlZXylk-unsplash-1800px.jpeg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1230,7 +1230,7 @@ button:focus {
 /*-- Contact page -----------*/ 
 
 .jumbotron-container-contact {
-    background: url("../css/images/Jumbotron/contact/joshua-ness--bEZ_OfWu3Y-unsplash-1200px.jpeg") no-repeat center center fixed;
+    background: url("../css/images/Jumbotron/contact/joshua-ness--bEZ_OfWu3Y-unsplash-1200px.jpeg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1386,27 +1386,27 @@ select option {
 /* --Media Queries-- */
 
 @media screen and (max-width: 896px) and (orientation: landscape) {
-   .home-top-carousel {
-    height: 100vh;
-  }
+    .home-top-carousel {
+        height: 100vh;
+    }
 }
 
 @media screen and (max-width: 896px) and (orientation: landscape) {
-   .home-top-carousel .carousel img {
-    height: 100vh;
-  }
+    .home-top-carousel .carousel img {
+        height: 100vh;
+    }
 }
 
 @media screen and (max-width: 896px) and (orientation: landscape)  {
-   .home-top-carousel .carousel .carousel-caption h3 {
-    display: none;
-  }
+    .home-top-carousel .carousel .carousel-caption h3 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 896px) and (orientation: landscape) {
-   .carousel .carousel-caption  h1 {
-    font-size: 40px;
-  }
+    .carousel .carousel-caption  h1 {
+        font-size: 40px;
+    }
 }
 
 @media screen and (min-width: 576px) and (orientation: landscape) {
@@ -1428,21 +1428,6 @@ select option {
     
     .carousel-caption h1 {
         font-size: 35px;
-    }
-
-    .features-container {
-        width: 100%;
-        height: fit-content;
-        background: url("../css/images/home-features-bg/wesley-tingey-dlxNvA7pVwU-unsplash-1900.jpeg") no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        border-top: 3px solid;
-        border-color: #d62828;
-        margin: 0;
-        padding-top: 40px;
-        padding-bottom: 40px;
     }
 
     .feature-box {
@@ -1469,18 +1454,6 @@ select option {
 
     .gallery-container .btn {
         top: 70%;
-    }
-
-    .testimonial-container {
-        height: auto;
-        background: url('../css/images/home-testimonial-bg/jesper-aggergaard-rA5aJvQ2l6g-unsplash-1400.jpeg') no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        margin: 0;
-        padding-top: 40px;
-        padding-bottom: 40px;
     }
 
     .services-box-gym {
@@ -1565,15 +1538,15 @@ select option {
 @media screen and (min-width: 600px) and (max-width: 991px) {
     .carousel-caption h1 {
         font-size: 60px;
-  }
+     }
 
     .services-containers h2 {
         font-size: 34px;
-  }
+    }
 
     .services-containers img {
         margin-top: 10px;
-  }
+    }
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
@@ -1599,161 +1572,182 @@ select option {
 @media screen and (min-width: 992px) {
     .carousel-caption h1 {
         font-size: 80px;
-  }
+    }
 
     .page-intro-container  h1 {
         font-size: 45px;
-  }
+    }
 
     .address-box {
         justify-content: right;
         text-align: right;
-  }
+    }
 
     .address-box address {
         justify-content: right;
         text-align: right;
-  }
+    }
 
     .footer-mobile-only-home-link {
         display: none;
-  }
+    }
 
     .jumbotron-container {
         padding-left: 60px;
         padding-left: 60px;
         padding-top: 60px;
         padding-bottom: 60px;
-  }
+    }
 
     .jumbotron-container h1 {
         font-size: 55px;
-  }
+    }
 
     .services-containers h2 {
         font-size: 40px;
-  }
+    }
 }
 
 @media screen and (max-width: 702px) {
-  .page-intro-container h1 {
-    font-size: 30px;
-  }
+    .page-intro-container h1 {
+        font-size: 30px;
+    }
 
-  .features-container h1 {
-    font-size: 30px;
-  }
+    .features-container {
+        height: auto;
+        background: url('../css/images/home-features-bg/amauri-mejia-GvF7RkA-E9Q-unsplash-700.jpeg') no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
-  .features-container h2 {
-    font-size: 25px;
-  }
+    .features-container h1 {
+        font-size: 30px;
+    }
 
-  .testimonial-container h1 {
-    font-size: 30px;
-  }
+    .features-container h2 {
+        font-size: 25px;
+    }
 
-  .testimonial-container h2 {
-    font-size: 25px;
-  }
+    .testimonial-container {
+        height: auto;
+        background: url('../css/images/home-testimonial-bg/jesper-aggergaard-rA5aJvQ2l6g-unsplash-1400.jpeg') no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
-  .gallery-container h1 {
-    font-size: 30px;
-  }
+    .testimonial-container h1 {
+        font-size: 30px;
+    }
 
-  .gallery-container img {
-    width: 100%;
-  }
+     .testimonial-container h2 {
+        font-size: 25px;
+    }
 
-  .free-trial-container {
-    margin: 0;
-    padding: 15px;
-  }
+    .gallery-container h1 {
+        font-size: 30px;
+    }
 
-  .free-trial-container h1 {
-    font-size: 30px;
-  }
+    .gallery-container img {
+        width: 100%;
+    }
 
-  .free-trial-container h2 {
-    font-size: 30px;
-  }
+    .free-trial-container {
+        margin: 0;
+        padding: 15px;
+    }
 
-  .footer-navigation-list {
-    display: none;
-  }
+     .free-trial-container h1 {
+        font-size: 30px;
+    }
 
-  .address-box hr {
-    display: none;
-  }
+    .free-trial-container h2 {
+        font-size: 30px;
+    }
 
-  .jumbotron {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 95%;
-    margin: 15px auto;
-  }
+    .footer-navigation-list {
+        display: none;
+    }
 
-  .jumbotron-container {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+    .address-box hr {
+        display: none;
+    }
 
-  .jumbotron-container h1 {
-    font-size: 35px;
-  }
+    .jumbotron {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    .jumbotron-container {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .jumbotron-container h1 {
+        font-size: 35px;
+    }
 }
 
 @media screen and (min-width: 702px) and (max-width: 992px) {
-  .page-intro-container  h1 {
-    font-size: 40px;
-  }
+    .page-intro-container  h1 {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 992px) {
-  .address-box {
-    justify-content: center;
-    text-align: center;
-    padding-top: 10px;
-  }
+    .address-box {
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+    }
 } 
 
 @media screen and (max-width: 992px) {
-  .address-box address {
-    justify-content: center;
-    text-align: center;
-  }
+    .address-box address {
+        justify-content: center;
+        text-align: center;
+    }
 } 
 
 @media screen and (max-width: 767px) {
-  .address-box img {
-    display: none;
-  }
+    .address-box img {
+        display: none;
+    }
 } 
 
 @media screen and (max-width: 992px) {
-  .footer {
-    border-color: #eae2b7;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px; 
-    padding-top: 20px;
-  }
+    .footer {
+        border-color: #eae2b7;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px; 
+        padding-top: 20px;
+    }
 } 
 
 @media screen and (min-width: 702px) and (max-width: 992px) {
-  .jumbotron-container {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
+    .jumbotron-container {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 }
 
 @media screen and (min-width: 702px) and (max-width: 992px) {
-  .jumbotron-container h1 {
-    font-size: 45px;
-  }
+    .jumbotron-container h1 {
+        font-size: 45px;
+    }
 }
 
 /* --/END of Media Queries-- */
