@@ -1433,7 +1433,7 @@ select option {
     .features-container {
         width: 100%;
         height: fit-content;
-        background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-700px.jpeg") no-repeat center center scroll;
+        background: url("../css/images/home-features-bg/wesley-tingey-dlxNvA7pVwU-unsplash-1900.jpeg") no-repeat center center scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1473,7 +1473,7 @@ select option {
 
     .testimonial-container {
         height: auto;
-        background: url('../css/images/testimonial-bg/jesper-aggergaard-rA5aJvQ2l6g-unsplash-1400.jpeg') no-repeat center center scroll;
+        background: url('../css/images/home-testimonial-bg/jesper-aggergaard-rA5aJvQ2l6g-unsplash-1400.jpeg') no-repeat center center scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
