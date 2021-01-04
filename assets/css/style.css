@@ -1433,11 +1433,11 @@ select option {
     .features-container {
         width: 100%;
         height: fit-content;
-        background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-700px.jpeg") center center scroll;
-        -webkit-background-size: contain;
+        background: url("../css/images/zumba-gallery/danielle-cerullo-3ckWUnaCxzc-unsplash-700px.jpeg") no-repeat center center scroll;
+        -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: contain;
+        background-size: cover;
         border-top: 3px solid;
         border-color: #d62828;
         margin: 0;
@@ -1469,6 +1469,18 @@ select option {
 
     .gallery-container .btn {
         top: 70%;
+    }
+
+    .testimonial-container {
+        height: auto;
+        background: url('../css/images/testimonial-bg/jesper-aggergaard-rA5aJvQ2l6g-unsplash-1400.jpeg') no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .services-box-gym {
