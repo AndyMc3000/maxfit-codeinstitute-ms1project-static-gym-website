@@ -5,7 +5,7 @@
 #### Student: Andrew McDonald - Contact me on GitHub :octocat: - <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ####
 
 <hr>
-<img src="assets/readme-assets/maxfit-ami-responsive-homepage.png" width="630">
+<img src="assets/readme-assets/maxfit-ami-responsive-homepage.png" width="900">
 <hr>
 
 ## Table of Contents ##
@@ -230,6 +230,29 @@ I used the following technologies, services, and devices to develop, style, depl
 <hr>
 
 ## 6. <a name="testing">Testing</a> ##
+
+I tested the website using a combination of online services, browsers, and a limited number of physical devices. 
+
+* Code Validation:
+
+I ran the code on the website through the W3C Markup Validation Service for both my HTML and CSS code. The results were;
+
+1. W3C HTML Validation.
+1. W3C CSS Validation Service
+
+
+* Website Functionality:
+
+I tested all functionality of links, navigation, buttons, galleries, and site features using the Chrome browser. The tests completed wer as follows;
+
+Homepage Tests - index.html
+> - [x] “The website must be mobile-friendly.”
+
+* Cross-Browser Testing
+
+
+* Device Testing
+
 
 * Test navigation, assets, and external links in README.md
 
