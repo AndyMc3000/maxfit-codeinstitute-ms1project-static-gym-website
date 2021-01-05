@@ -5,6 +5,8 @@
 #### Student: Andrew McDonald - Contact me on GitHub :octocat: - <a href="https://github.com/AndyMc3000"><strong>AndyMc3000</strong></a> ####
 
 <hr>
+<img src="assets/readme-assets/maxfit-ami-responsive-homepage.png" width="630">
+<hr>
 
 ## Table of Contents ##
 1. [Introduction](#introduction-heading)
