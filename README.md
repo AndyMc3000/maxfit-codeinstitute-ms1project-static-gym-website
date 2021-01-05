@@ -231,30 +231,27 @@ I used the following technologies, services, and devices to develop, style, depl
 
 ## 6. <a name="testing">Testing</a> ##
 
-I tested the website using a combination of online services, browsers, and a limited number of physical devices. 
+Generally speaking I continually tested each function/feature/element as I added them to the website. I also tested the website using a combination of online services, browsers, and a limited number of physical devices upon completion. 
 
-* Code Validation:
+1. Code Validation:
 
 I ran the code on the website through the W3C Markup Validation Service for both my HTML and CSS code. The results were;
 
-1. W3C HTML Validation.
-1. W3C CSS Validation Service
+* W3C HTML Validation - Some issues arose around divs not having closing tages, and images not having ALT tags. These issues were easily corrected
+* W3C CSS Validation Service - no issues.
 
+1. Website Functionality:
 
-* Website Functionality:
+I tested all functionality of links, navigation, buttons, galleries, and site features using the Chrome browser. The tests completed can be seen here <a href="functionality-tests.md"><strong>- Functionality Tests</strong></a>
 
-I tested all functionality of links, navigation, buttons, galleries, and site features using the Chrome browser. The tests completed wer as follows;
+1. Cross-Browser Testing:
+* I tested the website on 3 browsers - Google Chrome, Apple Safari, and Mozilla Firefox.
 
-Homepage Tests - index.html
-> - [x] “The website must be mobile-friendly.”
+1. Device Testing:
+* I primarily used and online services and Chrome browser extension to test the website across different devices. I also tested the website on a physical MacBook Pro, and Apple iPhone 6s. The services I used were;
+* [Ami.Resonive](hhttp://ami.responsivedesign.is/)
+* [Responsive Viewer Browser Add-On](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)
 
-* Cross-Browser Testing
-
-
-* Device Testing
-
-
-* Test navigation, assets, and external links in README.md
 
 #### [Back To Top ^ ](#top-of-page) ####
 
@@ -288,13 +285,18 @@ The working version of the MAXFIT website deployed on GitHub Pages can be seen h
 
 ## 8. <a name="credits">Credits</a> ##
 
-1. Coding Websites - W3Schools, Mozila MDN, Bootstrap, GitHub, StackOverflow
+1. Coding Websites - I regularly used website to help me learn how to code certain elements/features. I also copied code snippets from these sites in some cases. These websites include; 
+* [W3Schools.com](https://www.w3schools.com/)
+* [Mozilla MDN Web Docs](https://developer.mozilla.org/)
+* [Bootstrap](https://getbootstrap.com/)
+* [GitHub.com](https://github.com/)
+* [StackOverflow.com](https://stackoverflow.com/)
 
 1. Colours - I used the Coolors.co website to help me decide on a colour scheme for the webite. This website allows you to create your own colour palettes or to use one of thiers. See more about the Coolors.co palette catalogue and tools here: [Coolors.co](https://coolors.co/). 
 
-1. Font - 
+1. Font - I used Google Fonts for the fonts on the website. See more at: [GoogleFonts.com](https://fonts.google.com/)
 
-1. Icons -
+1. Icons - I used Fontawesome for all icons on the website. See more at: [FontAwesome.com](https://fontawesome.com/)
 
 1. Design Principles - The design of this website employed the principles of 'The 5 Planes of UX design', which was created by Jesse James Garrett in his book; The Elements of User Experience: User-centered Design for the Web (2002). See more at; [Jjg.net](http://www.jjg.net/elements/)
   
@@ -304,9 +306,9 @@ The working version of the MAXFIT website deployed on GitHub Pages can be seen h
 
 1. Text content - I rewordered some of the marketing slogans and texts/descriptions content from Equinox.com and ActiveFitness.ie, and used those on my site.
 
-1. Map - 
+1. Map - The map on contact.html uses Google Maps iFrame code.
 
-1. Website Analytics - 
+1. Website Analytics - I added Google Analytics to the website by adding their code to the <head> of each page. 
 
 ### Acknowledgements ###
 
