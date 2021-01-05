@@ -53,16 +53,16 @@ Services Page:
 * Button - Clicked on button and it loaded the contact form on contact.html.
 
 3. Gym Section;
-* Photo
-* Button
+* Clickable Photo - Clicked on photo and it loaded the gym gallery.
+* Button - Clicked on button and it loaded the gym gallery.
 
 4. Personal Training Section;
-* Photo
-* Button
+* Clickable Photo - Clicked on photo and it loaded the personal training gallery.
+* Button - Clicked on button and it loaded the personal training gallery.
 
 5. Studio Section;
-* Photo
-* Button
+* Clickable Photo - Clicked on photo and it loaded the studio gallery.
+* Button - Clicked on button and it loaded the studio gallery.
 
 6. Footer;
 * Navigation Links - Home, Services, Classes, Membership, Our Team, and Contact links all worked as expected.
@@ -84,63 +84,57 @@ Classes Page:
 * Button - Clicked on button and it loaded the contact form on contact.html.
 
 3. Page Introduction section;
-* Dropdown
+* Dropdown - Clicked on links under the dropdown and they worked as expected.
 
 4. Yoga Class section;
-* Pricing Button
-* Photo
-* Gallery Button
-* Timetable Accordion
+* Pricing Button - Clicked on button and it loaded membership.html.
+* Photo - Clicked on photo and it opened the yoga gallery.
+* Gallery Button - Clicked on photo and it opened the yoga gallery.
+* Timetable Accordion - clicked on link and it opened and then closed timetable accordion.
 
 5. Pilates Class section;
-* Pricing Button
-* Photo
-* Gallery Button
-* Timetable Accordion
+* Pricing Button - Clicked on button and it loaded membership.html.
+* Photo - Clicked on photo and it opened the pilates gallery.
+* Gallery Button - Clicked on photo and it opened the pilates gallery.
+* Timetable Accordion - clicked on link and it opened and then closed timetable accordion.
 
 6. Spinning Class section;
-* Pricing Button
-* Photo
-* Gallery Button
-* Timetable Accordion
+* Pricing Button - Clicked on button and it loaded membership.html.
+* Photo - Clicked on photo and it opened the spinning gallery.
+* Gallery Button - Clicked on photo and it opened the spinning gallery.
+* Timetable Accordion - clicked on link and it opened and then closed timetable accordion.
 
-7. Spinning Class section;
-* Pricing Button
-* Photo
-* Gallery Button
-* Timetable Accordion
+7. Aerobics Class section;
+* Pricing Button - Clicked on button and it loaded membership.html.
+* Photo - Clicked on photo and it opened the aerobics gallery.
+* Gallery Button - Clicked on photo and it opened the aerobics gallery.
+* Timetable Accordion - clicked on link and it opened and then closed timetable accordion.
 
-8. Aerobics Class section;
-* Pricing Button
-* Photo
-* Gallery Button
-* Timetable Accordion
+8. Seniors Class section;
+* Pricing Button - Clicked on button and it loaded membership.html.
+* Photo - Clicked on photo and it opened the seniors gallery.
+* Gallery Button - Clicked on photo and it opened the seniors gallery.
+* Timetable Accordion - clicked on link and it opened and then closed timetable accordion.
 
-9. Seniors Class section;
-* Pricing Button
-* Photo
-* Gallery Button
-* Timetable Accordion
+9. HIIT Class section;
+* Pricing Button - Clicked on button and it loaded membership.html.
+* Photo - Clicked on photo and it opened the HIIT gallery.
+* Gallery Button - Clicked on photo and it opened the HIIT gallery.
+* Timetable Accordion - clicked on link and it opened and then closed timetable accordion.
 
-10. HIIT Class section;
-* Pricing Button
-* Photo
-* Gallery Button
-* Timetable Accordion
+10. Zumba Class section;
+* Pricing Button - Clicked on button and it loaded membership.html.
+* Photo - Clicked on photo and it opened the zumba gallery.
+* Gallery Button - Clicked on photo and it opened the zumba gallery.
+* Timetable Accordion - clicked on link and it opened and then closed timetable accordion.
 
-11. Zumba Class section;
-* Pricing Button
-* Photo
-* Gallery Button
-* Timetable Accordion
+11. Circuit Training Class section;
+* Pricing Button - Clicked on button and it loaded membership.html.
+* Photo - Clicked on photo and it opened the circuit training gallery.
+* Gallery Button - Clicked on photo and it opened the circuit training gallery.
+* Timetable Accordion - clicked on link and it opened and then closed timetable accordion.
 
-12. Circuit Training Class section;
-* Pricing Button
-* Photo
-* Gallery Button
-* Timetable Accordion
-
-13. Footer;
+12. Footer;
 * Navigation Links - Home, Services, Classes, Membership, Our Team, and Contact links all worked as expected.
 * Social Links - Facebook, LinkedIn, Instagram, YouTube, and Pinterest links all opened the correct website in a new tab.
 * Address Links - Email and Telephone links both worked as expected.
@@ -160,12 +154,11 @@ Membership Page:
 * Button - Clicked on button and it loaded the contact form on contact.html.
 
 3. Pricing Cards;
-Hover
-* Buttons - Fail, Bronze, Silver, Gold, Silver Class, Gold Class
+* Buttons - Daily, Bronze, Silver, Gold, Silver Class, and Gold Class buttons all loaded contact form on contact.html.
 
 4. Gallery Section;
-* Clickable Photo
-* Button
+* Clickable Photo - Clicked on photo and it loaded the main gallery.
+* Button - Clicked on button and it loaded the main gallery.
 
 5. Footer;
 * Navigation Links - Home, Services, Classes, Membership, Our Team, and Contact links all worked as expected.
@@ -187,7 +180,7 @@ Team Page:
 * Button - Clicked on button and it loaded the contact form on contact.html. 
 
 3. Team Cards;
-* Social Links x 3
+* Social Links - Clicked on all social links on team cards and all worked as expected.
 
 4. Footer;
 * Navigation Links - Home, Services, Classes, Membership, Our Team, and Contact links all worked as expected.
@@ -209,15 +202,15 @@ Contact Page:
 * Button - Clicked on button and it loaded the contact form at the bottom of the page.
 
 3. Address Links; 
-* Email, Tel
+* Address Links - Email and Telephone links both worked as expected.
 
 4. Map;
-* Controls
-* Links
+* Controls - Zomm and move controls worked as expected.
+* Links - Clicked on Larger Map link and it loaded Google Maps as expected.
 
 5. Contact Form;
-* Inputs
-* Button
+* Inputs - All form inputs work as expected
+* Button - Clicked on button and it submits form data.
 
 6. Free Trial section;
 * Button
