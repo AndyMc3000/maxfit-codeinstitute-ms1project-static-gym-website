@@ -1,3 +1,5 @@
+![M A X F I T Logo created using FreeLogoDesign.org](/assets/readme-assets/maxfit-logo-readme.png)
+
 WEBSITE FUNCTIONALITY TESTS
 
 Below are the individual tests of website functionality on every page of the website.
